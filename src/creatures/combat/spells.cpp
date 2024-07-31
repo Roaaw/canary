@@ -643,6 +643,10 @@ void Spell::getCombatDataAugment(std::shared_ptr<Player> player, CombatDamage &d
 					const float augmentPercent = augment->value / 100.0;
 					damage.primary.value += static_cast<int32_t>(damage.primary.value * augmentPercent);
 					damage.secondary.value += static_cast<int32_t>(damage.secondary.value * augmentPercent);
+				} else if (augment->type == Augment_t::BaseHealing || augment->type == Augment_t::BaseDamage) {
+					const float augmentValue = augment->value / 100.0;
+					damage.primary.value += static_cast<int32_t>(damage.primary.value * (augmentValue / 100.0));
+					damage.secondary.value += static_cast<int32_t>(damage.secondary.value * (augmentValue / 100.0));
 				} else if (augment->type != Augment_t::Cooldown) {
 					const int32_t augmentValue = augment->value * 100;
 					damage.lifeLeech += augment->type == Augment_t::LifeLeech ? augmentValue : 0;

@@ -278,7 +278,9 @@ enum class Augment_t : uint8_t {
 	Cooldown,
 	CriticalExtraDamage,
 	LifeLeech,
-	ManaLeech
+	ManaLeech,
+	BaseHealing,
+	BaseDamage
 };
 
 enum class ContainerCategory_t : uint8_t {

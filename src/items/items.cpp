@@ -102,6 +102,10 @@ std::string ItemType::getFormattedAugmentDescription(const std::shared_ptr<Augme
 
 	if (Items::isAugmentWithoutValueDescription(augmentInfo->type)) {
 		return fmt::format("{} -> {}", augmentSpellNameCapitalized, augmentName);
+	} else if (augmentInfo->type == Augment_t::BaseHealing){
+		return fmt::format("{} -> {:+}% {}", augmentSpellNameCapitalized, augmentInfo->value / 100.00, augmentName);
+	} else if (augmentInfo->type == Augment_t::BaseDamage) {
+		return fmt::format("{} -> {:+}% {}", augmentSpellNameCapitalized, augmentInfo->value / 100.00, augmentName);
 	} else if (augmentInfo->type == Augment_t::Cooldown) {
 		return fmt::format("{} -> {}{}s {}", augmentSpellNameCapitalized, signal, augmentInfo->value / 1000, augmentName);
 	}

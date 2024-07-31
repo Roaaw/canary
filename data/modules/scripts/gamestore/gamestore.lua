@@ -10,7 +10,7 @@ dofile(CORE_DIRECTORY .. "/modules/scripts/gamestore/init.lua")
 -- Config
 
 HomeBanners = {
-	images = { "home/banner_armouredarcher.png", "home/banner_podiumoftenacity.png" },
+	images = { "home/banner_sweethoney_bundle.png" },
 	delay = 10,
 }
 
@@ -1099,6 +1099,59 @@ GameStore.Categories = {
 			},
 		},
 	},
+	-- Bundles
+	{
+		icons = { "Category_Bundles.png" },
+		name = "Bundles",
+		rookgaard = true,
+		state = GameStore.States.STATE_NONE,
+		offers = {
+			{
+				icons = { "Product_HourseEquipmentBeeSet_SummerBundle.png" },
+				name = "Sweet Honey Bundle 2.0",
+				price = 1500,
+				bundle = {
+					sexId = { female = 1777, male = 1776 },
+					addon = 3,
+					id = 231,
+					items = {
+						{ itemType = 48574, count = 1},
+						{ itemType = 48576, count = 1},
+						}
+				},
+				description = "You can save 380 Tibia Coins by purchasing this bundle instead of buying each of the offers separately\n\n<n><u>Full Beekeeper Outfit</n></u>\n{character}\n{info} colours can be changed using the Outfit dialog\n{info} includes basic outfit and 2 addons which can be selected individually\n\n<n><u>Bumblebee</n></u>\n{character}\n{speedboost}\n\n<n><u>Candy Chest</n></u>\n{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}\n\n<n><u>Beehive</n></u>\n{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}\n\n<i>In Tibia, a dream exists. Imagine a world where chocolate mountains and marzipan meadows sprawl, dotted with cotton candy trees and sugary flowers, crisscrossed by rivers of sweet milk and lemonade.\n\nSounds like a sweet dream, valiant warrior. Feels like tranquility, joy, and peace. But keep an eye open and pray that this peace isn't just an illusion...</i>\n\n<n>This packge contains:</n>",
+				type = GameStore.OfferTypes.OFFER_TYPE_BUNDLES,
+				home = true,
+			},		
+			-- {
+				-- icons = { "Product_HourseEquipmentBeeSet_SummerBundle.png" },
+				-- name = "Sweet Honey Bundle",
+				-- price = 1500,
+				-- id = 231,
+				-- sexId = { female = 1777, male = 1776 },
+				-- addon = 3,
+				-- itemtype = {48574, 48576},
+				-- count = {1, 1},			
+				-- description = "You can save 380 Tibia Coins by purchasing this bundle instead of buying each of the offers separately\n\n<n><u>Full Beekeeper Outfit</n></u>\n{character}\n{info} colours can be changed using the Outfit dialog\n{info} includes basic outfit and 2 addons which can be selected individually\n\n<n><u>Bumblebee</n></u>\n{character}\n{speedboost}\n\n<n><u>Candy Chest</n></u>\n{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}\n\n<n><u>Beehive</n></u>\n{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}\n\n<i>In Tibia, a dream exists. Imagine a world where chocolate mountains and marzipan meadows sprawl, dotted with cotton candy trees and sugary flowers, crisscrossed by rivers of sweet milk and lemonade.\n\nSounds like a sweet dream, valiant warrior. Feels like tranquility, joy, and peace. But keep an eye open and pray that this peace isn't just an illusion...</i>\n\n<n>This packge contains:</n>",
+				-- type = GameStore.OfferTypes.OFFER_TYPE_BUNDLES,
+				-- home = true,
+			-- },
+			{
+				icons = { "Product_Bundle_Rotten_Blood.png" },
+				name = "Rotten Blood Bundle",
+				price = 1500,
+				bundle = {
+					sexId = { female = 1676, male = 1675 },
+					addon = 3,
+					id = 216,
+					itemtype = 44030,
+					count = 1,
+				},
+				description = "<n><u>Darkfire Devourer</n></u>\n{character}\n{speedboost}\n\n<n><u>Full Darklight Evoker Outfit</n></u>\n{character}\n{info} colours can be changed using the Outfit dialog\n{info} includes basic outfit and 2 addons which can be selected individually\n\n<n><u>Mask of the Defiler</n></u>\n{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}\n\n<i>To those intrepid souls who ventured unafraid through the depths of hell, emerging as victors of their own fears. For those who dared to confront the most harrowing of horrors, a tribute is offered. O' you who unearthed radiant beams amidst the shrouded darkness, you are the valiant masters of the abyss.</i>\n\n<n>This packge contains:</n>",
+				type = GameStore.OfferTypes.OFFER_TYPE_BUNDLES,
+			},			
+		},
+	},
 	-- Cosmetics
 	{
 		icons = { "Category_Cosmetics.png" },
@@ -1274,7 +1327,7 @@ GameStore.Categories = {
 				description = "{character}\n{speedboost}\n\n<i>If the Coralripper moves its fins, it generates enough air pressure that it can even float over land. Its numerous eyes allow it to quickly detect dangers even in confusing situations and eliminate them with one powerful bite. If you watch your fingers, you are going to be good friends.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 			},
-			--[[{
+			{
 				icons = { "Corpsefire_Skull.png" },
 				name = "Corpsefire Skull",
 				price = 750,
@@ -1282,8 +1335,7 @@ GameStore.Categories = {
 				description = "{character}\n{speedboost}\n\n<i>Skulls are the infernal heralds of untamed power. Bodies are obsolete when sinister forces animate your being. Embrace their presence and command the devastating might that awaits on the back of an eerie Corpsefire Skull!</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 				state = GameStore.States.STATE_NEW,
-				home = true,
-			},]]
+			},
 			{
 				icons = { "Cranium_Spider.png" },
 				name = "Cranium Spider",
@@ -1348,7 +1400,7 @@ GameStore.Categories = {
 				description = "{character}\n{speedboost}\n\n<i>Its roaring is piercing marrow and bone and can be heard over ten miles away. The Desert King is the undisputed ruler of its territory and no one messes with this animal. Show no fear and prove yourself worthy of its trust and you will get yourself a valuable companion for your adventures.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 			},
-			--[[{
+			{
 				icons = { "Doom_Skull.png" },
 				name = "Doom Skull",
 				price = 750,
@@ -1356,8 +1408,7 @@ GameStore.Categories = {
 				description = "{character}\n{speedboost}\n\n<i>Skulls are the infernal heralds of untamed power. Bodies are obsolete when sinister forces animate your being. Embrace their presence and command the devastating might that awaits on the back of a grim Doom Skull.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 				state = GameStore.States.STATE_NEW,
-				home = true,
-			},]]
+			},
 			{
 				icons = { "Doombringer.png" },
 				name = "Doombringer",
@@ -1734,7 +1785,7 @@ GameStore.Categories = {
 				description = "{character}\n{speedboost}\n\n<i>The Magic Carpet is the perfect mount for those who are too busy to take care of an animal mount or simply like to travel on a beautiful, magic hand-woven carpet.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 			},
-			--[[{
+			{
 				icons = { "Magma_Skull.png" },
 				name = "Magma Skull",
 				price = 750,
@@ -1742,8 +1793,7 @@ GameStore.Categories = {
 				description = "{character}\n{speedboost}\n\n<i>Skulls are the infernal heralds of untamed power. Bodies are obsolete when sinister forces animate your being. Embrace their presence and command the devastating might that awaits on the back of a blazing Magma Skull.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 				state = GameStore.States.STATE_NEW,
-				home = true,
-			},]]
+			},
 			{
 				icons = { "Marsh_Toad.png" },
 				name = "Marsh Toad",
@@ -2256,6 +2306,63 @@ GameStore.Categories = {
 				description = "{character}\n{speedboost}\n\n<i>Badgers have been a staple of the Tibian fauna for a long time, and finally some daring souls have braved the challenge to tame some exceptional specimens - and succeeded! While the common badger you can encounter during your travels might seem like a rather unassuming creature, the Battle Badger, the Ether Badger, and the Zaoan Badger are fierce and mighty beasts, which are at your beck and call.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
 			},
+			{
+				icons = { "Dawnbringer_Pegasus.png" },
+				name = "Dawnbringer Pegasus",
+				price = 750,
+				id = 224,
+				description = "{character}\n{speedboost}\n\n<i>The Dawnbringer Pegasus is a noble mount of divine inspiration, its radiant wings and shining mane filling pious observers with hope and courage. Rise above the darkness, spread hope, and ride this glorious beast into battle, to smite the servants of evil!</i>",
+				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
+			},
+			{
+				icons = { "Wrathfire_Pegasus.png" },
+				name = "Wrathfire Pegasus",
+				price = 750,
+				id = 225,
+				description = "{character}\n{speedboost}\n\n<i>The Wrathfire Pegasus is a fearsome mount, inspiring terror in all that is vile and heathen! Its flaming wings and crimson mane blaze like a wildfire, striking fear and panic into the hearts of your enemies. Leave a scorching impression on both foes and friends alike. Unleash your wrath, and ride this infernal beast to victory over the ashes of your enemies!</i>",
+				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
+			},
+			{
+				icons = { "Skybreaker_Pegasus.png" },
+				name = "Skybreaker Pegasus",
+				price = 750,
+				id = 226,
+				description = "{character}\n{speedboost}\n\n<i>Majestic and regal, the Skybreaker Pegasus is a manifesto of the covenant between the gods and the faithful! Its noble, golden wings and mane shimmer in remembrance of the divine plane, radiating the light of the heavens. Break through the clouds that shroud the minds of the unenlightened, touch the sky, and captivate hearts as the owner of this celestial beast!</i>",
+				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
+			},
+			{
+				icons = { "Glacier_Wyrm.png" },
+				name = "Glacier Wyrm",
+				price = 690,
+				id = 228,
+				description = "{character}\n{speedboost}\n\n<i>These beings are as ancient as the volcanoes, mountains, and caves of Tibia and despite their formidable presence, they skillfully navigate through the tiniest openings the surroundings may offer. Mount up on a Glacier Wyrm, a Bog Tyrant, or a Crimson Fang and zip to your next duel both swiftly and securely!</i>",
+				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
+			},
+			{
+				icons = { "Bog_Tyrant.png" },
+				name = "Bog Tyrant",
+				price = 690,
+				id = 229,
+				description = "{character}\n{speedboost}\n\n<i>These beings are as ancient as the volcanoes, mountains, and caves of Tibia and despite their formidable presence, they skillfully navigate through the tiniest openings the surroundings may offer. Mount up on a Glacier Wyrm, a Bog Tyrant, or a Crimson Fang and zip to your next duel both swiftly and securely!</i>",
+				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
+			},
+			{
+				icons = { "Crimson_Fang.png" },
+				name = "Crimson Fang",
+				price = 690,
+				id = 230,
+				description = "{character}\n{speedboost}\n\n<i>These beings are as ancient as the volcanoes, mountains, and caves of Tibia and despite their formidable presence, they skillfully navigate through the tiniest openings the surroundings may offer. Mount up on a Glacier Wyrm, a Bog Tyrant, or a Crimson Fang and zip to your next duel both swiftly and securely!</i>",
+				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
+			},
+			{
+				icons = { "Bumblebee.png" },
+				name = "Bumblebee",
+				price = 870,
+				id = 231,
+				description = "{character}\n{speedboost}\n\n<i>This mount is off-the-charts cute! Meet the Bumblebee, your oasis of calmness and sweetness in the wild, war-torn world of Tibia. Sure, this fuzzy friend won't bite, but don't let its peaceful vibes fool you. Criticise its stunning looks or threaten its owner, and out comes the mega-stinger. Who knew cuteness could pack such a punch?</i>",
+				type = GameStore.OfferTypes.OFFER_TYPE_MOUNT,
+				home = true,				
+			},			
 		},
 	},
 	-- Cosmetics ~ Outfits (base outfit has addon = 0 or no defined addon. By default addon is set to 0)
@@ -2292,7 +2399,6 @@ GameStore.Categories = {
 				addon = 3,
 				description = "{character}\n{info} colours can be changed using the Outfit dialog\n{info} includes basic outfit and 2 addons which can be selected individually\n\n<i>Armoured Archers are the epitome of invisible danger. Silently and nimbly, they advance in the background. For hours, they wait patiently, almost motionless, for the decisive moment. Just to be perfectly present in a deadly second.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-				home = true,
 			},
 			{
 				icons = { "Outfit_Beastmaster_Male_Addon_3.png", "Outfit_Beastmaster_Female_Addon_3.png" },
@@ -2755,6 +2861,52 @@ GameStore.Categories = {
 				description = "{character}\n{info} colours can be changed using the Outfit dialog\n\n<i>You are fearless and strong as a behemoth but have problems finding the right outfit for your adventures? The Retro Warrior outfit is a must-have for all fashion-conscious old-school Tibians out there.</i>",
 				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
 			},
+			{
+				icons = { "Outfit_Doom_Knihgt_Male.png", "Outfit_Doom_Warrior_Knight.png" },
+				name = "Full Doom Knight Outfit",
+				price = 600,
+				sexId = { female = 1714, male = 1713 },
+				addon = 3,				
+				description = "{character}\n{info} colours can be changed using the Outfit dialog\n{info} includes basic outfit and 2 addons which can be selected individually\n\n<i>The Doom Knight, a silent and shrouded entity, embarked on a relentless odyssey, journeying through every valley on the other side and venturing into uncharted realms beyond. The passage of time has rendered this deadly figure unshakeable, an embodiment of unwavering determination in the face of all challenges.</i>",
+				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
+			},
+			{
+				icons = { "Outfit_Celestial_Avenger_Male.png", "Outfit_Celestial_Avenger_Female.png" },
+				name = "Full Celestial Avenger Outfit",
+				price = 870,
+				sexId = { female = 1726, male = 1725 },
+				addon = 3,				
+				description = "{character}\n{info} colours can be changed using the Outfit dialog\n{info} includes basic outfit and 2 addons which can be selected individually\n\n<i>For those who have been touched by the gods, their devotion and belief infuse their very being, transforming them into beacons of divine light. The Celestial Avenger outfit is a testament to this divine power, adorned with shimmering angelic wings that radiate an ethereal glow. This outfit is not just for show - it is a symbol of unwavering faith and an embodiment of the divine power that resides within its wearer. Execute divine justice, follow your devotion and belief, and become the Celestial Avenger!</i>",
+				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
+			},
+			{
+				icons = { "Outfit_Blade_Dancer_Male.png", "Outfit_Blade_Dancer_Female.png" },
+				name = "Full Blade Dancer Outfit",
+				price = 750,
+				sexId = { female = 1746, male = 1745 },
+				addon = 3,				
+				description = "{character}\n{info} colours can be changed using the Outfit dialog\n{info} includes basic outfit and 2 addons which can be selected individually\n\n<i>Embrace the Blade Dancer outfit, where grace meets might, each step a dance, each move a fight. Adorned with blades, it is not just attire, but a declaration of elegance as deadly as it is beautiful. You are the artist amidst the fray? Then this should be your choice.</i>",
+				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
+			},
+			{
+				icons = { "Outfit_Darklight_Evoker_Male.png", "Outfit_Darklight_Evoker_Female.png" },
+				name = "Full Darklight Evoker Outfit",
+				price = 750,
+				sexId = { female = 1676, male = 1675 },
+				addon = 3,				
+				description = "{character}\n{info} colours can be changed using the Outfit dialog\n{info} includes basic outfit and 2 addons which can be selected individually\n\n<i>Embrace the Blade Dancer outfit, where grace meets might, each step a dance, each move a fight. Adorned with blades, it is not just attire, but a declaration of elegance as deadly as it is beautiful. You are the artist amidst the fray? Then this should be your choice.</i>",
+				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
+			},			
+			{
+				icons = { "Outfit_Beekeeper_Male.png", "Outfit_Beekeeper_Female.png" },
+				name = "Full Beekeeper Outfit",
+				price = 870,
+				sexId = { female = 1776, male = 1777 },
+				addon = 3,				
+				description = "{character}\n{info} colours can be changed using the Outfit dialog\n{info} includes basic outfit and 2 addons which can be selected individually\n\n<i>This is eco-friendly. This is organic. This is a blast. Step into the shoes of a Beekeeper and command your bee army. Whether it's for relaxation or to create chaos in combat, the world is calling for a Beekeeper, and the bees will thank you. Fire at will, honeymaster!</i>",
+				type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
+				home = true,
+			},			
 		},
 	},
 	-- House
@@ -4157,7 +4309,6 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				home = true,
 			},
 			{
 				icons = { "Portable_Aqueduct.png" },
@@ -6342,7 +6493,6 @@ GameStore.Categories = {
 			{
 				icons = { "Name_Change.png" },
 				name = "Character Name Change",
-				home = true,
 				price = 250,
 				id = 65002,
 				description = "<i>Tired of your current character name? Purchase a new one!</i>\n\n{character}\n{info} relog required after purchase to finalise the name change",
@@ -6605,7 +6755,6 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				home = true,
 			},
 			{
 				icons = { "Gilded_Crown.png" },
@@ -6615,7 +6764,6 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				home = true,
 			},
 			{
 				icons = { "Gilded_Horned_Helmet.png" },
@@ -6625,7 +6773,6 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				home = true,
 			},
 			{
 				icons = { "Gilded_Magic_Longsword.png" },
@@ -6635,7 +6782,6 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				home = true,
 			},
 			{
 				icons = { "Gilded_Warlord_Sword.png" },
@@ -6645,7 +6791,6 @@ GameStore.Categories = {
 				count = 1,
 				description = "{house}\n{box}\n{storeinbox}\n{use}\n{backtoinbox}",
 				type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-				home = true,
 			},
 			{
 				icons = { "Guzzlemaw_Grub.png" },

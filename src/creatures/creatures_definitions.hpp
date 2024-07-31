@@ -1573,6 +1573,7 @@ struct CombatDamage {
 	int32_t lifeLeech = 0;
 	int32_t lifeLeechChance = 0;
 	int32_t healingLink = 0;
+	int32_t baseHealing = 0;
 
 	std::string instantSpellName;
 	std::string runeSpellName;

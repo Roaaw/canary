@@ -120,6 +120,14 @@ local foods = {
 	[37531] = { 5, "Mmmm." }, -- candy floss
 	[37532] = { 15, "Mmmm." }, -- ice cream cone
 	[37533] = { 60, "Mmmm." }, -- birthday layer cake
+	[48508] = { 10, "Yum." }, -- amber souvenir
+	[48253] = { 3, "Yum." }, -- beijinho
+	[48252] = { 3, "Yum." }, -- brigadeiro
+	[48254] = { 5, "Yum." }, -- churro heart
+	[48116] = { 3, "Yum." }, -- gummy rotworm
+	[48255] = { 10, "Yum." }, -- lime tart
+	[48179] = { 5, "Yum." }, -- moon melon slices 
+	[48273] = { 15, "Yum." }, -- taiyaki ice cream
 }
 
 local food = Action()
