@@ -70,11 +70,10 @@ monster.voices = {
 	{ text = "Let me have a bite!", yell = false },
 	{ text = "YOU HAVE BAD BREATH, TAKE A MINT!!!", yell = true },
 	{ text = "I LOOOOOOVE CHOCOLATE TRUFFLES!!!", yell = true },
-	{ text = "Yummy!", yell = true} ,
+	{ text = "Yummy!", yell = true },
 }
 
-monster.loot = {
-}
+monster.loot = {}
 
 monster.attacks = {
 	{ name = "melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -550 },

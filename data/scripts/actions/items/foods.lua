@@ -126,7 +126,7 @@ local foods = {
 	[48254] = { 5, "Yum." }, -- churro heart
 	[48116] = { 3, "Yum." }, -- gummy rotworm
 	[48255] = { 10, "Yum." }, -- lime tart
-	[48179] = { 5, "Yum." }, -- moon melon slices 
+	[48179] = { 5, "Yum." }, -- moon melon slices
 	[48273] = { 15, "Yum." }, -- taiyaki ice cream
 }
 

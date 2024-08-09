@@ -61,11 +61,9 @@ monster.voices = {
 	{ text = "<rustle>", yell = false },
 }
 
-monster.loot = {
-}
+monster.loot = {}
 
-monster.attacks = {
-}
+monster.attacks = {}
 
 monster.defenses = {
 	defense = 7,

@@ -514,7 +514,7 @@ function parseBuyStoreOffer(playerId, msg)
 		elseif offer.type == GameStore.OfferTypes.OFFER_TYPE_HIRELING_OUTFIT then
 			GameStore.processHirelingOutfitPurchase(player, offer)
 		elseif offer.type == GameStore.OfferTypes.OFFER_TYPE_BUNDLES then
-			GameStore.processBundlePurchase(player, offer, bundle, sexId, addon, id, ItemType, count)				
+			GameStore.processBundlePurchase(player, offer, bundle, sexId, addon, id, ItemType, count)
 		else
 			-- This should never happen by our convention, but just in case the guarding condition is messed up...
 			error({ code = 0, message = "This offer is unavailable [2]" })
@@ -1694,87 +1694,87 @@ function GameStore.processHouseRelatedPurchase(player, offer)
 end
 
 -- function GameStore.processBundlePurchase(player, offerSexIdTable, addon, offerId, offer)
-	-- local looktype
-	-- local _addon = addon and addon or 0
+-- local looktype
+-- local _addon = addon and addon or 0
 
-	-- if player:getSex() == PLAYERSEX_MALE then
-		-- looktype = offerSexIdTable.male
-	-- elseif player:getSex() == PLAYERSEX_FEMALE then
-		-- looktype = offerSexIdTable.female
-	-- end
+-- if player:getSex() == PLAYERSEX_MALE then
+-- looktype = offerSexIdTable.male
+-- elseif player:getSex() == PLAYERSEX_FEMALE then
+-- looktype = offerSexIdTable.female
+-- end
 
-	-- if not looktype then
-		-- return error({ code = 0, message = "This outfit seems not to suit your sex, we are sorry for that!" })
-	-- elseif (not player:hasOutfit(looktype, 0)) and (_addon == 1 or _addon == 2) then
-		-- return error({ code = 0, message = "You must own the outfit before you can buy its addon." })
-	-- elseif player:hasOutfit(looktype, _addon) then
-		-- return error({ code = 0, message = "You already own this outfit." })
-	-- else
-		-- if not player:addOutfitAddon(looktype, _addon) or not player:hasOutfit(looktype, _addon) then
-			-- error({ code = 0, message = "There has been an issue with your outfit purchase. Your purchase has been cancelled." })
-		-- else
-			-- player:addOutfitAddon(offerSexIdTable.male, _addon)
-			-- player:addOutfitAddon(offerSexIdTable.female, _addon)
-		-- end
-	-- end
-	-- if player:hasMount(offerId) then
-		-- return error({ code = 0, message = "You already own this mount." })
-	-- end
+-- if not looktype then
+-- return error({ code = 0, message = "This outfit seems not to suit your sex, we are sorry for that!" })
+-- elseif (not player:hasOutfit(looktype, 0)) and (_addon == 1 or _addon == 2) then
+-- return error({ code = 0, message = "You must own the outfit before you can buy its addon." })
+-- elseif player:hasOutfit(looktype, _addon) then
+-- return error({ code = 0, message = "You already own this outfit." })
+-- else
+-- if not player:addOutfitAddon(looktype, _addon) or not player:hasOutfit(looktype, _addon) then
+-- error({ code = 0, message = "There has been an issue with your outfit purchase. Your purchase has been cancelled." })
+-- else
+-- player:addOutfitAddon(offerSexIdTable.male, _addon)
+-- player:addOutfitAddon(offerSexIdTable.female, _addon)
+-- end
+-- end
+-- if player:hasMount(offerId) then
+-- return error({ code = 0, message = "You already own this mount." })
+-- end
 
-	-- player:addMount(offerId)
-	
-	-- local function isCaskItem(itemId)
-		-- return (itemId >= ITEM_HEALTH_CASK_START and itemId <= ITEM_HEALTH_CASK_END) or (itemId >= ITEM_MANA_CASK_START and itemId <= ITEM_MANA_CASK_END) or (itemId >= ITEM_SPIRIT_CASK_START and itemId <= ITEM_SPIRIT_CASK_END)
-	-- end
+-- player:addMount(offerId)
 
-	-- if offer.itemType and offer.count then
-	-- local itemIds = offer.itemtype
-    -- local itemCounts = offer.count	
-	-- if type(itemIds) ~= "table" then
-		-- itemIds = { itemIds }
-	-- end
-	
-	-- if type(itemCounts) ~= "table" then
-		-- itemCounts = { itemCounts }
-	-- end	
+-- local function isCaskItem(itemId)
+-- return (itemId >= ITEM_HEALTH_CASK_START and itemId <= ITEM_HEALTH_CASK_END) or (itemId >= ITEM_MANA_CASK_START and itemId <= ITEM_MANA_CASK_END) or (itemId >= ITEM_SPIRIT_CASK_START and itemId <= ITEM_SPIRIT_CASK_END)
+-- end
 
-	-- local canReceive, errorMsg = player:canReceiveStoreItems(#itemIds)
-	-- if not canReceive then
-		-- return error({ code = 0, message = errorMsg })
-	-- end
+-- if offer.itemType and offer.count then
+-- local itemIds = offer.itemtype
+-- local itemCounts = offer.count
+-- if type(itemIds) ~= "table" then
+-- itemIds = { itemIds }
+-- end
 
-	-- local inbox = player:getStoreInbox()
-	-- if inbox then
-		-- for i, itemId in ipairs(itemIds) do
-			-- local count = itemCounts[i] or 1
-			-- if isCaskItem(itemId) then
-				-- local decoKit = inbox:addItem(ITEM_DECORATION_KIT, 1)
-				-- if decoKit then
-					-- decoKit:setAttribute(ITEM_ATTRIBUTE_DESCRIPTION, "You bought this item in the Store.\nUnwrap it in your own house to create a <" .. ItemType(itemId):getName() .. ">.")
-					-- decoKit:setCustomAttribute("unWrapId", itemId)
-					-- decoKit:setAttribute(ITEM_ATTRIBUTE_DATE, offer.count)
+-- if type(itemCounts) ~= "table" then
+-- itemCounts = { itemCounts }
+-- end
 
-					-- if not offer.movable then
-						-- decoKit:setAttribute(ITEM_ATTRIBUTE_STORE, systemTime())
-					-- end
-				-- end
-			-- else
-				-- for j = 1, count do
-					-- local decoKit = inbox:addItem(ITEM_DECORATION_KIT, 1)
-					-- if decoKit then
-						-- decoKit:setAttribute(ITEM_ATTRIBUTE_DESCRIPTION, "You bought this item in the Store.\nUnwrap it in your own house to create a <" .. ItemType(itemId):getName() .. ">.")
-						-- decoKit:setCustomAttribute("unWrapId", itemId)
+-- local canReceive, errorMsg = player:canReceiveStoreItems(#itemIds)
+-- if not canReceive then
+-- return error({ code = 0, message = errorMsg })
+-- end
 
-						-- if not offer.movable then
-							-- decoKit:setAttribute(ITEM_ATTRIBUTE_STORE, systemTime())
-						-- end
-					-- end
-				-- end
-			-- end
-		-- end
-		-- player:sendUpdateContainer(inbox)
-	-- end
-	-- end	
+-- local inbox = player:getStoreInbox()
+-- if inbox then
+-- for i, itemId in ipairs(itemIds) do
+-- local count = itemCounts[i] or 1
+-- if isCaskItem(itemId) then
+-- local decoKit = inbox:addItem(ITEM_DECORATION_KIT, 1)
+-- if decoKit then
+-- decoKit:setAttribute(ITEM_ATTRIBUTE_DESCRIPTION, "You bought this item in the Store.\nUnwrap it in your own house to create a <" .. ItemType(itemId):getName() .. ">.")
+-- decoKit:setCustomAttribute("unWrapId", itemId)
+-- decoKit:setAttribute(ITEM_ATTRIBUTE_DATE, offer.count)
+
+-- if not offer.movable then
+-- decoKit:setAttribute(ITEM_ATTRIBUTE_STORE, systemTime())
+-- end
+-- end
+-- else
+-- for j = 1, count do
+-- local decoKit = inbox:addItem(ITEM_DECORATION_KIT, 1)
+-- if decoKit then
+-- decoKit:setAttribute(ITEM_ATTRIBUTE_DESCRIPTION, "You bought this item in the Store.\nUnwrap it in your own house to create a <" .. ItemType(itemId):getName() .. ">.")
+-- decoKit:setCustomAttribute("unWrapId", itemId)
+
+-- if not offer.movable then
+-- decoKit:setAttribute(ITEM_ATTRIBUTE_STORE, systemTime())
+-- end
+-- end
+-- end
+-- end
+-- end
+-- player:sendUpdateContainer(inbox)
+-- end
+-- end
 -- end
 
 function GameStore.processBundlePurchase(player, offer)
@@ -1786,63 +1786,63 @@ function GameStore.processBundlePurchase(player, offer)
 	local count = offer.bundle.count or 1
 	local mountId = offer.bundle.id
 	local items = bundle.items
-	
-    if player:getSex() == PLAYERSEX_MALE then
-        looktype = sexId.male
-    elseif player:getSex() == PLAYERSEX_FEMALE then
-        looktype = sexId.female
-    end
-    if not looktype then
-        return error({ code = 0, message = "This outfit seems not to suit your sex, we are sorry for that!" })
-    elseif (not player:hasOutfit(looktype, 0)) and (addon == 1 or addon == 2) then
-        return error({ code = 0, message = "You must own the outfit before you can buy its addon." })
-    elseif player:hasOutfit(looktype, addon) then
-        return error({ code = 0, message = "You already own this outfit." })
-    else
-        if not player:addOutfitAddon(looktype, addon) or not player:hasOutfit(looktype, addon) then
-            error({ code = 0, message = "There has been an issue with your outfit purchase. Your purchase has been cancelled." })
-        else
-            player:addOutfitAddon(sexId.male, addon)
-            player:addOutfitAddon(sexId.female, addon)
-        end
-    end	
+
+	if player:getSex() == PLAYERSEX_MALE then
+		looktype = sexId.male
+	elseif player:getSex() == PLAYERSEX_FEMALE then
+		looktype = sexId.female
+	end
+	if not looktype then
+		return error({ code = 0, message = "This outfit seems not to suit your sex, we are sorry for that!" })
+	elseif (not player:hasOutfit(looktype, 0)) and (addon == 1 or addon == 2) then
+		return error({ code = 0, message = "You must own the outfit before you can buy its addon." })
+	elseif player:hasOutfit(looktype, addon) then
+		return error({ code = 0, message = "You already own this outfit." })
+	else
+		if not player:addOutfitAddon(looktype, addon) or not player:hasOutfit(looktype, addon) then
+			error({ code = 0, message = "There has been an issue with your outfit purchase. Your purchase has been cancelled." })
+		else
+			player:addOutfitAddon(sexId.male, addon)
+			player:addOutfitAddon(sexId.female, addon)
+		end
+	end
 	if player:hasMount(mountId) then
-        return error({ code = 0, message = "You already own this mount." })
-    else
-        player:addMount(mountId)
-    end
-	
+		return error({ code = 0, message = "You already own this mount." })
+	else
+		player:addMount(mountId)
+	end
+
 	local totalItemCount = 0
 	for _, item in ipairs(items) do
 		totalItemCount = totalItemCount + item.count
 	end
-	
-    local canReceive, errorMsg = player:canReceiveStoreItems(count)
-    if not canReceive then
-        return error({ code = 0, message = errorMsg })
-    end
 
-    local inbox = player:getStoreInbox()
-    if inbox then
+	local canReceive, errorMsg = player:canReceiveStoreItems(count)
+	if not canReceive then
+		return error({ code = 0, message = errorMsg })
+	end
+
+	local inbox = player:getStoreInbox()
+	if inbox then
 		for _, item in ipairs(items) do
-		local itemType = item.itemType
-		local count = item.count
-        for i = 1, count do
-            local decoKit = inbox:addItem(ITEM_DECORATION_KIT, 1)
-            if decoKit then
-                decoKit:setAttribute(ITEM_ATTRIBUTE_DESCRIPTION, "You bought this item in the Store.\nUnwrap it in your own house to create a <" .. ItemType(itemType):getName() .. ">.")
-                decoKit:setCustomAttribute("unWrapId", itemType)
-                decoKit:setAttribute(ITEM_ATTRIBUTE_DATE, count)
+			local itemType = item.itemType
+			local count = item.count
+			for i = 1, count do
+				local decoKit = inbox:addItem(ITEM_DECORATION_KIT, 1)
+				if decoKit then
+					decoKit:setAttribute(ITEM_ATTRIBUTE_DESCRIPTION, "You bought this item in the Store.\nUnwrap it in your own house to create a <" .. ItemType(itemType):getName() .. ">.")
+					decoKit:setCustomAttribute("unWrapId", itemType)
+					decoKit:setAttribute(ITEM_ATTRIBUTE_DATE, count)
 
-                if not offer.movable then
-                    decoKit:setAttribute(ITEM_ATTRIBUTE_STORE, systemTime())
-                end
-            end
-        end
+					if not offer.movable then
+						decoKit:setAttribute(ITEM_ATTRIBUTE_STORE, systemTime())
+					end
+				end
+			end
 		end
-        player:sendUpdateContainer(inbox)
-    end
-end	
+		player:sendUpdateContainer(inbox)
+	end
+end
 
 function GameStore.processOutfitPurchase(player, offerSexIdTable, addon)
 	local looktype
