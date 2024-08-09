@@ -6689,6 +6689,15 @@ void Game::combatGetTypeInfo(CombatType_t combatType, std::shared_ptr<Creature> 
 						}
 					}
 					break;
+				case RACE_SUGAR:
+					color = TEXTCOLOR_PURPLE;
+					effect = CONST_ME_SIRUP;
+					if (std::shared_ptr<Tile> tile = target->getTile()) {
+						if (!tile->hasFlag(TILESTATE_PROTECTIONZONE)) {
+							splash = Item::CreateItem(ITEM_SMALLSPLASH, FLUID_MANA);
+						}
+					}
+					break;
 				case RACE_INK:
 					color = TEXTCOLOR_LIGHTGREY;
 					effect = CONST_ME_HITAREA;

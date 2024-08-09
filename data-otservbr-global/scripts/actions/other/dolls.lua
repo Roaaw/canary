@@ -182,6 +182,7 @@ local dolls = {
 				"Be careful |PLAYERNAME|, the bearer of this crown will be cursed by the spirits of darkness! Getshhh ...",
 				"The truth? Getshhh ... Often the truth is hidden in the lies! You're dumb."
 	},
+	[23708] = {"Woof!"},
 	[14764] = {"My powers are limitless!",
 				"Hail Tibia Bariloche!"
 	},
@@ -603,7 +604,10 @@ function doll.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		item:decay()
 	elseif item.itemid == 39757 then
 		item:transform(item.itemid + 1)
-		item:decay()		
+		item:decay()
+	elseif item.itemid == 23708 then
+		item:transform(item.itemid + 1)
+		item:decay()			
 	end
 
 	sound = sound:gsub("|PLAYERNAME|", player:getName())

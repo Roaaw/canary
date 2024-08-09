@@ -782,6 +782,10 @@ bool Creature::dropCorpse(std::shared_ptr<Creature> lastHitCreature, std::shared
 				splash = Item::CreateItem(ITEM_FULLSPLASH, FLUID_INK);
 				break;
 
+			case RACE_SUGAR:
+				splash = Item::CreateItem(ITEM_FULLSPLASH, FLUID_WINE);
+				break;
+
 			default:
 				splash = nullptr;
 				break;

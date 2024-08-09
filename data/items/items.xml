@@ -4142,8 +4142,21 @@
 	<item id="2061" article="a" name="statue">
 		<attribute key="rotateto" value="2025"/>
 	</item>
-	<item fromid="2062" toid="2065" article="a" name="sacred statue">
+	<item id="2062" article="a" name="sacred statue">
 		<attribute key="primarytype" value="statues"/>
+		<attribute key="transformOnUse" value="2063"/> 
+	</item>
+	<item id="2063" article="a" name="sacred statue">
+		<attribute key="primarytype" value="statues"/>
+		<attribute key="transformOnUse" value="2062"/> 
+	</item>
+	<item id="2064" article="a" name="sacred statue">
+		<attribute key="primarytype" value="statues"/>
+		<attribute key="transformOnUse" value="2065"/> 
+	</item>
+	<item id="2065" article="a" name="sacred statue">
+		<attribute key="primarytype" value="statues"/>
+		<attribute key="transformOnUse" value="2064"/> 
 	</item>
 	<item fromid="2066" toid="2069" article="a" name="broken lizard statue">
 		<attribute key="primarytype" value="refuse"/>
@@ -4184,7 +4197,12 @@
 	<item fromid="2104" toid="2107" article="a" name="huntress statue">
 		<attribute key="primarytype" value="statues"/>
 	</item>
-	<item fromid="2108" toid="2109" article="a" name="street lamp"/>
+	<item id="2108" article="a" name="street lamp">
+		<attribute key="transformOnUse" value="2109"/>
+	</item>
+	<item id="2109" article="a" name="street lamp">
+		<attribute key="transformOnUse" value="2108"/>
+	</item>	
 	<item fromid="2110" toid="2113" article="a" name="coal basin"/>
 	<item id="2114" article="an" name="empty coal basin">
 		<attribute key="primarytype" value="utilities"/>
@@ -4614,18 +4632,53 @@
 	<item fromid="2322" toid="2333" article="a" name="table">
 		<attribute key="primarytype" value="tables"/>
 	</item>
-	<item fromid="2334" toid="2338" article="a" name="table">
+	<item id="2334" article="a" name="table">
 		<attribute key="primarytype" value="tables"/>
 		<attribute key="type" value="door"/>
+		<attribute key="blockProjectile" value="1"/>
+		<attribute key="transformOnUse" value="2335"/>
+	</item>
+	<item id="2335" article="a" name="table">
+		<attribute key="primarytype" value="tables"/>
+		<attribute key="type" value="door"/>
+		<attribute key="blockProjectile" value="1"/>
+		<attribute key="transformOnUse" value="2334"/>
+	</item>
+	<item id="2336" article="a" name="table">
+		<attribute key="primarytype" value="tables"/>
+		<attribute key="type" value="door"/>
+		<attribute key="blockProjectile" value="1"/>
+		<attribute key="transformOnUse" value="2337"/>
+	</item>
+	<item id="2337" article="a" name="table">
+		<attribute key="primarytype" value="tables"/>
+		<attribute key="type" value="door"/>
+		<attribute key="blockProjectile" value="1"/>
+		<attribute key="transformOnUse" value="2336"/>
+	</item>
+	<item id="2338" article="a" name="table">
+		<attribute key="primarytype" value="tables"/>
+		<attribute key="type" value="door"/>
+		<attribute key="blockProjectile" value="1"/>
+		<attribute key="transformOnUse" value="2339"/>
 	</item>
 	<item id="2339" article="a" name="table">
 		<attribute key="primarytype" value="tables"/>
 		<attribute key="type" value="door"/>
 		<attribute key="blockProjectile" value="1"/>
+		<attribute key="transformOnUse" value="2338"/>
 	</item>
-	<item fromid="2340" toid="2341" article="a" name="table">
+	<item id="2340" article="a" name="table">
 		<attribute key="primarytype" value="tables"/>
 		<attribute key="type" value="door"/>
+		<attribute key="blockProjectile" value="1"/>
+		<attribute key="transformOnUse" value="2341"/>
+	</item>
+	<item id="2341" article="a" name="table">
+		<attribute key="primarytype" value="tables"/>
+		<attribute key="type" value="door"/>
+		<attribute key="blockProjectile" value="1"/>
+		<attribute key="transformOnUse" value="2340"/>
 	</item>
 	<item fromid="2342" toid="2345" article="a" name="counter">
 		<attribute key="primarytype" value="tables"/>
@@ -5290,8 +5343,37 @@
 		<attribute key="primarytype" value="casks"/>
 		<attribute key="fluidsource" value="wine"/>
 	</item>
-	<item fromid="2535" toid="2542" article="an" name="oven">
+	<item id="2535" article="an" name="oven">
 		<attribute key="primarytype" value="furniture"/>
+		<attribute key="transformOnUse" value="2536"/>
+	</item>
+	<item id="2536" article="an" name="oven">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="transformOnUse" value="2535"/>
+	</item>
+	<item id="2537" article="an" name="oven">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="transformOnUse" value="2538"/>
+	</item>
+	<item id="2538" article="an" name="oven">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="transformOnUse" value="2537"/>
+	</item>
+	<item id="2539" article="an" name="oven">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="transformOnUse" value="2540"/>
+	</item>
+	<item id="2540" article="an" name="oven">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="transformOnUse" value="2539"/>
+	</item>
+	<item id="2541" article="an" name="oven">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="transformOnUse" value="2542"/>
+	</item>
+	<item id="2542" article="an" name="oven">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="transformOnUse" value="2541"/>
 	</item>
 	<item fromid="2543" toid="2571" name="RESERVED SPRITE"/>
 	<item fromid="2572" toid="2580" article="a" name="red carpet">
@@ -5426,9 +5508,8 @@
 	</item>
 	<item id="2660" article="a" name="cuckoo clock">
 		<attribute key="primarytype" value="decoration"/>
-		<attribute key="duration" value="54"/>
-		<attribute key="decayTo" value="2661"/>
 		<attribute key="weight" value="800"/>
+		<attribute key="transformOnUse" value="2661"/>
 	</item>
 	<item id="2661" article="a" name="cuckoo clock">
 		<attribute key="primarytype" value="decoration"/>
@@ -5438,9 +5519,8 @@
 	</item>
 	<item id="2662" article="a" name="cuckoo clock">
 		<attribute key="primarytype" value="decoration"/>
-		<attribute key="duration" value="54"/>
-		<attribute key="decayTo" value="2663"/>
 		<attribute key="weight" value="800"/>
+		<attribute key="transformOnUse" value="2663"/>
 	</item>
 	<item id="2663" article="a" name="cuckoo clock">
 		<attribute key="primarytype" value="decoration"/>
@@ -5532,8 +5612,13 @@
 	<item id="2771" article="a" name="sundial">
 		<attribute key="primarytype" value="utilities"/>
 	</item>
-	<item fromid="2772" toid="2773" article="a" name="lever">
+	<item id="2772" article="a" name="lever">
 		<attribute key="primarytype" value="machines (objects)"/>
+		<attribute key="transformOnUse" value="2773"/>
+	</item>
+	<item id="2773" article="a" name="lever">
+		<attribute key="primarytype" value="machines (objects)"/>
+		<attribute key="transformOnUse" value="2772"/>
 	</item>
 	<item id="2775" article="a" name="red cushioned chair kit">
 		<attribute key="primarytype" value="furniture"/>
@@ -6230,26 +6315,31 @@
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="stopduration" value="1"/>
 		<attribute key="weight" value="5000"/>
+		<attribute key="transformOnUse" value="2912"/> 
 	</item>
 	<item id="2912" article="a" name="lit candelabrum">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="duration" value="180"/>
 		<attribute key="decayTo" value="2913"/>
 		<attribute key="weight" value="5000"/>
+		<attribute key="transformOnUse" value="2911"/> 
 	</item>
 	<item id="2913" article="a" name="used candelabrum">
 		<attribute key="primarytype" value="rubbish"/>
 		<attribute key="weight" value="4500"/>
+		<attribute key="transformOnUse" value="34304"/> 
 	</item>
 	<item id="2914" article="a" name="lamp">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="stopduration" value="1"/>
 		<attribute key="weight" value="3000"/>
+		<attribute key="transformOnUse" value="2915"/> 
 	</item>
 	<item id="2915" article="a" name="lit lamp">
 		<attribute key="duration" value="180"/>
 		<attribute key="decayTo" value="2916"/>
 		<attribute key="weight" value="3000"/>
+		<attribute key="transformOnUse" value="2914"/> 
 	</item>
 	<item id="2916" article="an" name="used lamp">
 		<attribute key="weight" value="3000"/>
@@ -6258,11 +6348,13 @@
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="stopduration" value="1"/>
 		<attribute key="weight" value="300"/>
+		<attribute key="transformOnUse" value="2918"/>
 	</item>
 	<item id="2918" article="a" name="lit candlestick">
 		<attribute key="duration" value="240"/>
 		<attribute key="decayTo" value="2919"/>
 		<attribute key="weight" value="300"/>
+		<attribute key="transformOnUse" value="2917"/>
 	</item>
 	<item id="2919" article="a" name="used candlestick">
 		<attribute key="primarytype" value="rubbish"/>
@@ -6274,34 +6366,40 @@
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="stopduration" value="1"/>
 		<attribute key="weight" value="500"/>
+		<attribute key="transformOnUse" value="2921"/> 
 	</item>
 	<item id="2921" article="a" name="lit torch">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="duration" value="600"/>
 		<attribute key="decayTo" value="2923"/>
 		<attribute key="weight" value="500"/>
+		<attribute key="transformOnUse" value="2920"/> 
 	</item>
 	<item id="2922" article="a" name="torch">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="stopduration" value="1"/>
 		<attribute key="weight" value="500"/>
+		<attribute key="transformOnUse" value="2923"/> 
 	</item>
 	<item id="2923" article="a" name="lit torch">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="duration" value="300"/>
 		<attribute key="decayTo" value="2925"/>
 		<attribute key="weight" value="450"/>
+		<attribute key="transformOnUse" value="2922"/> 
 	</item>
 	<item id="2924" article="a" name="torch">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="stopduration" value="1"/>
 		<attribute key="weight" value="500"/>
+		<attribute key="transformOnUse" value="2925"/> 
 	</item>
 	<item id="2925" article="a" name="lit torch">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="duration" value="300"/>
 		<attribute key="decayTo" value="2926"/>
 		<attribute key="weight" value="400"/>
+		<attribute key="transformOnUse" value="2924"/> 
 	</item>
 	<item id="2926" article="a" name="burnt down torch">
 		<attribute key="primarytype" value="light sources"/>
@@ -6315,15 +6413,19 @@
 	</item>
 	<item id="2928" article="a" name="torch bearer">
 		<attribute key="primarytype" value="wall hangings"/>
+		<attribute key="transformOnUse" value="2929"/> 
 	</item>
 	<item id="2929" article="a" name="lit torch bearer">
 		<attribute key="primarytype" value="wall hangings"/>
+		<attribute key="transformOnUse" value="2928"/> 
 	</item>
 	<item id="2930" article="a" name="torch bearer">
 		<attribute key="primarytype" value="wall hangings"/>
+		<attribute key="transformOnUse" value="2931"/> 
 	</item>
 	<item id="2931" article="a" name="lit torch bearer">
 		<attribute key="primarytype" value="wall hangings"/>
+		<attribute key="transformOnUse" value="2930"/> 
 	</item>
 	<item id="2932" article="an" name="oil lamp">
 		<attribute key="primarytype" value="decoration"/>
@@ -6335,8 +6437,12 @@
 	</item>
 	<item id="2934" article="a" name="table lamp">
 		<attribute key="primarytype" value="decoration"/>
+		<attribute key="transformOnUse" value="2935"/>
 	</item>
-	<item id="2935" article="a" name="lit table lamp"/>
+	<item id="2935" article="a" name="lit table lamp">
+		<attribute key="primarytype" value="decoration"/>
+		<attribute key="transformOnUse" value="2934"/>
+	</item>
 	<item id="2936" article="a" name="wall lamp">
 		<attribute key="transformOnUse" value="2937"/>
 	</item>
@@ -6505,7 +6611,7 @@
 	</item>
 	<item id="2978" article="a" name="pumpkinhead">
 		<attribute key="primarytype" value="decoration"/>
-		<attribute key="weight" value="950"/>
+		<attribute key="weight" value="1250"/> 
 	</item>
 	<item id="2979" article="a" name="globe">
 		<attribute key="primarytype" value="decoration"/>
@@ -6849,6 +6955,7 @@
 		<attribute key="stopduration" value="1"/>
 		<attribute key="showduration" value="1"/>
 		<attribute key="weight" value="1500"/>
+		<attribute key="transformOnUse" value="3047"/>
 	</item>
 	<item id="3047" article="a" name="magic light wand">
 		<attribute key="primarytype" value="light sources"/>
@@ -6857,6 +6964,7 @@
 		<attribute key="duration" value="3000"/>
 		<attribute key="decayTo" value="0"/>
 		<attribute key="weight" value="1500"/>
+		<attribute key="transformOnUse" value="3046"/>
 	</item>
 	<item id="3048" article="a" name="might ring">
 		<attribute key="primarytype" value="rings"/>
@@ -15650,12 +15758,14 @@
 		<attribute key="duration" value="3000"/>
 		<attribute key="decayTo" value="3114"/>
 		<attribute key="weight" value="2200"/>
+		<attribute key="transformOnUse" value="5813"/> 
 	</item>
 	<item id="5813" article="a" name="skull candle">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="stopduration" value="1"/>
 		<attribute key="showduration" value="1"/>
 		<attribute key="weight" value="2200"/>
+		<attribute key="transformOnUse" value="5812"/> 
 	</item>
 	<item fromid="5814" toid="5827" name="small lava cracks">
 		<attribute key="description" value="The ground is steaming hot."/>
@@ -17783,9 +17893,15 @@
 	<item fromid="6475" toid="6487" name="debris">
 		<attribute key="primarytype" value="rocks"/>
 	</item>
-	<item fromid="6488" toid="6489" article="a" name="christmas branch">
+	<item id="6488" article="a" name="christmas branch">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="weight" value="1800"/>
+		<attribute key="transformOnUse" value="6489"/> 
+	</item>
+	<item id="6489" article="a" name="christmas branch">
+		<attribute key="primarytype" value="decoration"/>
+		<attribute key="weight" value="1800"/>
+		<attribute key="transformOnUse" value="6488"/> 
 	</item>
 	<item id="6490" article="a" name="firefly">
 		<attribute key="duration" value="8"/>
@@ -18607,9 +18723,11 @@
 	</item>
 	<item id="7058" article="a" name="skull pillar">
 		<attribute key="primarytype" value="pillars"/>
+		<attribute key="transformOnUse" value="7059"/> 
 	</item>
 	<item id="7059" article="a" name="glowing skull pillar">
 		<attribute key="primarytype" value="pillars"/>
+		<attribute key="transformOnUse" value="7058"/> 
 	</item>
 	<item fromid="7060" toid="7061" name="ice"/>
 	<item fromid="7062" toid="7074" name="rock">
@@ -21039,24 +21157,41 @@
 	<item fromid="7850" toid="7851" name="armor parts"/>
 	<item fromid="7852" toid="7853" name="tool parts"/>
 	<item fromid="7854" toid="7855" name="armor parts"/>
-	<item fromid="7856" toid="7859" article="a" name="chimney">
+	<item id="7856" article="a" name="chimney">
 		<attribute key="primarytype" value="furniture"/>
+		<attribute key="transformOnUse" value="7857"/>
+	</item>
+	<item id="7857" article="a" name="chimney">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="transformOnUse" value="7856"/>
+	</item>
+	<item id="7858" article="a" name="chimney">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="transformOnUse" value="7859"/>
+	</item>
+	<item id="7859" article="a" name="chimney">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="transformOnUse" value="7858"/>
 	</item>
 	<item id="7860" article="a" name="chimney">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="rotateto" value="7862"/>
+		<attribute key="transformOnUse" value="7861"/>
 	</item>
 	<item id="7861" article="a" name="chimney">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="rotateto" value="7863"/>
+		<attribute key="transformOnUse" value="7860"/>
 	</item>
 	<item id="7862" article="a" name="chimney">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="rotateto" value="7860"/>
+		<attribute key="transformOnUse" value="7863"/>
 	</item>
 	<item id="7863" article="a" name="chimney">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="rotateto" value="7861"/>
+		<attribute key="transformOnUse" value="7862"/>
 	</item>
 	<item id="7864" article="a" name="chimney kit">
 		<attribute key="primarytype" value="furniture"/>
@@ -23148,7 +23283,30 @@
 		<attribute key="primarytype" value="stairs"/>
 		<attribute key="floorchange" value="down"/>
 	</item>
-	<item fromid="8659" toid="8666" article="a" name="street lamp"/>
+	<item id="8659" article="a" name="street lamp">
+		<attribute key="transformOnUse" value="8660"/>
+	</item>
+	<item id="8660" article="a" name="street lamp">
+		<attribute key="transformOnUse" value="8659"/>
+	</item>
+	<item id="8661" article="a" name="street lamp">
+		<attribute key="transformOnUse" value="8662"/>
+	</item>
+	<item id="8662" article="a" name="street lamp">
+		<attribute key="transformOnUse" value="8661"/>
+	</item>
+	<item id="8663" article="a" name="street lamp">
+		<attribute key="transformOnUse" value="8664"/>
+	</item>
+	<item id="8664" article="a" name="street lamp">
+		<attribute key="transformOnUse" value="8663"/>
+	</item>
+	<item id="8665" article="a" name="street lamp">
+		<attribute key="transformOnUse" value="8666"/>
+	</item>
+	<item id="8666" article="a" name="street lamp">
+		<attribute key="transformOnUse" value="8665"/>
+	</item>
 	<item id="8667" article="a" name="wall mirror">
 		<attribute key="primarytype" value="wall hangings"/>
 	</item>
@@ -23409,7 +23567,18 @@
 	<item id="8831" article="a" name="box ramp">
 		<attribute key="floorchange" value="west"/>
 	</item>
-	<item fromid="8832" toid="8835" article="a" name="lit wall lamp"/>
+	<item id="8832" article="a" name="lit wall lamp">
+		<attribute key="transformOnUse" value="8833"/>
+	</item>
+	<item id="8833" article="a" name="wall lamp">
+		<attribute key="transformOnUse" value="8832"/>
+	</item>
+	<item id="8834" article="a" name="lit wall lamp">
+		<attribute key="transformOnUse" value="8835"/>
+	</item>
+	<item id="8835" article="a" name="wall lamp">
+		<attribute key="transformOnUse" value="8834"/>
+	</item>
 	<item fromid="8836" toid="8837" article="a" name="statue"/>
 	<item fromid="8838" toid="8843" article="a" name="tree"/>
 	<item fromid="8844" toid="8851" article="a" name="roof">
@@ -35296,8 +35465,18 @@
 	<item fromid="17407" toid="17408" article="a" name="crane">
 		<attribute key="primarytype" value="machines (objects)"/>
 	</item>
-	<item id="17409" article="a" name="street lamp"/>
-	<item fromid="17410" toid="17412" article="a" name="street lamp"/>
+	<item id="17409" article="a" name="street lamp">
+		<attribute key="transformOnUse" value="17410"/>
+	</item>
+	<item id="17410" article="a" name="street lamp">
+		<attribute key="transformOnUse" value="17409"/>
+	</item>
+	<item id="17411" article="a" name="street lamp">
+		<attribute key="transformOnUse" value="17412"/>
+	</item>
+	<item id="17412" article="a" name="street lamp">
+		<attribute key="transformOnUse" value="17411"/>
+	</item>
 	<item fromid="17413" toid="17414" article="a" name="candelabra">
 		<attribute key="primarytype" value="illumination"/>
 	</item>
@@ -40919,10 +41098,16 @@
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="weight" value="500"/>
 	</item>
-	<item fromid="20280" toid="20281" article="a" name="nightmare beacon">
+	<item id="20280" article="a" name="nightmare beacon">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="weight" value="500"/>
+		<attribute key="transformOnUse" value="20281"/>
 	</item>
+	<item id="20281" article="a" name="nightmare beacon">
+		<attribute key="primarytype" value="decoration"/>
+		<attribute key="weight" value="500"/>
+		<attribute key="transformOnUse" value="20280"/>
+	</item>	
 	<item id="20282" article="a" name="nightmare hook">
 		<attribute key="primarytype" value="quest items"/>
 		<attribute key="weight" value="500"/>
@@ -41191,8 +41376,30 @@
 	<item id="20496" name="stairs">
 		<attribute key="floorchange" value="east"/>
 	</item>
-	<item fromid="20497" toid="20500" article="a" name="street lamp"/>
-	<item fromid="20501" toid="20504" article="a" name="candle"/>
+	<item id="20497" article="a" name="street lamp">
+		<attribute key="transformOnUse" value="20498"/>
+	</item>
+	<item id="20498" article="a" name="street lamp">
+		<attribute key="transformOnUse" value="20497"/>
+	</item>
+	<item id="20499" article="a" name="street lamp">
+		<attribute key="transformOnUse" value="20500"/>
+	</item>
+	<item id="20500" article="a" name="street lamp">
+		<attribute key="transformOnUse" value="20499"/>
+	</item>
+	<item id="20501" article="a" name="candle">
+		<attribute key="transformOnUse" value="20502"/>
+	</item>
+	<item id="20502" article="a" name="candle">
+		<attribute key="transformOnUse" value="20501"/>
+	</item>
+	<item id="20503" article="a" name="candle">
+		<attribute key="transformOnUse" value="20504"/>
+	</item>
+	<item id="20504" article="a" name="candle">
+		<attribute key="transformOnUse" value="20503"/>
+	</item>
 	<item fromid="20505" toid="20508" article="a" name="gear wheels"/>
 	<item fromid="20517" toid="20532" article="a" name="sewer pipe"/>
 	<item fromid="20533" toid="20569" article="a" name="stone floor">
@@ -46126,46 +46333,55 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateto" value="23435"/>
+		<attribute key="transformOnUse" value="23436"/> 
 	</item>
 	<item id="23435" article="a" name="predator lamp">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateto" value="23434"/>
+		<attribute key="transformOnUse" value="23437"/> 
 	</item>
 	<item id="23436" article="a" name="lit predator lamp">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateto" value="23437"/>
+		<attribute key="transformOnUse" value="23434"/> 
 	</item>
 	<item id="23437" article="a" name="lit predator lamp">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateto" value="23436"/>
+		<attribute key="transformOnUse" value="23435"/> 
 	</item>
 	<item id="23438" article="a" name="protectress lamp">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateto" value="23439"/>
+		<attribute key="transformOnUse" value="23440"/> 
 	</item>
 	<item id="23439" article="a" name="protectress lamp">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateto" value="23438"/>
+		<attribute key="transformOnUse" value="23441"/> 
 	</item>
 	<item id="23440" article="a" name="lit protectress lamp">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateto" value="23441"/>
+		<attribute key="transformOnUse" value="23438"/> 
 	</item>
 	<item id="23441" article="a" name="lit protectress lamp">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateto" value="23440"/>
+		<attribute key="transformOnUse" value="23439"/> 
 	</item>
 	<item id="23442" article="a" name="baby dragon">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="description" value="This baby dragon is looking at you very attentively"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="23443"/>
 	</item>
 	<item id="23443" article="a" name="baby dragon">
 		<attribute key="primarytype" value="decoration"/>
@@ -46177,10 +46393,13 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 	<item id="23444" article="a" name="hamster in a wheel">
 		<attribute key="description" value="This hamster sits very relaxed in his wheel and seems at ease with the world"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="23445"/> 
 	</item>
 	<item id="23445" article="a" name="hamster in a wheel">
 		<attribute key="description" value="This hamster is happily running about in his wheel"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="decayTo" value="23444"/>
+		<attribute key="duration" value="3"/>
 	</item>
 	<item id="23448" article="a" name="lordly tapestry">
 		<attribute key="primarytype" value="decoration"/>
@@ -46200,10 +46419,12 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 	<item id="23451" article="a" name="cat in a basket">
 		<attribute key="description" value="This cat is enjoying a carefree nap"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="23452"/>
 	</item>
 	<item id="23452" article="a" name="cat in a basket">
 		<attribute key="description" value="This cat takes her tidiness very seriously with a thoughtful catlick"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="23451"/>
 	</item>
 	<item id="23453" article="a" name="Yalaharian carpet">
 		<attribute key="primarytype" value="furniture"/>
@@ -46343,11 +46564,13 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="description" value="This barrel is highly explosive."/>
 		<attribute key="weight" value="280"/>
+		<attribute key="transformOnUse" value="23486"/>
 	</item>
 	<item id="23486" article="an" name="explosive barrel">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="description" value="This barrel is highly explosive."/>
 		<attribute key="weight" value="280"/>
+		<attribute key="transformOnUse" value="23485"/>
 	</item>
 	<item id="23487" article="an" name="arena badge">
 		<attribute key="primarytype" value="valuables"/>
@@ -47547,17 +47770,26 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="type" value="carpet"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item fromid="24432" toid="24433" article="a" name="parrot">
+	<item id="24432" article="a" name="parrot">
 		<attribute key="primarytype" value="birds"/>
 		<attribute key="description" value="The parrot is flapping its wings and screaks"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="24433"/> 
 	</item>
+	<item id="24433" article="a" name="parrot">
+		<attribute key="primarytype" value="birds"/>
+		<attribute key="description" value="The parrot is flapping its wings and screaks"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="24432"/> 
+	</item>	
 	<item id="24434" article="a" name="skull lamp">
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="24436"/>		
 	</item>
 	<item id="24435" article="a" name="lit skull lamp">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="24434"/>		
 	</item>
 	<item id="24436" article="a" name="lit skull lamp">
 		<attribute key="primarytype" value="furniture"/>
@@ -48263,9 +48495,21 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 	<item fromid="25205" toid="25209" name="tapestry of honour">
 		<attribute key="description" value="It was awarded during the festivities of Tibia's anniversary"/>
 	</item>
-	<item fromid="25210" toid="25212" article="a" name="vengothic lamp">
+	<item id="25210" article="a" name="vengothic lamp">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="decayTo" value="25211"/>
+		<attribute key="duration" value="1"/>
+	</item>
+	<item id="25211" article="a" name="vengothic lamp">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="25233"/>
+	</item>
+	<item id="25212" article="a" name="vengothic lamp">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="25210"/>
 	</item>
 	<item fromid="25213" toid="25215" article="a" name="chameleon">
 		<attribute key="description" value="This chameleon is trying very hard to look absolutely unsuspicious"/>
@@ -48365,6 +48609,8 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 	<item id="25233" article="a" name="lit vengothic lamp">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="decayTo" value="25212"/>
+		<attribute key="duration" value="2"/>
 	</item>
 	<item id="25234" article="a" name="dead animated mummy">
 		<attribute key="duration" value="100"/>
@@ -51010,6 +51256,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 	<item id="26078" article="a" name="spider in a terrarium">
 		<attribute key="description" value="A spider minding her own business"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="26079"/>
 	</item>
 	<item id="26079" article="a" name="spider in a terrarium">
 		<attribute key="description" value="A spider minding her own business"/>
@@ -51026,24 +51273,28 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="description" value="A sturdy weapons rack made from the finest hrodmiran wood"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateto" value="26082"/>
+		<attribute key="transformOnUse" value="26083"/>
 	</item>
 	<item id="26082" article="a" name="hrodmiran weapons rack">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="description" value="A sturdy weapons rack made from the finest hrodmiran wood"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateto" value="26081"/>
+		<attribute key="transformOnUse" value="26084"/>
 	</item>
 	<item id="26083" article="a" name="hrodmiran weapons rack">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="description" value="A sturdy weapons rack made from the finest hrodmiran wood"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateto" value="26084"/>
+		<attribute key="transformOnUse" value="26081"/>
 	</item>
 	<item id="26084" article="a" name="hrodmiran weapons rack">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="description" value="A sturdy weapons rack made from the finest hrodmiran wood"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateto" value="26083"/>
+		<attribute key="transformOnUse" value="26082"/>
 	</item>
 	<item id="26085" article="a" name="Goromaphone">
 		<attribute key="primarytype" value="fansite items"/>
@@ -51405,10 +51656,17 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="duration" value="2"/>
 		<attribute key="decayTo" value="26171"/>
 	</item>
-	<item fromid="26171" toid="26172" article="a" name="terrarium">
+	<item id="26171" article="a" name="terrarium">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="description" value="A little snake is wiggling in the terrarium"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="26169"/>
+	</item>
+	<item id="26172" article="a" name="terrarium">
+		<attribute key="primarytype" value="decoration"/>
+		<attribute key="description" value="A little snake is wiggling in the terrarium"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="26170"/>
 	</item>
 	<item id="26173" article="a" name="demon">
 		<attribute key="primarytype" value="demons"/>
@@ -52629,15 +52887,19 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 	</item>
 	<item id="27667" article="a" name="light of change">
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="27668"/> 
 	</item>
 	<item id="27668" article="a" name="light of change">
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="27669"/> 
 	</item>
 	<item id="27669" article="a" name="light of change">
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="27670"/> 
 	</item>
 	<item id="27670" article="a" name="light of change">
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="27667"/> 
 	</item>
 	<item id="27671" article="a" name="torch of change">
 		<attribute key="wrapableto" value="23398"/>
@@ -52676,10 +52938,12 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 	<item id="27683" name="alchemistic scales">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="27685"/> 
 	</item>
 	<item id="27684" name="alchemistic scales">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="27686"/> 
 	</item>
 	<item id="27685" name="alchemistic scales">
 		<attribute key="primarytype" value="decoration"/>
@@ -52695,9 +52959,11 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 	</item>
 	<item id="27687" article="a" name="pile of alchemistic books">
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="27688"/> 
 	</item>
 	<item id="27688" article="a" name="pile of alchemistic books">
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="27687"/> 
 	</item>
 	<item id="27689" name="alchemistic cupboard">
 		<attribute key="primarytype" value="decoration"/>
@@ -52709,24 +52975,28 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="description" value="Something is missing."/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateto" value="27693"/>
+		<attribute key="transformOnUse" value="27692"/> 
 	</item>
 	<item id="27692" article="a" name="ferumbras bust">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="description" value="Something is missing"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateto" value="27694"/>
+		<attribute key="transformOnUse" value="27691"/> 
 	</item>
 	<item id="27693" article="a" name="ferumbras bust">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="description" value="Something is missing."/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateto" value="27691"/>
+		<attribute key="transformOnUse" value="27694"/> 
 	</item>
 	<item id="27694" article="a" name="ferumbras bust">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="description" value="Something is missing"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateto" value="27692"/>
+		<attribute key="transformOnUse" value="27693"/> 
 	</item>
 	<item id="27695" article="a" name="Queen Eloise bust">
 		<attribute key="primarytype" value="decoration"/>
@@ -53889,9 +54159,14 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 	<item fromid="28672" toid="28673" article="a" name="vortex">
 		<attribute key="type" value="teleport"/>
 	</item>
-	<item fromid="28674" toid="28675" article="an" name="anglerfish lamp">
+	<item id="28674" article="an" name="anglerfish lamp">
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="28675"/>		
 	</item>
+	<item id="28675" article="an" name="anglerfish lamp">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="28674"/>		
+	</item>	
 	<item id="28676" article="a" name="skeletal chair">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
@@ -53975,6 +54250,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="description" value="The rotworm is harmless in this juvenile stadium. But take care to release it by time, otherwise it could get dangerous. At least it's your supplies being threatened instead of you"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="weight" value="45"/>
+		<attribute key="transformOnUse" value="28691"/>
 	</item>
 	<item id="28691" article="a" name="baby rotworm">
 		<attribute key="primarytype" value="quest items"/>
@@ -53986,6 +54262,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="primarytype" value="quest items"/>
 		<attribute key="description" value="The rotworm is harmless in this juvenile stadium. But take care to release it by time, otherwise it could get dangerous. At least it's your supplies being threatened instead of you"/>
 		<attribute key="weight" value="45"/>
+		<attribute key="transformOnUse" value="28693"/>
 	</item>
 	<item id="28693" article="a" name="baby rotworm">
 		<attribute key="primarytype" value="quest items"/>
@@ -53997,12 +54274,14 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="description" value="Contrary to popular belief the fennec does not use his ears, which are the largest amongst foxes, to fly, soar or stabilise his balance. They mainly serve to dissipate heat"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="28695"/>
 	</item>
 	<item id="28695" article="a" name="fennec">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="description" value="Contrary to popular belief the fennec does not use his ears, which are the largest amongst foxes, to fly, soar or stabilise his balance. They mainly serve to dissipate heat."/>
 		<attribute key="duration" value="4"/>
 		<attribute key="decayTo" value="28694"/>
+		<attribute key="transformOnUse" value="28694"/>
 	</item>
 	<item id="28696" article="a" name="telescope">
 		<attribute key="primarytype" value="decoration"/>
@@ -55007,12 +55286,38 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="decayto" value="28915"/>
 	</item>
 	<item id="28919" name="RESERVED SPRITE"/>
-	<item fromid="28920" toid="28923" name="luminescent fungi">
+	<item id="28920" name="fluorescent fungi">
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="28921"/>
 	</item>
-	<item fromid="28924" toid="28927" name="gloomy poisonous fungi">
+	<item id="28921" name="fluorescent fungi">
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="28920"/>
 	</item>
+	<item id="28922" name="luminescent fungi">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="28923"/>
+	</item>
+	<item id="28923" name="luminescent fungi">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="28922"/>
+	</item>
+	<item id="28924" name="glowing sulphur fungi">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="28925"/>
+	</item>	
+	<item id="28925" name="glowing sulphur fungi">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="28924"/>
+	</item>	
+	<item id="28926" name="gloomy poisonous fungi">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="28927"/>
+	</item>	
+	<item id="28927" name="gloomy poisonous fungi">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="28926"/>
+	</item>	
 	<item id="28928" article="a" name="stuffed bear display">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="wrapableto" value="23398"/>
@@ -56703,46 +57008,56 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 	<item id="30229" article="a" name="festive table">
 		<attribute key="primarytype" value="tables"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="30230"/> 
 	</item>
 	<item id="30230" article="a" name="festive table">
 		<attribute key="primarytype" value="tables"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="30231"/> 
 	</item>
 	<item id="30231" article="a" name="festive table">
 		<attribute key="primarytype" value="tables"/>
 		<attribute key="wrapableto" value="35027"/>
+		<attribute key="transformOnUse" value="30232"/> 
 	</item>
 	<item id="30232" article="a" name="festive table">
 		<attribute key="primarytype" value="tables"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="30229"/> 
 	</item>
 	<item id="30233" article="a" name="festive fireplace">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateto" value="30235"/>
+		<attribute key="transformOnUse" value="30234"/> 
 	</item>
 	<item id="30234" article="a" name="festive fireplace">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateto" value="30236"/>
+		<attribute key="transformOnUse" value="30233"/> 
 	</item>
 	<item id="30235" article="a" name="festive fireplace">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateto" value="30233"/>
+		<attribute key="transformOnUse" value="30236"/> 
 	</item>
 	<item id="30236" article="a" name="festive fireplace">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateto" value="30234"/>
+		<attribute key="transformOnUse" value="30235"/> 
 	</item>
 	<item id="30237" article="a" name="festive tree">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="30238"/>
 	</item>
 	<item id="30238" article="a" name="festive tree">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="30237"/>
 	</item>
 	<item id="30239" article="a" name="festive rocking chair">
 		<attribute key="primarytype" value="decoration"/>
@@ -56788,10 +57103,12 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 	<item id="30248" article="a" name="festive pyramide">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="30249"/>
 	</item>
 	<item id="30249" article="a" name="festive pyramide">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="30248"/>
 	</item>
 	<item fromid="30250" toid="30251" article="a" name="warm bonfire">
 		<attribute key="primarytype" value="quest objects"/>
@@ -57199,14 +57516,17 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 	<item id="30362" name="Badbara">
 		<attribute key="primarytype" value="dolls and bears"/>
 		<attribute key="weight" value="600"/>
+		<attribute key="transformOnUse" value="30365"/> 
 	</item>
 	<item id="30363" name="Tearesa">
 		<attribute key="primarytype" value="dolls and bears"/>
 		<attribute key="weight" value="600"/>
+		<attribute key="transformOnUse" value="30366"/> 
 	</item>
 	<item id="30364" name="Cryana">
 		<attribute key="primarytype" value="dolls and bears"/>
 		<attribute key="weight" value="600"/>
+		<attribute key="transformOnUse" value="30367"/> 
 	</item>
 	<item id="30365" name="Badbara">
 		<attribute key="primarytype" value="dolls and bears"/>
@@ -57852,11 +58172,18 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateto" value="31194"/>
 	</item>
-	<item fromid="31196" toid="31197" article="a" name="crystal lamp">
+	<item id="31196" article="a" name="crystal lamp">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="weight" value="1000"/>
+		<attribute key="transformOnUse" value="31197"/> 
 	</item>
+	<item id="31197" article="a" name="crystal lamp">
+		<attribute key="primarytype" value="light sources"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="weight" value="1000"/>
+		<attribute key="transformOnUse" value="31196"/> 
+	</item>	
 	<item fromid="31198" toid="31202" name="unknowm item"/>
 	<item id="31203" article="a" name="good remains of a knight"/>
 	<item id="31204" article="a" name="good remains of a paladin"/>
@@ -57895,19 +58222,23 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateto" value="31214"/>
+		<attribute key="transformOnUse" value="31215"/>		
 	</item>
 	<item id="31214" article="a" name="idol lamp">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="wrapableto" value="23398"/>
-		<attribute key="rotateto" value="31215"/>
+		<attribute key="rotateto" value="31213"/>
+		<attribute key="transformOnUse" value="31216"/>		
 	</item>
 	<item id="31215" article="a" name="idol lamp">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="rotateto" value="31216"/>
+		<attribute key="transformOnUse" value="31213"/>		
 	</item>
 	<item id="31216" article="a" name="idol lamp">
 		<attribute key="primarytype" value="light sources"/>
-		<attribute key="rotateto" value="31213"/>
+		<attribute key="rotateto" value="31215"/>
+		<attribute key="transformOnUse" value="31214"/>		
 	</item>
 	<item id="31217" article="a" name="violet square cushion">
 		<attribute key="primarytype" value="decoration"/>
@@ -58653,6 +58984,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="description" value="Juding by the pinching of his beak, this one seems to be born to joust"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="31463"/> 
 	</item>
 	<item id="31463" article="a" name="jousting eagle baby">
 		<attribute key="primarytype" value="decoration"/>
@@ -59578,6 +59910,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="description" value="This baby hedgehog loves hurling into a tiny ball"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="31682"/> 
 	</item>
 	<item id="31682" article="a" name="baby hedgehog">
 		<attribute key="primarytype" value="decoration"/>
@@ -59586,10 +59919,17 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="duration" value="6"/>
 		<attribute key="decayto" value="31680"/>
 	</item>
-	<item fromid="31683" toid="31684" article="an" name="exalted sarcophagus">
+	<item id="31683" article="an" name="exalted sarcophagus">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="description" value="Something inside this hungers to be set free"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="31684"/> 
+	</item>
+	<item id="31684" article="an" name="exalted sarcophagus">
+		<attribute key="primarytype" value="decoration"/>
+		<attribute key="description" value="Something inside this hungers to be set free"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="31683"/> 
 	</item>
 	<item id="31685" name="reed balls">
 		<attribute key="primarytype" value="plants and herbs"/>
@@ -59643,17 +59983,28 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateto" value="31691"/>
 	</item>
-	<item fromid="31695" toid="31696" article="a" name="curly hortensis lamp">
+	<item id="31695" article="a" name="curly hortensis lamp">
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="31696"/> 
 	</item>
-	<item fromid="31697" toid="31698" article="a" name="little big flower lamp">
+	<item id="31696" article="a" name="curly hortensis lamp">
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="31695"/> 
+	</item>	
+	<item id="31697" article="a" name="little big flower lamp">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="31698"/>
+	</item>
+	<item id="31698" article="a" name="little big flower lamp">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="31697"/>
 	</item>
 	<item fromid="31699" toid="31702" name="RESERVED SPRITE"/>
 	<item id="31703" article="a" name="baby unicorn">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="description" value="The purest eyes are blinking back at you"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="31704"/> 
 	</item>
 	<item id="31704" article="a" name="baby unicorn">
 		<attribute key="primarytype" value="decoration"/>
@@ -62115,7 +62466,8 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 	</item>
 	<item id="32761" article="a" name="mini NabBot">
 		<attribute key="description" value="It is the first NabBot prototype of service. Awarded by NabBot.xyz"/>
-		<attribute key="weight" value="6000"/>		
+		<attribute key="weight" value="6000"/>
+		<attribute key="transformOnUse" value="32759"/> 
 	</item>
 	<item id="32764" name="plushie of a deepling">
 		<attribute key="weight" value="500"/>
@@ -62212,10 +62564,12 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 	<item id="32784" article="a" name="ice chandelier">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="32785"/> 
 	</item>
 	<item id="32785" article="a" name="ice chandelier">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="32784"/> 
 	</item>
 	<item id="32786" article="a" name="Ferumbras' snowman">
 		<attribute key="wrapableto" value="23398"/>
@@ -62229,6 +62583,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="description" value="Nobody can ever resist this cute little furball"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="32789"/> 
 	</item>
 	<item id="32789" article="a" name="baby seal">
 		<attribute key="primarytype" value="decoration"/>
@@ -62241,6 +62596,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="description" value="It looks very soft and cuddly"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="32791"/> 
 	</item>
 	<item id="32791" article="a" name="baby polar bear">
 		<attribute key="primarytype" value="decoration"/>
@@ -62253,6 +62609,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="description" value="It looks very soft and cuddly"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="32793"/> 
 	</item>
 	<item id="32793" article="a" name="baby polar bear">
 		<attribute key="primarytype" value="decoration"/>
@@ -62357,40 +62714,62 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 	<item fromid="32826" toid="32858" name="mysterious wall"/>
 	<item id="32897" name="wall lamp">
 		<attribute key="wrapableto" value="23473"/>
+		<attribute key="transformOnUse" value="32899"/> 
 	</item>
 	<item id="32899" name="wall lamp">
 		<attribute key="wrapableto" value="23473"/>
+		<attribute key="transformOnUse" value="32897"/> 
 	</item>
-	<item fromid="32900" toid="32901" name="torch bearer">
+	<item id="32900" name="torch bearer">
 		<attribute key="primarytype" value="wall hangings"/>
 		<attribute key="wrapableto" value="23473"/>
+		<attribute key="transformOnUse" value="32901"/> 
 	</item>
-	<item fromid="32902" toid="32903" name="bamboo wall lamp">
+	<item id="32901" name="torch bearer">
+		<attribute key="primarytype" value="wall hangings"/>
 		<attribute key="wrapableto" value="23473"/>
+		<attribute key="transformOnUse" value="32900"/> 
 	</item>
-	<item fromid="32904" toid="32905" name="wall candle">
+	<item id="32902" name="bamboo wall lamp">
 		<attribute key="wrapableto" value="23473"/>
+		<attribute key="transformOnUse" value="32903"/> 
 	</item>
-	<item id="32907" article="a" name="Guzzlemaw Grub">
+	<item id="32903" name="bamboo wall lamp">
+		<attribute key="wrapableto" value="23473"/>
+		<attribute key="transformOnUse" value="32902"/> 
+	</item>
+	<item id="32904" name="wall candle">
+		<attribute key="wrapableto" value="23473"/>
+		<attribute key="transformOnUse" value="32905"/> 
+	</item>
+	<item id="32905" name="wall candle">
+		<attribute key="wrapableto" value="23473"/>
+		<attribute key="transformOnUse" value="32904"/> 
+	</item>	
+	<item id="32907" article="a" name="guzzlemaw grub">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="description" value="It rolls over and bares its teeth"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="32910"/>
 	</item>
 	<item id="32908" article="a" name="Baby Vulcongra">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="description" value="It looks so cute devouring mushrooms and crystals"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="32911"/> 
 	</item>
-	<item id="32909" article="a" name="Baby Brain Squid">
+	<item id="32909" article="a" name="baby brain squid">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="description" value="It splashes around happily"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="32912"/>
 	</item>
-	<item id="32910" article="a" name="Guzzlemaw Grub">
+	<item id="32910" article="a" name="guzzlemaw grub">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="duration" value="6"/>
 		<attribute key="decayTo" value="32907"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="32907"/>
 	</item>
 	<item id="32911" article="a" name="Baby Vulcongra">
 		<attribute key="primarytype" value="decoration"/>
@@ -62398,9 +62777,9 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="decayTo" value="32908"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="32912" article="a" name="Baby Brain Squid">
+	<item id="32912" article="a" name="baby brain squid">
 		<attribute key="primarytype" value="decoration"/>
-		<attribute key="duration" value="2"/>
+		<attribute key="duration" value="6"/>
 		<attribute key="decayTo" value="32909"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
@@ -62570,115 +62949,134 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="type" value="teleport"/>
 		<attribute key="effect" value="teleport"/>
 	</item>
-	<item fromid="33026" toid="33027" name="heart lamp">
+	<item id="33026" article="a" name="heart lamp">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="33047"/>
 	</item>
-	<item fromid="33028" toid="33029" name="heart lamp">
+	<item id="33027" article="a" name="heart lamp">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="33026"/>
 	</item>
-	<item fromid="33030" toid="33031" name="heart lamp">
+	<item id="33028" article="a" name="heart lamp">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="33048"/>
 	</item>
-	<item id="33032" name="heart cabinet">
+	<item id="33029" article="a" name="heart lamp">
+		<attribute key="primarytype" value="light sources"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="33028"/>
+	</item>
+	<item id="33030" article="a" name="heart lamp">
+		<attribute key="primarytype" value="light sources"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="33049"/>
+	</item>
+	<item id="33031" article="a" name="heart lamp">
+		<attribute key="primarytype" value="light sources"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="33030"/>
+	</item>
+	<item id="33032" article="a" name="heart cabinet">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="containersize" value="8"/>
 		<attribute key="rotateto" value="33033"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="33033" name="heart cabinet">
+	<item id="33033" article="a" name="heart cabinet">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="containersize" value="8"/>
 		<attribute key="rotateto" value="33034"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="33034" name="heart table">
+	<item id="33034" article="a" name="heart table">
 		<attribute key="primarytype" value="tables"/>
 		<attribute key="rotateto" value="33035"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="33035" name="heart table">
+	<item id="33035" article="a" name="heart table">
 		<attribute key="primarytype" value="tables"/>
 		<attribute key="rotateto" value="33034"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="33036" name="heart chair">
+	<item id="33036" article="a" name="heart chair">
 		<attribute key="rotateto" value="33037"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="33037" name="heart chair">
+	<item id="33037" article="a" name="heart chair">
 		<attribute key="rotateto" value="33038"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="33038" name="heart chair">
+	<item id="33038" article="a" name="heart chair">
 		<attribute key="rotateto" value="33039"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="33039" name="heart chair">
-		<attribute key="rotateto" value="33040"/>
+	<item id="33039" article="a" name="heart chair">
+		<attribute key="rotateto" value="33036"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="33040" name="bat">
+	<item id="33040" article="a" name="bat">
 		<attribute key="primarytype" value="bats"/>
 		<attribute key="description" value="Its eyes are gleaming"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="33042"/> 
 	</item>
-	<item id="33041" name="bat">
+	<item id="33041" article="a" name="bat">
 		<attribute key="primarytype" value="bats"/>
 		<attribute key="description" value="Its eyes are gleaming"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="duration" value="10"/>
 		<attribute key="decayto" value="33040"/>
 	</item>
-	<item id="33042" name="bat">
+	<item id="33042" article="a" name="bat">
 		<attribute key="primarytype" value="bats"/>
 		<attribute key="description" value="Its eyes are gleaming"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="duration" value="5"/>
 		<attribute key="decayto" value="33041"/>
 	</item>
-	<item id="33043" name="heart chest">
+	<item id="33043" article="a" name="heart chest">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="containersize" value="18"/>
 		<attribute key="rotateto" value="33045"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="33044" name="heart chest">
+	<item id="33044" article="a" name="heart chest">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="containersize" value="18"/>
 		<attribute key="rotateto" value="33043"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="33045" name="heart chest">
+	<item id="33045" article="a" name="heart chest">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="containersize" value="18"/>
 		<attribute key="rotateto" value="33046"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="33046" name="heart chest">
+	<item id="33046" article="a" name="heart chest">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="containersize" value="18"/>
 		<attribute key="rotateto" value="33044"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="33047" name="heart lamp">
+	<item id="33047" article="a" name="heart lamp">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="wrapableto" value="23398"/>
-		<attribute key="duration" value="2"/>
+		<attribute key="duration" value="1"/>
 		<attribute key="decayto" value="33027"/>
 	</item>
-	<item id="33048" name="heart lamp">
+	<item id="33048" article="a" name="heart lamp">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="wrapableto" value="23398"/>
-		<attribute key="duration" value="2"/>
+		<attribute key="duration" value="1"/>
 		<attribute key="decayto" value="33029"/>
 	</item>
-	<item id="33049" name="heart lamp">
+	<item id="33049" article="a" name="heart lamp">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="wrapableto" value="23398"/>
-		<attribute key="duration" value="2"/>
+		<attribute key="duration" value="1"/>
 		<attribute key="decayto" value="33031"/>
 	</item>
 	<item id="33052" name="wooden plank">
@@ -63678,6 +64076,7 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 	<item id="34026" name="baby bonelord">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="description" value="It seems to sleep"/>
+		<attribute key="transformOnUse" value="34027"/>
 	</item>
 	<item id="34027" name="baby bonelord">
 		<attribute key="primarytype" value="decoration"/>
@@ -63697,125 +64096,145 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="decayto" value="34026"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="34030" name="artist shelf">
+	<item id="34030" article="an" name="artist shelf">
 		<attribute key="rotateto" value="34032"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34031"/> 
 	</item>
-	<item id="34031" name="artist shelf">
+	<item id="34031" article="an" name="artist shelf">
 		<attribute key="rotateto" value="34033"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34030"/> 
 	</item>
-	<item id="34032" name="artist shelf">
+	<item id="34032" article="an" name="artist shelf">
 		<attribute key="rotateto" value="34030"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34033"/> 
 	</item>
-	<item id="34033" name="artist shelf">
+	<item id="34033" article="an" name="artist shelf">
 		<attribute key="rotateto" value="34031"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34032"/> 
 	</item>
-	<item fromid="34034" toid="34035" name="artist table">
+	<item id="34034" article="an" name="artist table">
 		<attribute key="primarytype" value="tables"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34035"/>
 	</item>
-	<item id="34036" name="artist chair">
+	<item id="34035" article="an" name="artist table">
+		<attribute key="primarytype" value="tables"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34034"/>
+	</item>	
+	<item id="34036" article="an" name="artist chair">
 		<attribute key="rotateto" value="34037"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="34037" name="artist chair">
+	<item id="34037" article="an" name="artist chair">
 		<attribute key="rotateto" value="34038"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="34038" name="artist chair">
+	<item id="34038" article="an" name="artist chair">
 		<attribute key="rotateto" value="34039"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="34039" name="artist chair">
+	<item id="34039" article="an" name="artist chair">
 		<attribute key="rotateto" value="34036"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="34040" name="artist chest">
+	<item id="34040" article="an" name="artist chest">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="containersize" value="18"/>
 		<attribute key="rotateto" value="34042"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="34041" name="artist chest">
+	<item id="34041" article="an" name="artist chest">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="containersize" value="18"/>
 		<attribute key="rotateto" value="34040"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="34042" name="artist chest">
+	<item id="34042" article="an" name="artist chest">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="containersize" value="18"/>
 		<attribute key="rotateto" value="34043"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="34043" name="artist chest">
+	<item id="34043" article="an" name="artist chest">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="containersize" value="18"/>
 		<attribute key="rotateto" value="34041"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="34044" name="sculptor shelf">
+	<item id="34044" article="a" name="sculptor shelf">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="rotateto" value="34046"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34045"/>
 	</item>
-	<item id="34045" name="sculptor shelf">
+	<item id="34045" article="a" name="sculptor shelf">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="rotateto" value="34047"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34044"/>
 	</item>
-	<item id="34046" name="sculptor shelf">
+	<item id="34046" article="a" name="sculptor shelf">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="rotateto" value="34044"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34047"/>
 	</item>
-	<item id="34047" name="sculptor shelf">
+	<item id="34047" article="a" name="sculptor shelf">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="rotateto" value="34045"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34046"/>
 	</item>
-	<item fromid="34048" toid="34049" name="sculptor table">
+	<item id="34048" article="a" name="sculptor table">
 		<attribute key="primarytype" value="tables"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34049"/> 
 	</item>
-	<item id="34050" name="sculptor chair">
+	<item id="34049" article="a" name="sculptor table">
+		<attribute key="primarytype" value="tables"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34048"/> 
+	</item>	
+	<item id="34050" article="a" name="sculptor chair">
 		<attribute key="rotateto" value="34051"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="34051" name="sculptor chair">
+	<item id="34051" article="a" name="sculptor chair">
 		<attribute key="rotateto" value="34052"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="34052" name="sculptor chair">
+	<item id="34052" article="a" name="sculptor chair">
 		<attribute key="rotateto" value="34053"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="34053" name="sculptor chair">
+	<item id="34053" article="a" name="sculptor chair">
 		<attribute key="rotateto" value="34050"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="34054" name="sculptor chest">
+	<item id="34054" article="a" name="sculptor chest">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="containersize" value="18"/>
 		<attribute key="rotateto" value="34056"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="34055" name="sculptor chest">
+	<item id="34055" article="a" name="sculptor chest">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="containersize" value="18"/>
 		<attribute key="rotateto" value="34054"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="34056" name="sculptor chest">
+	<item id="34056" article="a" name="sculptor chest">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="containersize" value="18"/>
 		<attribute key="rotateto" value="34057"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="34057" name="sculptor chest">
+	<item id="34057" article="a" name="sculptor chest">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="containersize" value="18"/>
 		<attribute key="rotateto" value="34055"/>
@@ -63855,41 +64274,49 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="description" value="It is still a work in progress"/>
 		<attribute key="rotateto" value="34068"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34065"/> 
 	</item>
 	<item id="34065" name="sculpture of a noblewoman">
 		<attribute key="description" value="It is almost completed"/>
 		<attribute key="rotateto" value="34069"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34066"/> 
 	</item>
 	<item id="34066" name="sculpture of a noblewoman">
 		<attribute key="description" value="It is completed"/>
 		<attribute key="rotateto" value="34070"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34067"/> 
 	</item>
 	<item id="34067" name="sculpture of a noblewoman">
 		<attribute key="description" value="It is completed and carefully gilded"/>
 		<attribute key="rotateto" value="34071"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34064"/> 
 	</item>
 	<item id="34068" name="sculpture of a noblewoman">
 		<attribute key="description" value="It is still a work in progress"/>
 		<attribute key="rotateto" value="34064"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34069"/> 
 	</item>
 	<item id="34069" name="sculpture of a noblewoman">
 		<attribute key="description" value="It is almost completed"/>
 		<attribute key="rotateto" value="34065"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34070"/> 
 	</item>
 	<item id="34070" name="sculpture of a noblewoman">
 		<attribute key="description" value="It is completed"/>
 		<attribute key="rotateto" value="34066"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34071"/> 
 	</item>
 	<item id="34071" name="sculpture of a noblewoman">
 		<attribute key="description" value="It is completed and carefully gilded"/>
 		<attribute key="rotateto" value="34067"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34068"/> 
 	</item>
 	<item id="34072" article="a" name="spectral horseshoe" plural="spectral horseshoes">
 		<attribute key="primarytype" value="valuables"/>
@@ -65071,117 +65498,142 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 	<item id="34259" article="a" name="ventilation grille">
 		<attribute key="primarytype" value="artificial tiles"/>
 	</item>
-	<item id="34264" name="Tibiapedia">
+	<item id="34264" article="a" name="Tibiapedia">
 		<attribute key="primarytype" value="fansite items"/>
 		<attribute key="description" value="It will guide you through the adventures in Tibia. Awarded by Tibiapedia.com"/>
 		<attribute key="weight" value="250"/>
 	</item>
-	<item id="34265" name="Tibiapedia">
+	<item id="34265" article="a" name="Tibiapedia">
 		<attribute key="primarytype" value="fansite items"/>
 		<attribute key="description" value="It will guide you through the adventures in Tibia. Awarded by Tibiapedia.com"/>
 		<attribute key="weight" value="250"/>
 		<attribute key="duration" value="2"/>
 		<attribute key="decayto" value="34266"/>
 	</item>
-	<item id="34266" name="Tibiapedia">
+	<item id="34266" article="a" name="Tibiapedia">
 		<attribute key="primarytype" value="fansite items"/>
 		<attribute key="description" value="It will guide you through the adventures in Tibia. Awarded by Tibiapedia.com"/>
 		<attribute key="weight" value="250"/>
+		<attribute key="transformOnUse" value="34267"/>
 	</item>
-	<item id="34267" name="Tibiapedia">
+	<item id="34267" article="a" name="Tibiapedia">
 		<attribute key="primarytype" value="fansite items"/>
 		<attribute key="description" value="It will guide you through the adventures in Tibia. Awarded by Tibiapedia.com"/>
 		<attribute key="weight" value="250"/>
 		<attribute key="duration" value="2"/>
 		<attribute key="decayto" value="34264"/>
 	</item>
-	<item fromid="34268" toid="34269" name="baby Munster">
+	<item id="34268" article="a" name="baby Munster">
 		<attribute key="primarytype" value="fansite items"/>
 		<attribute key="description" value="Legends say that when he grew up, he accidentally swallowed his favourite toy. Awarded by Rookie.com.pl"/>
 		<attribute key="weight" value="1703"/>
 	</item>
-	<item fromid="34270" toid="34271" article="a" name="glowworms">
+	<item id="34269" article="a" name="baby Munster">
+		<attribute key="primarytype" value="fansite items"/>
+		<attribute key="description" value="Legends say that when he grew up, he accidentally swallowed his favourite toy. Awarded by Rookie.com.pl"/>
+		<attribute key="weight" value="1703"/>
+		<attribute key="transformOnUse" value="34268"/>
+	</item>
+	<item id="34270" article="a" name="glowworms">
 		<attribute key="description" value="Some glowworms are said to be giving off a mysterious, soothing light"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34271"/>
 	</item>
-	<item id="34272" name="oven">
+	<item id="34271" article="a" name="glowworms">
+		<attribute key="description" value="Some glowworms are said to be giving off a mysterious, soothing light"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34270"/>
+	</item>
+	<item id="34272" article="an" name="oven">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="rotateto" value="34274"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34273"/>
 	</item>
-	<item id="34273" name="oven">
+	<item id="34273" article="an" name="oven">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="rotateto" value="34275"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34272"/>
 	</item>
-	<item id="34274" name="oven">
+	<item id="34274" article="an" name="oven">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="rotateto" value="34272"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34275"/>
 	</item>
-	<item id="34275" name="oven">
+	<item id="34275" article="an" name="oven">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="rotateto" value="34273"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34274"/>
 	</item>
-	<item id="34276" name="cupboard">
+	<item id="34276" article="a" name="cupboard">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="containersize" value="8"/>
 		<attribute key="rotateto" value="34277"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="34278" name="cupboard">
+	<item id="34278" article="a" name="cupboard">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="containersize" value="8"/>
 		<attribute key="rotateto" value="34276"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="34280" name="wallcupboard">
+	<item id="34280" article="a" name="wallcupboard">
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="34282" name="kitchen shelf">
+	<item id="34282" article="a" name="kitchen shelf">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="34284" name="kitchen table">
+	<item id="34284" article="a" name="kitchen table">
 		<attribute key="primarytype" value="tables"/>
 		<attribute key="rotateto" value="34287"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34285"/>
 	</item>
-	<item id="34285" name="kitchen table">
+	<item id="34285" article="a" name="kitchen table">
 		<attribute key="primarytype" value="tables"/>
 		<attribute key="rotateto" value="34288"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34284"/>
 	</item>
-	<item id="34286" name="kitchen table">
+	<item id="34286" article="a" name="kitchen table">
 		<attribute key="primarytype" value="tables"/>
 		<attribute key="rotateto" value="34289"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34290"/>
 	</item>
-	<item id="34287" name="kitchen table">
+	<item id="34287" article="a" name="kitchen table">
 		<attribute key="primarytype" value="tables"/>
 		<attribute key="rotateto" value="34284"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34288"/>
 	</item>
-	<item id="34288" name="kitchen table">
+	<item id="34288" article="a" name="kitchen table">
 		<attribute key="primarytype" value="tables"/>
 		<attribute key="rotateto" value="34285"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34287"/>
 	</item>
-	<item id="34289" name="kitchen table">
+	<item id="34289" article="a" name="kitchen table">
 		<attribute key="primarytype" value="tables"/>
 		<attribute key="rotateto" value="34286"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34291"/>
 	</item>
-	<item id="34290" name="kitchen table">
+	<item id="34290" article="a" name="kitchen table">
 		<attribute key="primarytype" value="tables"/>
 		<attribute key="rotateto" value="34291"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34286"/>
 	</item>
-	<item id="34291" name="kitchen table">
+	<item id="34291" article="a" name="kitchen table">
 		<attribute key="primarytype" value="tables"/>
 		<attribute key="rotateto" value="34290"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34289"/>
 	</item>
 	<item id="34292" name="kitchen chair">
 		<attribute key="rotateto" value="34293"/>
@@ -65223,10 +65675,17 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="rotateto" value="34296"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item fromid="34300" toid="34301" name="barrel">
+	<item id="34300" article="a" name="barrel">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="rotateto" value="35156"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34301"/>
+	</item>
+	<item id="34301" article="a" name="barrel">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="rotateto" value="35156"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34300"/>
 	</item>
 	<item id="34302" name="vegetable basket">
 		<attribute key="primarytype" value="decoration"/>
@@ -65238,10 +65697,16 @@ hands of its owner. Granted by TibiaRoyal.com"/>
 		<attribute key="rotateto" value="34302"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item fromid="34304" toid="34305" name="kitchen lamp">
+	<item id="34304" article="a" name="kitchen lamp">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34305"/>
 	</item>
+	<item id="34305"  article="a" name="kitchen lamp">
+		<attribute key="primarytype" value="light sources"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="34304"/>
+	</item>	
 	<item id="34309" name="kitchen clock">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="wrapableto" value="23398"/>
@@ -65412,6 +65877,7 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="description" value="It looks at you curiously"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="35154"/>
 	</item>
 	<item id="35154" name="baby elephant">
 		<attribute key="primarytype" value="decoration"/>
@@ -65423,47 +65889,64 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 	<item id="35155" name="forge">
 		<attribute key="rotateto" value="35156"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="35157"/>
 	</item>
 	<item id="35156" name="forge">
 		<attribute key="rotateto" value="35155"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="35158"/>
 	</item>
 	<item id="35157" name="forge">
 		<attribute key="rotateto" value="35158"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="35159"/>
 	</item>
 	<item id="35158" name="forge">
 		<attribute key="rotateto" value="35157"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="35160"/>
 	</item>
 	<item id="35159" name="forge">
 		<attribute key="rotateto" value="35160"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="35155"/>
 	</item>
 	<item id="35160" name="forge">
 		<attribute key="rotateto" value="35159"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="35156"/>
 	</item>
-	<item fromid="35161" toid="35162" name="metal wall lamp">
+	<item id="35161" article="a" name="metal wall lamp">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="rotateto" value="35183"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="35162"/> 
 	</item>
+	<item id="35162" article="a" name="metal wall lamp">
+		<attribute key="primarytype" value="light sources"/>
+		<attribute key="rotateto" value="35183"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="35161"/> 
+	</item>	
 	<item id="35163" name="workbench">
 		<attribute key="rotateto" value="35164"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="35165"/>
 	</item>
 	<item id="35164" name="workbench">
 		<attribute key="rotateto" value="35163"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="35166"/>
 	</item>
 	<item id="35165" name="workbench">
 		<attribute key="rotateto" value="35166"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="35163"/>
 	</item>
 	<item id="35166" name="workbench">
 		<attribute key="rotateto" value="35165"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="35164"/>
 	</item>
 	<item id="35167" name="wooden stool">
 		<attribute key="rotateto" value="35168"/>
@@ -65520,42 +66003,61 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 	<item id="35177" name="grinding wheel">
 		<attribute key="rotateto" value="35178"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="35180"/>
 	</item>
 	<item id="35178" name="grinding wheel">
 		<attribute key="rotateto" value="35177"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="35179"/>
 	</item>
 	<item id="35179" name="grinding wheel">
 		<attribute key="rotateto" value="35180"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="35178"/>
 	</item>
 	<item id="35180" name="grinding wheel">
 		<attribute key="rotateto" value="35179"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="35177"/>
 	</item>
 	<item id="35181" name="pair of bellows">
-		<attribute key="rotateto" value="3182"/>
+		<attribute key="rotateto" value="35182"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="35183"/>
 	</item>
 	<item id="35182" name="pair of bellows">
 		<attribute key="rotateto" value="35181"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="35184"/>
 	</item>
 	<item id="35183" name="pair of bellows">
 		<attribute key="rotateto" value="35184"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="35181"/>
 	</item>
 	<item id="35184" name="pair of bellows">
 		<attribute key="rotateto" value="35183"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="35182"/>
 	</item>
-	<item fromid="35185" toid="35186" name="anvil">
+	<item id="35185" article="an" name="anvil">
 		<attribute key="primarytype" value="utilities"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="35186"/>
 	</item>
-	<item fromid="35187" toid="35188" name="water bucket">
+	<item id="35186" article="an" name="anvil">
+		<attribute key="primarytype" value="utilities"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="35185"/>
 	</item>
+	<item id="35187" name="water bucket">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="35188"/>
+	</item>
+	<item id="35188" name="water bucket">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="35187"/>
+	</item>	
 	<item id="35189" name="wrought-iron bed">
 		<attribute key="type" value="bed"/>
 		<attribute key="bedpart" value="pillow"/>
@@ -67150,41 +67652,69 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 	<item id="36617" article="a" name="sticky elemental goo">
 		<attribute key="weight" value="10"/>
 	</item>
-	<item fromid="36618" toid="36619" article="a" name="volcanic basin">
+	<item id="36618" article="a" name="volcanic basin">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="36619"/>
 	</item>
-	<item fromid="36620" toid="36621" article="a" name="volcanic sphere">
+	<item id="36619" article="a" name="volcanic basin">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="36618"/>
 	</item>
-	<item fromid="36622" toid="36623" article="a" name="volcanic spire">
+	<item id="36620"  article="a" name="volcanic sphere">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="36621"/>
 	</item>
-	<item fromid="36624" toid="36625" article="a" name="volcanic bulb">
+	<item id="36621"  article="a" name="volcanic sphere">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="36620"/>
+	</item>
+	<item id="36622" article="a" name="volcanic spire">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="36623"/>
+	</item>
+	<item id="36623" article="a" name="volcanic spire">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="36622"/>
+	</item>
+	<item id="36624" article="a" name="volcanic bulb">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="36625"/>
+	</item>
+	<item id="36625" article="a" name="volcanic bulb">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="36624"/>
 	</item>
 	<item id="36626" article="a" name="volcanic mirror">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="rotateto" value="36627"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="36628"/>
 	</item>
 	<item id="36627" article="a" name="volcanic mirror">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="rotateto" value="36626"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="36629"/>
 	</item>
 	<item id="36628" article="a" name="volcanic mirror">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="rotateto" value="36629"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="36626"/>
 	</item>
 	<item id="36629" article="a" name="volcanic mirror">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="rotateto" value="36628"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="36627"/>
 	</item>
 	<item id="36630" article="a" name="volcanic chest">
 		<attribute key="primarytype" value="furniture"/>
@@ -67230,39 +67760,51 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 		<attribute key="rotateto" value="36634"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item fromid="36638" toid="36639" article="a" name="volcanic table">
+	<item id="36638" article="a" name="volcanic table">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="36639"/>
+	</item>
+	<item id="36639" article="a" name="volcanic table">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="36638"/>
 	</item>
 	<item id="36640" article="a" name="volcanic shelf">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="rotateto" value="36641"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="36642"/>
 	</item>
 	<item id="36641" article="a" name="volcanic shelf">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="rotateto" value="36640"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="36643"/>
 	</item>
 	<item id="36642" article="a" name="volcanic shelf">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="rotateto" value="36643"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="36644"/>
 	</item>
 	<item id="36643" article="a" name="volcanic shelf">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="rotateto" value="36642"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="36645"/>
 	</item>
 	<item id="36644" article="a" name="volcanic shelf">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="rotateto" value="36645"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="36640"/>
 	</item>
 	<item id="36645" article="a" name="volcanic shelf">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="rotateto" value="36644"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="36641"/>
 	</item>
 	<item fromid="36646" toid="36648" article="a" name="demon baller">
 		<attribute key="primarytype" value="furniture"/>
@@ -67271,26 +67813,26 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 	<item id="36649" article="a" name="demon baller">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
-		<attribute key="duration" value="2"/>
-		<attribute key="decayto" value="36647"/>
+<!-- 		<attribute key="duration" value="2"/>
+		<attribute key="decayto" value="36647"/> -->
 	</item>
 	<item id="36650" article="a" name="demon baller">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
-		<attribute key="duration" value="2"/>
-		<attribute key="decayto" value="36648"/>
+<!-- 		<attribute key="duration" value="2"/>
+		<attribute key="decayto" value="36648"/> -->
 	</item>
 	<item id="36651" article="a" name="demon baller">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
-		<attribute key="duration" value="2"/>
-		<attribute key="decayto" value="36653"/>
+<!-- 		<attribute key="duration" value="2"/>
+		<attribute key="decayto" value="36653"/> -->
 	</item>
 	<item id="36652" article="a" name="demon baller">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
-		<attribute key="duration" value="2"/>
-		<attribute key="decayto" value="36654"/>
+<!-- 		<attribute key="duration" value="2"/>
+		<attribute key="decayto" value="36654"/> -->
 	</item>
 	<item fromid="36653" toid="36654" article="a" name="demon baller">
 		<attribute key="primarytype" value="furniture"/>
@@ -68051,6 +68593,7 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 	<item id="36750" article="a" name="falcon pet">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="36751"/> 
 	</item>
 	<item id="36751" article="a" name="falcon pet">
 		<attribute key="primarytype" value="decoration"/>
@@ -68073,10 +68616,12 @@ former students at the Noodles Academy. Awarded by TibiaLabs.com"/>
 	<item id="36754" article="a" name="falcon pet">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="36752"/> 
 	</item>
 	<item id="36756" article="a" name="falcon pet">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="36753"/> 
 	</item>
 	<item id="36761" article="a" name="dead lavafungus">
 		<attribute key="decayTo" value="0"/>
@@ -68975,11 +69520,21 @@ Granted by TibiaGoals.com"/>
 		<attribute key="rotateto" value="37011"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item fromid="37015" toid="37016" article="a" name="yellow shroom lamp">
+	<item id="37015" article="a" name="yellow shroom lamp">
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37016"/>
 	</item>
-	<item fromid="37017" toid="37018" article="a" name="pink shroom lamp">
+	<item id="37016" article="a" name="yellow shroom lamp">
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37015"/>
+	</item>
+	<item id="37017" article="a" name="pink shroom lamp">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37018"/>
+	</item>
+	<item id="37018" article="a" name="pink shroom lamp">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37017"/>
 	</item>
 	<item fromid="37019" toid="37020" article="a" name="grass">
 		<attribute key="type" value="carpet"/>
@@ -68989,6 +69544,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="description" value="Now and then it roars hungrily"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37022"/>
 	</item>
 	<item id="37022" article="a" name="dragon plant">
 		<attribute key="primarytype" value="decoration"/>
@@ -69324,34 +69880,45 @@ Granted by TibiaGoals.com"/>
 		<attribute key="rotateto" value="37181"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item fromid="37185" toid="37186" article="a" name="kraken watcher lamp">
+	<item id="37185" article="a" name="kraken watcher lamp">
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37186"/>
+	</item>
+	<item id="37186" article="a" name="kraken watcher lamp">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37700"/>
 	</item>
 	<item id="37187" article="a" name="kraken buoy lamp">
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37519"/>
 	</item>
 	<item id="37188" article="a" name="kraken tentacle lamp">
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37520"/> 
 	</item>
 	<item id="37189" article="an" name="empty kraken shelf">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="rotateto" value="37190"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37191"/>
 	</item>
 	<item id="37190" article="an" name="empty kraken shelf">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="rotateto" value="37189"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37192"/>
 	</item>
 	<item id="37191" article="a" name="filled kraken shelf">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="rotateto" value="37192"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37189"/>
 	</item>
 	<item id="37192" article="a" name="filled kraken shelf">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="rotateto" value="37191"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37190"/>
 	</item>
 	<item id="37193" name="kraken bed">
 		<attribute key="type" value="bed"/>
@@ -69473,41 +70040,50 @@ Granted by TibiaGoals.com"/>
 		<attribute key="description" value="It is still a work in progress"/>
 		<attribute key="rotateto" value="37208"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37206"/>
 	</item>
 	<item id="37206" article="a" name="sculpture of an octoputz">
 		<attribute key="description" value="It is almost completed"/>
 		<attribute key="rotateto" value="37209"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37207"/>
 	</item>
 	<item id="37207" article="a" name="sculpture of an octoputz">
 		<attribute key="description" value="It is completed"/>
 		<attribute key="rotateto" value="37210"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37205"/>
 	</item>
 	<item id="37208" article="a" name="sculpture of an octoputz">
 		<attribute key="description" value="It is still a work in progress"/>
 		<attribute key="rotateto" value="37205"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37209"/>
 	</item>
 	<item id="37209" article="a" name="sculpture of an octoputz">
 		<attribute key="description" value="It is almost completed"/>
 		<attribute key="rotateto" value="37206"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37210"/>
 	</item>
 	<item id="37210" article="a" name="sculpture of an octoputz">
 		<attribute key="description" value="It is completed"/>
 		<attribute key="rotateto" value="37207"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37208"/>
 	</item>
 	<item id="37211" article="an" name="octoputz">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="description" value="Juding by the pinching of his beak, this one seems to be born to joust"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="decayTo" value="37212"/>
+		<attribute key="duration" value="3"/>		
 	</item>
 	<item id="37212" article="an" name="octoputz">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="description" value="Juding by the pinching of his beak, this one seems to be born to joust"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37211"/>
 	</item>
 	<item id="37213" article="a" name="blue balloon">
 		<attribute key="primarytype" value="decoration"/>
@@ -70295,9 +70871,11 @@ Granted by TibiaGoals.com"/>
 	</item>
 	<item id="37519" article="a" name="kraken buoy lamp">
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37187"/>
 	</item>
 	<item id="37520" article="a" name="kraken tentacle lamp">
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37188"/> 
 	</item>
 	<item id="37530" article="a" name="bottle of champagne">
 		<attribute key="description" value="It was created by Tibia's finest vintagers for the celebration of 25 years of Tibia"/>
@@ -70351,8 +70929,17 @@ Granted by TibiaGoals.com"/>
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="weight" value="800"/>
 	</item>
-	<item fromid="37543" toid="37545" article="a" name="string of fairy lights">
+	<item id="37543" article="a" name="string of fairy lights">
 		<attribute key="weight" value="1200"/>
+		<attribute key="transformOnUse" value="37580"/>
+	</item>
+	<item id="37544" article="a" name="string of fairy lights">
+		<attribute key="weight" value="1200"/>
+		<attribute key="transformOnUse" value="37581"/>
+	</item>
+	<item id="37545" article="a" name="string of fairy lights">
+		<attribute key="weight" value="1200"/>
+		<attribute key="transformOnUse" value="37582"/>
 	</item>
 	<item id="37546" article="a" name="tapestry of honour">
 		<attribute key="description" value="It was awarded during the festivities of Tibia's anniversary"/>
@@ -70362,6 +70949,7 @@ Granted by TibiaGoals.com"/>
 	</item>
 	<item id="37557" article="a" name="dragon pinata">
 		<attribute key="wrapableto" value="23473"/>
+		<attribute key="transformOnUse" value="37558"/>
 	</item>
 	<item id="37558" article="a" name="dragon pinata">
 		<attribute key="duration" value="1"/>
@@ -70369,6 +70957,7 @@ Granted by TibiaGoals.com"/>
 	</item>
 	<item id="37559" article="a" name="dragon pinata">
 		<attribute key="wrapableto" value="23473"/>
+		<attribute key="transformOnUse" value="37560"/>
 	</item>
 	<item id="37560" article="a" name="dragon pinata">
 		<attribute key="duration" value="2"/>
@@ -70439,8 +71028,17 @@ Granted by TibiaGoals.com"/>
 	<item id="37576" article="a" name="vessel of Devovorga">
 		<attribute key="weight" value="900"/>
 	</item>
-	<item fromid="37580" toid="37582" name="string of fairy lights">
+	<item id="37580" article="a" name="string of fairy lights">
 		<attribute key="weight" value="1200"/>
+		<attribute key="transformOnUse" value="37543"/>
+	</item>
+	<item id="37581" article="a" name="string of fairy lights">
+		<attribute key="weight" value="1200"/>
+		<attribute key="transformOnUse" value="37544"/>
+	</item>
+	<item id="37582" article="a" name="string of fairy lights">
+		<attribute key="weight" value="1200"/>
+		<attribute key="transformOnUse" value="37545"/>
 	</item>
 	<item id="37583" article="a" name="slain uninvited">
 		<attribute key="duration" value="60"/>
@@ -70605,6 +71203,7 @@ Granted by TibiaGoals.com"/>
 	</item>
 	<item id="37700" article="a" name="kraken watcher lamp">
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37185"/>
 	</item>
 	<item id="37702" article="an" name="insertion slot"/>
 	<item id="37703" article="an" name="iron wall">
@@ -70897,18 +71496,36 @@ Granted by TibiaGoals.com"/>
 		<attribute key="rotateto" value="37804"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item fromid="37806" toid="37807" article="a" name="Zaoan wall lamp">
+	<item id="37806" article="a" name="Zaoan wall lamp">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37807"/>
 	</item>
-	<item fromid="37808" toid="37809" name="Zaoan wall lamps">
+	<item id="37807" article="a" name="Zaoan wall lamp">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37806"/>
+	</item>
+	<item id="37808" name="Zaoan wall lamps">
+		<attribute key="primarytype" value="decoration"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37809"/>
+	</item>
+	<item id="37809" name="Zaoan wall lamps">
+		<attribute key="primarytype" value="decoration"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37808"/>
 	</item>
 	<item id="37810" name="Morshabaal's extract"/>
-	<item fromid="37811" toid="37812" article="a" name="sculpture of a fox">
+	<item id="37811" article="a" name="sculpture of a fox">
 		<attribute key="description" value="It symbolises the spirit of the fox. A mystic aura surrounds this sculpture"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37813"/>
+	</item>
+	<item id="37812" article="a" name="sculpture of a fox">
+		<attribute key="description" value="It symbolises the spirit of the fox. A mystic aura surrounds this sculpture"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="37814"/>
 	</item>
 	<item id="37813" article="a" name="sculpture of a fox">
 		<attribute key="description" value="It symbolises the spirit of the fox. A mystic aura surrounds this sculpture"/>
@@ -71059,7 +71676,18 @@ Granted by TibiaGoals.com"/>
 		<attribute key="primarytype" value="natural tiles"/>
 	</item>
 	<item fromid="38504" toid="38521" name="lily pads"/>
-	<item fromid="38522" toid="38525" article="a" name="naga lamp"/>
+	<item id="38522" article="a" name="naga lamp">
+		<attribute key="transformOnUse" value="38524"/> 
+	</item>
+	<item id="38523" article="a" name="naga lamp">
+		<attribute key="transformOnUse" value="38525"/> 
+	</item>
+	<item id="38524" article="a" name="naga lamp">
+		<attribute key="transformOnUse" value="38522"/> 
+	</item>
+	<item id="38525" article="a" name="naga lamp">
+		<attribute key="transformOnUse" value="38523"/> 
+	</item>
 	<item id="38526" article="a" name="basin with a glowing flower"/>
 	<item id="38528" article="a" name="basin with flower"/>
 	<item id="38529" article="a" name="wall lamp">
@@ -71148,6 +71776,7 @@ Granted by TibiaGoals.com"/>
 	<item id="38677" article="a" name="beaver of wisdom">
 		<attribute key="description" value="This wise beaver will happily solve all your math problems! Awarded by TibiaPal.com"/>
 		<attribute key="weight" value="600"/>
+		<attribute key="transformOnUse" value="38680"/>
 	</item>
 	<item id="38678" name="lianas"/>
 	<item id="38680" article="a" name="beaver of wisdom">
@@ -71160,6 +71789,7 @@ Granted by TibiaGoals.com"/>
 	<item id="38704" article="a" name="beaver of wisdom">
 		<attribute key="description" value="This wise beaver will happily solve all your math problems! Awarded by TibiaPal.com"/>
 		<attribute key="weight" value="600"/>
+		<attribute key="transformOnUse" value="38705"/>
 	</item>
 	<item id="38705" article="a" name="beaver of wisdom">
 		<attribute key="description" value="This wise beaver will happily solve all your math problems! Awarded by TibiaPal.com"/>
@@ -71197,7 +71827,12 @@ Granted by TibiaGoals.com"/>
 	<item id="38824" article="a" name="limb tree"/>
 	<item id="38825" article="a" name="spire palm"/>
 	<item id="38826" article="a" name="volcano barbecue"/>
-	<item fromid="38827" toid="38828" article="a" name="mushroom lamp"/>
+	<item id="38827" article="a" name="mushroom lamp">
+		<attribute key="transformOnUse" value="38828"/>
+	</item>
+	<item id="38828" article="a" name="mushroom lamp">
+		<attribute key="transformOnUse" value="38827"/>
+	</item>
 	<item fromid="38829" toid="38830" article="a" name="mushroom plant"/>
 	<item fromid="38831" toid="38832" article="a" name="ramp">
 		<attribute key="floorchange" value="down"/>
@@ -72771,29 +73406,35 @@ Granted by TibiaGoals.com"/>
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="rotateto" value="39424"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="39425"/>
 	</item>
 	<item id="39424" article="a" name="knightly table">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="rotateto" value="39423"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="39426"/>
 	</item>
 	<item id="39425" article="a" name="well-laid knightly table">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="rotateto" value="39426"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="39423"/>
 	</item>
 	<item id="39426" article="a" name="well-laid knightly table">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="rotateto" value="39425"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="39424"/>
 	</item>
 	<item id="39427" article="a" name="knightly chess table">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="39428"/>
 	</item>
 	<item id="39428" article="a" name="knightly chess table">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="39427"/>
 	</item>
 	<item id="39429" name="knightly bed">
 		<attribute key="primarytype" value="furniture"/>
@@ -72938,14 +73579,17 @@ Granted by TibiaGoals.com"/>
 	<item id="39443" article="a" name="knightly fire bowl">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="39444"/>
 	</item>
 	<item id="39444" article="a" name="knightly fire bowl">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="39445"/>
 	</item>
 	<item id="39445" article="a" name="knightly fire bowl">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="39443"/>
 	</item>
 	<item id="39446" article="a" name="knightly wall lamp">
 		<attribute key="primarytype" value="furniture"/>
@@ -72971,18 +73615,22 @@ Granted by TibiaGoals.com"/>
 	<item id="39498" article="a" name="knightly candelabra">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="39499"/> 
 	</item>
 	<item id="39499" article="a" name="knightly candelabra">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="39498"/> 
 	</item>
 	<item id="39500" article="a" name="knightly candle holder">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="39501"/> 
 	</item>
 	<item id="39501" article="a" name="knightly candle holder">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="39500"/> 
 	</item>
 	<item id="39502" article="a" name="knightly decorative shield">
 		<attribute key="primarytype" value="furniture"/>
@@ -73016,6 +73664,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="description" value="This guard stands firm and will defend his post, no matter what"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="39509"/>
 	</item>
 	<item id="39509" article="a" name="knightly guard">
 		<attribute key="primarytype" value="furniture"/>
@@ -73244,6 +73893,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="description" value="This guard post has been left empty"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="39510"/>
 	</item>
 	<item id="39669" article="a" name="purple 25 years balloon">
 		<attribute key="primarytype" value="decoration"/>
@@ -73356,6 +74006,7 @@ Granted by TibiaGoals.com"/>
 	<item id="39694" article="a" name="lucky dragon">
 		<attribute key="primarytype" value="dragons"/>
 		<attribute key="wrapableto" value="23473"/>
+		<attribute key="transformOnUse" value="39696"/>
 	</item>
 	<item id="39695" article="a" name="lucky dragon kit">
 		<attribute key="primarytype" value="decoration"/>
@@ -73371,34 +74022,40 @@ Granted by TibiaGoals.com"/>
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="stopduration" value="1"/>
 		<attribute key="weight" value="500"/>
+		<attribute key="transformOnUse" value="39698"/> 
 	</item>
 	<item id="39698" article="a" name="lit rainbow torch">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="duration" value="900"/>
 		<attribute key="decayTo" value="39700"/>
 		<attribute key="weight" value="500"/>
+		<attribute key="transformOnUse" value="39697"/> 
 	</item>
 	<item id="39699" article="a" name="rainbow torch">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="stopduration" value="1"/>
 		<attribute key="weight" value="450"/>
+		<attribute key="transformOnUse" value="39700"/> 
 	</item>
 	<item id="39700" article="a" name="lit rainbow torch">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="duration" value="600"/>
 		<attribute key="decayTo" value="39702"/>
 		<attribute key="weight" value="450"/>
+		<attribute key="transformOnUse" value="39699"/> 
 	</item>
 	<item id="39701" article="a" name="rainbow torch">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="stopduration" value="1"/>
 		<attribute key="weight" value="400"/>
+		<attribute key="transformOnUse" value="39702"/> 
 	</item>
 	<item id="39702" article="a" name="lit rainbow torch">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="duration" value="300"/>
 		<attribute key="decayTo" value="2926"/>
 		<attribute key="weight" value="400"/>
+		<attribute key="transformOnUse" value="39701"/> 
 	</item>
 	<item id="39703" article="a" name="burnt down rainbow torch">
 		<attribute key="primarytype" value="light sources"/>
@@ -73535,14 +74192,17 @@ Granted by TibiaGoals.com"/>
 	<item id="39772" article="a" name="flower table">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="39773"/> 
 	</item>
 	<item id="39773" article="a" name="flower table">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="39774"/> 
 	</item>
 	<item id="39774" article="a" name="flower table">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="39772"/> 
 	</item>
 	<item id="39775" article="a" name="flower cabinet">
 		<attribute key="primarytype" value="furniture"/>
@@ -73704,11 +74364,21 @@ Granted by TibiaGoals.com"/>
 		<attribute key="rotateTo" value="39789"/>
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
-	<item fromid="39793" toid="39794" article="a" name="turquoise flower lamp">
+	<item id="39793" article="a" name="turquoise flower lamp">
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="39794"/> 
 	</item>
-	<item fromid="39795" toid="39796" article="a" name="purple flower lamp">
+	<item id="39794" article="a" name="turquoise flower lamp">
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="39793"/> 
+	</item>	
+	<item id="39795" article="a" name="purple flower lamp">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="39796"/> 
+	</item>
+	<item id="39796" article="a" name="purple flower lamp">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="39795"/> 
 	</item>
 	<item fromid="39797" toid="39798" name="flowery grass">
 		<attribute key="primarytype" value="floor decorations"/>
@@ -73728,23 +74398,28 @@ Granted by TibiaGoals.com"/>
 	<item id="39801" name="wall leaves">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="39802"/> 
 	</item>
 	<item id="39802" name="flowering wall leaves">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="39801"/> 
 	</item>
 	<item id="39803" name="tendrils">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="39804"/> 
 	</item>
 	<item id="39804" name="blooming tendrils">
 		<attribute key="primarytype" value="decoration"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="39803"/> 
 	</item>
 	<item id="39805" name="water nymph">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="description" value="Well, you almost see her. At the moment, she is hiding beneath the water surface"/>
+		<attribute key="transformOnUse" value="39806"/> 
 	</item>
 	<item id="39806" name="water nymph">
 		<attribute key="primarytype" value="furniture"/>
@@ -73757,6 +74432,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="description" value="She is enjoying her bath between the lily pads"/>
+		<attribute key="transformOnUse" value="39808"/> 
 	</item>
 	<item id="39808" name="water nymph">
 		<attribute key="primarytype" value="furniture"/>
@@ -73776,6 +74452,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="description" value="She is enjoying her bath between the lily pads"/>
+		<attribute key="transformOnUse" value="39809"/> 
 	</item>
 	<item id="39919" name="stairs">
 		<attribute key="floorchange" value="north"/>
@@ -74337,67 +75014,69 @@ Granted by TibiaGoals.com"/>
 		<attribute key="decayTo" value="0"/>
 		<attribute key="duration" value="300"/>
 	</item>
-	<item id="42267" name="seafarer chair">
+	<item id="42267" article="a" name="seafarer chair">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42268"/>
 	</item>
-	<item id="42268" name="seafarer chair">
+	<item id="42268" article="a" name="seafarer chair">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42269"/>
 	</item>
-	<item id="42269" name="seafarer chair">
+	<item id="42269" article="a" name="seafarer chair">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42270"/>
 	</item>
-	<item id="42270" name="seafarer chair">
+	<item id="42270" article="a" name="seafarer chair">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42267"/>
 	</item>
-	<item id="42271" name="seafarer table">
+	<item id="42271" article="a" name="seafarer table">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42272"/>
+		<attribute key="transformOnUse" value="42272"/> 
 	</item>
-	<item id="42272" name="seafarer table">
+	<item id="42272" article="a" name="seafarer table">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42271"/>
+		<attribute key="transformOnUse" value="42271"/> 
 	</item>
-	<item id="42273" name="seafarer cabinet">
+	<item id="42273" article="a" name="seafarer cabinet">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42274"/>
 	</item>
-	<item id="42274" name="seafarer cabinet">
+	<item id="42274" article="a" name="seafarer cabinet">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42273"/>
 	</item>
-	<item id="42275" name="seafarer chest">
+	<item id="42275" article="a" name="seafarer chest">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42276"/>
 	</item>
-	<item id="42276" name="seafarer chest">
+	<item id="42276" article="a" name="seafarer chest">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42277"/>
 	</item>
-	<item id="42277" name="seafarer chest">
+	<item id="42277" article="a" name="seafarer chest">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42278"/>
 	</item>
-	<item id="42278" name="seafarer chest">
+	<item id="42278" article="a" name="seafarer chest">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42275"/>
 	</item>
-	<item id="42279" name="seafarer bed">
+	<item id="42279" article="a" name="seafarer bed">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="type" value="bed"/>
 		<attribute key="bedpart" value="pillow"/>
@@ -74407,7 +75086,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="rotateTo" value="42281"/>
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
-	<item id="42280" name="seafarer bed">
+	<item id="42280" article="a" name="seafarer bed">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="type" value="bed"/>
 		<attribute key="bedpart" value="blanket"/>
@@ -74418,7 +75097,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="description" value="Somebody is sleeping there"/>
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
-	<item id="42281" name="seafarer bed">
+	<item id="42281" article="a" name="seafarer bed">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="type" value="bed"/>
 		<attribute key="bedpart" value="pillow"/>
@@ -74428,7 +75107,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="rotateTo" value="42283"/>
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
-	<item id="42282" name="seafarer bed">
+	<item id="42282" article="a" name="seafarer bed">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="type" value="bed"/>
 		<attribute key="bedpart" value="blanket"/>
@@ -74439,7 +75118,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="description" value="Somebody is sleeping there"/>
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
-	<item id="42283" name="seafarer bed">
+	<item id="42283" article="a" name="seafarer bed">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="type" value="bed"/>
 		<attribute key="bedpart" value="pillow"/>
@@ -74449,7 +75128,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="rotateTo" value="42285"/>
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
-	<item id="42284" name="seafarer bed">
+	<item id="42284" article="a" name="seafarer bed">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="type" value="bed"/>
 		<attribute key="bedpart" value="blanket"/>
@@ -74460,7 +75139,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="description" value="Somebody is sleeping there"/>
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
-	<item id="42285" name="seafarer bed">
+	<item id="42285" article="a" name="seafarer bed">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="type" value="bed"/>
 		<attribute key="bedpart" value="pillow"/>
@@ -74470,7 +75149,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="rotateTo" value="42283"/>
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
-	<item id="42286" name="seafarer bed">
+	<item id="42286" article="a" name="seafarer bed">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="type" value="bed"/>
 		<attribute key="bedpart" value="blanket"/>
@@ -74481,7 +75160,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="description" value="Somebody is sleeping there"/>
 		<attribute key="wrapableTo" value="23398"/>
 	</item>
-	<item id="42287" name="seafarer bed">
+	<item id="42287" article="a" name="seafarer bed">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="type" value="bed"/>
 		<attribute key="bedpart" value="pillow"/>
@@ -74492,7 +75171,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="rotateTo" value="42289"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="42288" name="seafarer bed">
+	<item id="42288" article="a" name="seafarer bed">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="type" value="bed"/>
 		<attribute key="bedpart" value="blanket"/>
@@ -74503,7 +75182,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="rotateTo" value="42290"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="42289" name="seafarer bed">
+	<item id="42289" article="a" name="seafarer bed">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="type" value="bed"/>
 		<attribute key="bedpart" value="pillow"/>
@@ -74514,7 +75193,7 @@ Granted by TibiaGoals.com"/>
 		<attribute key="rotateTo" value="42287"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="42290" name="seafarer bed">
+	<item id="42290" article="a" name="seafarer bed">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="type" value="bed"/>
 		<attribute key="bedpart" value="blanket"/>
@@ -74525,43 +75204,69 @@ Granted by TibiaGoals.com"/>
 		<attribute key="rotateTo" value="42288"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="42291" name="seashell lamp">
+	<item id="42291" article="a" name="seashell lamp">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="rotateTo" value="42293"/>
+		<attribute key="transformOnUse" value="42292"/> 
 	</item>
-	<item id="42292" name="seashell lamp">
+	<item id="42292" article="a" name="seashell lamp">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="rotateTo" value="42294"/>
+		<attribute key="transformOnUse" value="42291"/> 
 	</item>
-	<item id="42293" name="seashell lamp">
+	<item id="42293" article="a" name="seashell lamp">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="rotateTo" value="42291"/>
+		<attribute key="transformOnUse" value="42294"/> 
 	</item>
-	<item id="42294" name="seashell lamp">
+	<item id="42294" article="a" name="seashell lamp">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="rotateTo" value="42292"/>
+		<attribute key="transformOnUse" value="42293"/> 
 	</item>
-	<item id="42295" name="tentacle lamp">
+	<item id="42295" article="a" name="tentacle lamp">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="rotateTo" value="42297"/>
+		<attribute key="transformOnUse" value="42296"/> 
 	</item>
-	<item id="42296" name="tentacle lamp">
+	<item id="42296" article="a" name="tentacle lamp">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="rotateTo" value="42298"/>
+		<attribute key="transformOnUse" value="42295"/> 
 	</item>
 	<item id="42297" name="tentacle lamp">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="rotateTo" value="42295"/>
+		<attribute key="transformOnUse" value="42298"/> 
 	</item>
-	<item id="42298" name="tentacle lamp">
+	<item id="42298" article="a" name="tentacle lamp">
 		<attribute key="primarytype" value="light sources"/>
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="rotateTo" value="42296"/>
+		<attribute key="transformOnUse" value="42297"/> 
 	</item>
-	<item fromid="42299" toid="42300" article="a" name="sea-devil wall lamp">
+	<item id="42299" article="a" name="sea-devil wall lamp">
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="42300"/>
 	</item>
-	<item fromid="42301" toid="42302" article="a" name="seafood bucket">
+	<item id="42300" article="a" name="sea-devil wall lamp">
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="42299"/>
+	</item>
+	<item id="42301" article="a" name="seafood bucket">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="42302"/> 
+	</item>
+	<item id="42302" article="a" name="seafood bucket">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="42301"/> 
 	</item>
 	<item id="42303" name="ship bell">
 		<attribute key="primarytype" value="decoration"/>
@@ -74579,82 +75284,86 @@ Granted by TibiaGoals.com"/>
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="42320" name="opulent chair">
+	<item id="42320" article="an" name="opulent chair">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42321"/>
 	</item>
-	<item id="42321" name="opulent chair">
+	<item id="42321" article="an" name="opulent chair">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42322"/>
 	</item>
-	<item id="42322" name="opulent chair">
+	<item id="42322" article="an" name="opulent chair">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42323"/>
 	</item>
-	<item id="42323" name="opulent chair">
+	<item id="42323" article="an" name="opulent chair">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42320"/>
 	</item>
-	<item id="42324" name="opulent table">
+	<item id="42324" article="an" name="opulent table">
 		<attribute key="primarytype" value="tables"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42325"/>
+		<attribute key="transformOnUse" value="42326"/> 
 	</item>
-	<item id="42325" name="opulent table">
+	<item id="42325" article="an" name="opulent table">
 		<attribute key="primarytype" value="tables"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42324"/>
+		<attribute key="transformOnUse" value="42327"/> 
 	</item>
-	<item id="42326" name="opulent table">
+	<item id="42326" article="an" name="opulent table">
 		<attribute key="primarytype" value="tables"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42327"/>
+		<attribute key="transformOnUse" value="42324"/> 
 	</item>
-	<item id="42327" name="opulent table">
+	<item id="42327" article="an" name="opulent table">
 		<attribute key="primarytype" value="tables"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42326"/>
+		<attribute key="transformOnUse" value="42325"/> 
 	</item>
-	<item id="42328" name="opulent chest">
+	<item id="42328" article="an" name="opulent chest">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42329"/>
 	</item>
-	<item id="42329" name="opulent chest">
+	<item id="42329" article="an" name="opulent chest">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42330"/>
 	</item>
-	<item id="42330" name="opulent chest">
+	<item id="42330" article="an" name="opulent chest">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42331"/>
 	</item>
-	<item id="42331" name="opulent chest">
+	<item id="42331" article="an" name="opulent chest">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42328"/>
 	</item>
-	<item id="42332" name="opulent book case">
+	<item id="42332" article="an" name="opulent book case">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42333"/>
 	</item>
-	<item id="42333" name="opulent book case">
+	<item id="42333" article="an" article="a" name="opulent book case">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42332"/>
 	</item>
-	<item id="42334" name="opulent spice rack">
+	<item id="42334" article="a" name="opulent spice rack">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42335"/>
 	</item>
-	<item id="42335" name="opulent spice rack">
+	<item id="42335" article="a" name="opulent spice rack">
 		<attribute key="primarytype" value="containers"/>
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42334"/>
@@ -74701,21 +75410,25 @@ Granted by TibiaGoals.com"/>
 	<item id="42345" name="scales wall lamp">
 		<attribute key="wrapableto" value="23398"/>
 	</item>
-	<item id="42346" name="opulent floor lamp">
+	<item id="42346" article="an" name="opulent floor lamp">
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42348"/>
+		<attribute key="transformOnUse" value="42347"/> 
 	</item>
-	<item id="42347" name="opulent floor lamp">
+	<item id="42347" article="an" name="opulent floor lamp">
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42349"/>
+		<attribute key="transformOnUse" value="42346"/> 
 	</item>
-	<item id="42348" name="opulent floor lamp">
+	<item id="42348" article="an" name="opulent floor lamp">
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42346"/>
+		<attribute key="transformOnUse" value="42349"/> 
 	</item>
-	<item id="42349" name="opulent floor lamp">
+	<item id="42349" article="an" name="opulent floor lamp">
 		<attribute key="wrapableto" value="23398"/>
 		<attribute key="rotateTo" value="42347"/>
+		<attribute key="transformOnUse" value="42348"/> 
 	</item>
 	<item id="42350" name="opulent item stand">
 		<attribute key="primarytype" value="decoration"/>
@@ -74839,6 +75552,7 @@ Granted by TibiaGoals.com"/>
 	</item>
 	<item id="42363" name="djinn lamp">
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="42364"/> 
 	</item>
 	<item id="42364" name="djinn lamp">
 		<attribute key="decayTo" value="42365"/>
@@ -74847,6 +75561,7 @@ Granted by TibiaGoals.com"/>
 	</item>
 	<item id="42365" name="djinn lamp">
 		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="42366"/> 
 	</item>
 	<item id="42366" name="djinn lamp">
 		<attribute key="decayTo" value="42363"/>
@@ -76369,8 +77084,218 @@ Granted by TibiaGoals.com"/>
 		<attribute key="decayTo" value="44759"/>
 		<attribute key="duration" value="3"/>	
 	</item>
-	<item id="45634" article="itemarticle" name="itemname">
-	</item>
+	<item id="44984" article="a" name="cherry chocolate truffle"/>
+	<item id="44985" article="a" name="white chocolate truffle"/>
+	<item id="44986" article="a" name="dark chocolate truffle"/>
+	<item id="44987" article="a" name="milk chocolate truffle"/>
+	<item id="44988" article="a" name="chocolate truffle"/>
+	<item id="44989" article="a" name=""/>
+	<item id="44990" article="a" name=""/>
+	<item id="44991" article="a" name=""/>
+	<item id="44992" article="a" name="white meringue cookie"/>
+	<item id="44993" article="a" name="pink meringue cookie"/>
+	<item id="44994" article="a" name=""/>
+	<item id="44995" article="a" name=""/>
+	<item id="44996" article="a" name="pink candy"/>
+	<item id="44997" article="a" name=""/>
+	<item id="44998" article="a" name=""/>
+	<item id="44999" article="a" name=""/>
+	<item fromid="45000" toid="45012" article="a" name="floor"/>
+	<item id="45013" article="a" name=""/>
+	<item id="45014" article="a" name=""/>
+	<item id="45015" article="a" name=""/>
+	<item id="45016" article="a" name=""/>
+	<item id="45017" article="a" name=""/>
+	<item id="45018" article="a" name=""/>
+	<item id="45019" article="a" name=""/>
+	<item id="45020" article="a" name=""/>
+	<item id="45021" article="a" name=""/>
+	<item id="45022" article="a" name=""/>
+	<item id="45023" article="a" name=""/>
+	<item id="45024" article="a" name=""/>
+	<item id="45025" article="a" name=""/>
+	<item id="45026" article="a" name=""/>
+	<item id="45027" article="a" name=""/>
+	<item id="45028" article="a" name=""/>
+	<item id="45029" article="a" name=""/>
+	<item id="45030" article="a" name=""/>
+	<item id="45031" article="a" name=""/>
+	<item fromid="45032" toid="45044" article="a" name="floor"/>
+	<item id="45045" article="a" name="jelly fountain"/>
+	<item fromid="45046" toid="45047" article="a" name="floor"/>
+	<item fromid="45049" toid="45067" article="a" name="house wall"/>
+	<item fromid="45068" toid="45075" article="a" name="RESERVED SPRITE"/>
+	<item fromid="45076" toid="45079" article="a" name="floor"/>
+	<item fromid="45080" toid="45081" article="a" name=""/>
+	<item fromid="45082" toid="45084" article="a" name="pancakes"/>
+	<item fromid="45085" toid="45088" article="a" name="candy floss tree"/>
+	<item id="45090" article="a" name="cream tree"/>
+	<item id="45091" article="a" name="cream bush"/>
+	<item fromid="45092" toid="45134" article="a" name="giant donut"/>
+	<item fromid="45135" toid="45152" article="a" name="wall"/>
+	<item fromid="45153" toid="45160" article="a" name="stairs"/>
+	<item fromid="45162" toid="45183" article="a" name=""/>
+	<item fromid="45184" toid="45189" article="a" name="donut tree"/>
+	<item fromid="45190" toid="45195" article="a" name="donut"/>
+	<item fromid="45196" toid="45200" article="a" name="floor"/>
+	<item fromid="45201" toid="45214" article="a" name="chocolate river"/>
+	<item fromid="45215" toid="45229" article="a" name="itemname"/>
+	<item fromid="45230" toid="45231" article="a" name="peppermint lollipop"/>
+	<item id="45232" article="a" name="lemon lollipop"/>
+	<item id="45233" article="a" name="tangerine lollipop"/>
+	<item id="45234" article="a" name="raspberry lollipop"/>
+	<item id="45235" article="a" name="blueberry lollipop"/>
+	<item id="45236" article="a" name="lemon balm lollipop"/>
+	<item id="45237" article="a" name="cherry lollipop"/>
+	<item id="45238" article="a" name="honey lollipop"/>
+	<item id="45239" article="a" name="elderberry lollipop"/>
+	<item id="45240" article="a" name="woodruff lollipop"/>
+	<item id="45241" article="a" name="orange lollipop"/>
+	<item id="45242" article="a" name="moon melon lollipop"/>
+	<item id="45243" article="a" name="mint lollipop"/>
+	<item id="45244" article="a" name="sugar mushroom"/>
+	<item id="45245" article="a" name=""/>
+	<item id="45246" article="a" name="sugar mushroom"/>
+	<item fromid="45247" toid="45250" article="a" name="strawberry floor"/>
+	<item id="45251" article="a" name=""/>
+	<item id="45252" article="a" name=""/>
+	<item id="45253" article="a" name=""/>
+	<item id="45254" article="a" name=""/>
+	<item id="45255" article="a" name=""/>
+	<item id="45256" article="a" name=""/>
+	<item id="45257" article="a" name=""/>
+	<item id="45258" article="a" name=""/>
+	<item id="45259" article="a" name=""/>
+	<item id="45260" article="a" name=""/>
+	<item id="45261" article="a" name=""/>
+	<item id="45262" article="a" name=""/>
+	<item id="45263" article="a" name=""/>
+	<item id="45264" article="a" name=""/>
+	<item id="45265" article="a" name=""/>
+	<item id="45266" article="a" name=""/>
+	<item id="45267" article="a" name=""/>
+	<item id="45268" article="a" name=""/>
+	<item id="45269" article="a" name=""/>
+	<item id="45270" article="a" name=""/>
+	<item id="45271" article="a" name=""/>
+	<item id="45272" article="a" name=""/>
+	<item id="45273" article="a" name=""/>
+	<item id="45274" article="a" name=""/>
+	<item id="45275" article="a" name=""/>
+	<item id="45276" article="a" name=""/>
+	<item fromid="45277" toid="45284" article="a" name="small gingerbread house"/>
+	<item fromid="45285" toid="45287" article="a" name="huge ice cream scoop"/>
+	<item id="45288" article="a" name="RESERVED SPRITE"/>
+	<item fromid="45289" toid="45301" article="a" name=""/>
+	<item fromid="45302" toid="45315" article="a" name=""/>
+	<item id="45316" article="a" name=""/>
+	<item id="45317" article="a" name=""/>
+	<item id="45318" article="a" name="gravestone chair"/>
+	<item id="45319" article="a" name="gravestone chair"/>
+	<item id="45320" article="a" name="gravestone chair"/>
+	<item id="45321" article="a" name="gravestone chair"/>
+	<item id="45322" article="a" name="spooky chest"/>
+	<item id="45323" article="a" name="spooky chest"/>
+	<item id="45324" article="a" name="spooky chest"/>
+	<item id="45325" article="a" name="spooky chest"/>
+	<item id="45326" article="a" name="skull cabinet"/>
+	<item id="45327" article="a" name="skull cabinet"/>
+	<item id="45328" article="a" name="gravestone table"/>
+	<item id="45329" article="a" name="gravestone table"/>
+	<item id="45330" article="a" name="gravestone table"/>
+	<item id="45331" article="a" name="reaper clock"/>
+	<item id="45332" article="a" name="reaper clock"/>
+	<item id="45333" article="a" name="tomb bed"/>
+	<item id="45334" article="a" name="tomb bed"/>
+	<item id="45335" article="a" name="tomb bed"/>
+	<item id="45336" article="a" name="tomb bed"/>
+	<item id="45337" article="a" name="tomb bed"/>
+	<item id="45338" article="a" name="tomb bed"/>
+	<item id="45339" article="a" name="tomb bed"/>
+	<item id="45340" article="a" name="tomb bed"/>
+	<item id="45341" article="a" name="tomb bed"/>
+	<item id="45342" article="a" name="tomb bed"/>
+	<item id="45343" article="a" name="tomb bed"/>
+	<item id="45344" article="a" name="tomb bed"/>
+	<item id="45345" article="a" name="morbid floor lamp"/>
+	<item id="45346" article="a" name="morbid floor lamp"/>
+	<item id="45347" article="a" name="morbid floor lamp"/>
+	<item id="45348" article="a" name="morbid floor lamp"/>
+	<item id="45349" article="a" name="black heart"/>
+	<item id="45350" article="a" name="black heart"/>
+	<item id="45351" article="a" name="black heart"/>
+	<item id="45352" article="a" name="reaper painting"/>
+	<item id="45353" article="a" name="spooky mirror"/>
+	<item id="45354" article="a" name="spooky mirror"/>
+	<item id="45355" article="a" name="vulture"/>
+	<item id="45356" article="a" name="vulture"/>
+	<item id="45357" article="a" name="vulture"/>
+	<item id="45358" article="a" name="vulture"/>
+	<item fromid="45359" toid="45393" article="a" name="wall"/>
+	<item fromid="45394" toid="45401" article="a" name="stairs"/>
+	<item fromid="45402" toid="45419" article="a" name="wall"/>
+	<item fromid="45420" toid="45421" article="a" name="stairs"/>
+	<item fromid="45422" toid="45469" article="a" name="wall"/>
+	<item fromid="45470" toid="45490" article="a" name="floor"/>
+	<item fromid="45491" toid="45492" article="a" name="wall"/>
+	<item id="45493" article="a" name="blossom chair"/>
+	<item id="45494" article="a" name="blossom chair"/>
+	<item id="45495" article="a" name="blossom chair"/>
+	<item id="45496" article="a" name="blossom chair"/>
+	<item id="45497" article="a" name="blossom chest"/>
+	<item id="45498" article="a" name="blossom chest"/>
+	<item id="45499" article="a" name="blossom chest"/>
+	<item id="45500" article="a" name="blossom chest"/>
+	<item id="45501" article="a" name="lilypad table"/>
+	<item id="45502" article="a" name="lilypad table"/>
+	<item id="45503" article="a" name="blossom cabinet"/>
+	<item id="45504" article="a" name="blossom cabinet"/>
+	<item id="45505" article="a" name="blossom bed"/>
+	<item id="45506" article="a" name="blossom bed"/>
+	<item id="45507" article="a" name="blossom bed"/>
+	<item id="45508" article="a" name="blossom bed"/>
+	<item id="45509" article="a" name="blossom bed"/>
+	<item id="45510" article="a" name="blossom bed"/>
+	<item id="45511" article="a" name="blossom bed"/>
+	<item id="45512" article="a" name="blossom bed"/>
+	<item id="45513" article="a" name="blossom bed"/>
+	<item id="45514" article="a" name="blossom bed"/>
+	<item id="45515" article="a" name="blossom bed"/>
+	<item id="45516" article="a" name="blossom bed"/>
+	<item id="45517" article="a" name="pink blossom lamp"/>
+	<item id="45518" article="a" name="pink blossom lamp"/>
+	<item id="45519" article="a" name="pink blossom lamp"/>
+	<item id="45520" article="a" name="pink blossom lamp"/>
+	<item id="45521" article="a" name="purple blossom lamp"/>
+	<item id="45522" article="a" name="purple blossom lamp"/>
+	<item id="45523" article="a" name="red heart"/>
+	<item id="45524" article="a" name="red heart"/>
+	<item id="45525" article="a" name="red heart"/>
+	<item id="45526" article="a" name="unicorn painting"/>
+	<item id="45527" article="a" name="flowering log"/>
+	<item id="45528" article="a" name="flowering log"/>
+	<item id="45529" article="a" name="flowering log"/>
+	<item id="45530" article="a" name="flowering log"/>
+	<item fromid="45531" toid="45555" article="a" name="chocolate floor"/>
+	<item fromid="45556" toid="45569" article="a" name="chocolate"/>
+	<item fromid="45570" toid="45573" article="a" name="sugar"/>
+	<item fromid="45574" toid="45581" article="a" name="wall"/>
+	<item fromid="45582" toid="45586" article="a" name="RESERVED SPRITE"/>
+	<item fromid="45587" toid="45591" article="a" name=""/>
+	<item fromid="45592" toid="45593" article="a" name="floor"/>
+	<item id="45594" article="a" name="itemname"/>
+	<item id="45595" article="a" name="itemname"/>
+	<item id="45596" article="a" name="itemname"/>
+	<item id="45597" article="a" name="itemname"/>
+	<item id="45598" article="a" name="itemname"/>
+	<item id="45599" article="a" name="itemname"/>
+	<item id="45600" article="a" name="itemname"/>
+	<item id="45601" article="a" name="itemname"/>
+	<item fromid="45602" toid="45605" article="a" name="itemname"/>
+	<item fromid="45606" toid="45609" article="a" name="wall"/>
+	<item fromid="45610" toid="45611" article="a" name="ramp"/>
+	<item fromid="45612" toid="45629" article="a" name="water"/>
+	<item fromid="45630" toid="45634" article="a" name="itemname"/>
 	<item id="45639" article="a" name="cocoa grimore">
 		<attribute key="primarytype" value="spellbooks"/>
 		<attribute key="weaponType" value="spellbook"/>
@@ -79366,19 +80291,51 @@ Granted by TibiaGoals.com"/>
 	</item>	
 	<item id="48104" article="itemarticle" name="itemname">
 	</item>	
-	<item id="48106" article="itemarticle" name="itemname">
+	<item id="48106" article="a" name="dead chocolate blob">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
 	</item>
-	<item id="48107" article="itemarticle" name="itemname">
+	<item id="48107" article="a" name="dead chocolate blob">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48106"/>
+		<attribute key="containersize" value="20"/>
 	</item>
-	<item id="48109" article="itemarticle" name="itemname">
-	</item>	
-	<item id="48110" article="itemarticle" name="itemname">
+	<item id="48108" article="a" name="dead chocolate blob">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48107"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
 	</item>
-	<item id="48111" article="itemarticle" name="itemname">
+	<item id="48109" article="a" name="dead chocolate blob">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="48108"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
 	</item>
-	<item id="48112" article="itemarticle" name="itemname">
+	<item id="48110" article="a" name="dead honey elemental">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
 	</item>
-	<item id="48113" article="itemarticle" name="itemname">
+	<item id="48111" article="a" name="dead honey elemental">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48110"/>
+		<attribute key="containersize" value="20"/>
+	</item>
+	<item id="48112" article="a" name="dead honey elemental">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48111"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48113" article="a" name="dead honey elemental">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="48112"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
 	</item>
 	<item id="48114" article="a" name="peppermint backpack">
 		<attribute key="primarytype" value="containers"/>
@@ -79412,6 +80369,26 @@ Granted by TibiaGoals.com"/>
 	<item id="48179" article="a" name="moon melon slice" plural="moon melon slices">
 		<attribute key="primarytype" value="food"/>
 		<attribute key="weight" value="30"/>
+	</item>
+	<item id="48185" article="a" name="dead wafer paper butterfly">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
+		<attribute key="weight" value="20"/>
+	</item>
+	<item id="48186" article="a" name="dead wafer paper butterfly">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="48185"/>
+		<attribute key="weight" value="20"/>
+	</item>
+	<item id="48187" article="a" name="dead wafer paper butterfly">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="48186"/>
+		<attribute key="weight" value="20"/>
+	</item>
+	<item id="48188" article="a" name="dead wafer paper butterfly">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="48187"/>
+		<attribute key="weight" value="20"/>
 	</item>
 	<item id="48189" article="itemarticle" name="itemname">
 	</item>	
@@ -79493,19 +80470,124 @@ Granted by TibiaGoals.com"/>
 		<attribute key="primarytype" value="creature products"/>
 		<attribute key="weight" value="25"/>
 	</item>
-	<item id="48257" article="itemarticle" name="corpsename">
+	<item id="48257" article="a" name="dead nibblemaw">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
 	</item>
-	<item id="48272" article="itemarticle" name="corpsename">
+	<item id="48258" article="a" name="dead nibblemaw">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48257"/>
+		<attribute key="containersize" value="20"/>
+	</item>
+	<item id="48259" article="a" name="dead nibblemaw">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48258"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48260" article="a" name="dead nibblemaw">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="48259"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48261" article="a" name="dead gingerbread man">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
+	</item>
+	<item id="48262" article="a" name="dead gingerbread man">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48261"/>
+		<attribute key="containersize" value="20"/>
+	</item>
+	<item id="48263" article="a" name="dead gingerbread man">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48262"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48264" article="a" name="dead gingerbread man">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="48263"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48265" article="a" name="dead candy horror">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
+	</item>
+	<item id="48266" article="a" name="dead candy horror">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48265"/>
+		<attribute key="containersize" value="20"/>
+	</item>
+	<item id="48267" article="a" name="dead candy horror">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48266"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48268" article="a" name="dead candy horror">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="48267"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48269" article="a" name="dead goggle cake">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
+	</item>
+	<item id="48270" article="a" name="dead goggle cake">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48269"/>
+		<attribute key="containersize" value="20"/>
+	</item>
+	<item id="48271" article="a" name="dead goggle cake">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48270"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48272" article="a" name="dead goggle cake">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="48271"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
 	</item>
 	<item id="48273" article="itemarticle" name="taiyaki ice cream" plueral="taiaki ice creams">
 		<attribute key="primarytype" value="food"/>
 		<attribute key="weight" value="20"/>
 	</item>
-	<item id="48274" article="itemarticle" name="corpsename">
+	<item id="48274" article="a" name="dead quara looter">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
 	</item>
-	<item id="48275" article="itemarticle" name="itemname">
+	<item id="48275" article="a" name="dead quare looter">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48274"/>
+		<attribute key="containersize" value="20"/>
 	</item>
-	<item id="48277" article="itemarticle" name="corpsename">
+	<item id="48276" article="a" name="dead quara looter">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48275"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48277" article="a" name="dead quara looter">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="48276"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
 	</item>
 	<item id="48278" article="itemarticle" name="tattered piece of paper">
 	</item>
@@ -79517,33 +80599,365 @@ Granted by TibiaGoals.com"/>
 	</item>
 	<item id="48295" article="itemarticle" name="itemname">
 	</item>
-	<item id="48338" article="itemarticle" name="corpsename">
+	<item id="48338" article="a" name="dead anger sugar fairy">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>>
 	</item>
-	<item id="48339" article="itemarticle" name="itemname">
+	<item id="48339" article="a" name="dead anger sugar fairy">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48341"/>
+		<attribute key="containersize" value="20"/>
 	</item>
-	<item id="48371" article="itemarticle" name="corpsename">
+	<item id="48340" article="a" name="dead anger sugar fairy">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48340"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
 	</item>
-	<item id="48372" article="itemarticle" name="itemname">
+	<item id="48341" article="a" name="dead anger sugar fairy">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="48339"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
 	</item>
-	<item id="48373" article="itemarticle" name="itemname">
+	<item id="48343" article="a" name="dead candy floss elemental">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>>
 	</item>
-	<item id="48375" article="itemarticle" name="itemname">
+	<item id="48344" article="a" name="dead candy floss elemental">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48343"/>
+		<attribute key="containersize" value="20"/>
 	</item>
-	<item id="48376" article="itemarticle" name="corpsename">
+	<item id="48345" article="a" name="dead candy floss elemental">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48344"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
 	</item>
-	<item id="48377" article="itemarticle" name="itemname">
+	<item id="48346" article="a" name="dead candy floss elemental">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="48345"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
 	</item>
-	<item id="48383" article="itemarticle" name="corpsename">
+	<item id="48347" article="a" name="dead truffle worker">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
 	</item>
-	<item id="48384" article="itemarticle" name="itemname">
+	<item id="48348" article="a" name="dead truffle worker">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48347"/>
+		<attribute key="containersize" value="20"/>
 	</item>
-	<item id="48385" article="itemarticle" name="itemname">
+	<item id="48349" article="a" name="dead truffle worker">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48348"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
 	</item>
-	<item id="48386" article="itemarticle" name="corpsename">
+	<item id="48350" article="a" name="dead truffle worker">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="48349"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
 	</item>
-	<item id="48387" article="itemarticle" name="itemname">
+	<item id="48351" article="a" name="dead truffle cook">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
 	</item>
-	<item id="48406" article="itemarticle" name="corpsename">
+	<item id="48352" article="a" name="dead truffle cook">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48351"/>
+		<attribute key="containersize" value="20"/>
+	</item>
+	<item id="48353" article="a" name="dead truffle cook">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48352"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48354" article="a" name="dead truffle cook">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="48353"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48355" article="a" name="dead truffle">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
+	</item>
+	<item id="48356" article="a" name="dead truffle">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48355"/>
+		<attribute key="containersize" value="20"/>
+	</item>
+	<item id="48357" article="a" name="dead truffle">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48356"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48358" article="a" name="dead truffle">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="48357"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48359" article="a" name="itemname">
+	</item>
+	<item id="48360" article="a" name="dead sugar cube">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
+	</item>
+	<item id="48361" article="a" name="dead sugar cube">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48360"/>
+		<attribute key="containersize" value="20"/>
+	</item>
+	<item id="48362" article="a" name="dead sugar cube">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48361"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48363" article="a" name="dead sugar cube">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="48362"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48364" article="a" name="dead fruit drop">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
+	</item>
+	<item id="48365" article="a" name="dead fruit drop">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48364"/>
+		<attribute key="containersize" value="20"/>
+	</item>
+	<item id="48366" article="a" name="dead fruit drop">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48365"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48367" article="a" name="dead fruit drop">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="48366"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48368" article="a" name="dead mint drop">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
+	</item>
+	<item id="48369" article="a" name="dead mint drop">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48368"/>
+		<attribute key="containersize" value="20"/>
+	</item>
+	<item id="48370" article="a" name="dead mint drop">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48369"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48371" article="a" name="dead mint drop">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="48370"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48372" article="a" name="itemname">
+	</item>
+	<item id="48373" article="a" name="itemname">
+	</item>
+	<item id="48374" article="a" name="floor">
+	</item>
+	<item id="48375" article="a" name="floor">
+	</item>
+	<item id="48376" article="a" name="dead sugar cube worker">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
+	</item>
+	<item id="48377" article="a" name="dead sugar cube worker">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48376"/>
+		<attribute key="containersize" value="20"/>
+	</item>
+	<item id="48378" article="a" name="dead sugar cube worker">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48377"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48379" article="a" name="dead sugar cube worker">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="48378"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48380" article="a" name="dead cream blob">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
+	</item>
+	<item id="48381" article="a" name="dead cream blob">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48380"/>
+		<attribute key="containersize" value="20"/>
+	</item>
+	<item id="48382" article="a" name="dead cream blob">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48381"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48383" article="a" name="dead cream blob">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="48382"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48384" article="a" name="wall">
+	</item>
+	<item id="48385" article="a" name="wall">
+	</item>
+	<item id="48386" article="a" name="dead quara plunderer">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
+	</item>
+	<item id="48387" article="a" name="dead quara plunderer">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48386"/>
+		<attribute key="containersize" value="20"/>
+	</item>
+	<item id="48388" article="a" name="dead quara plunderer">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48387"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48389" article="a" name="dead quara plunderer">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="48388"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48390" article="a" name="dead quara raider">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
+	</item>
+	<item id="48391" article="a" name="dead quara raider">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48390"/>
+		<attribute key="containersize" value="20"/>
+	</item>
+	<item id="48392" article="a" name="dead quara raider">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48391"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48393" article="a" name="dead quara raider">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="48392"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48394" article="a" name="dead rotthing nutshell">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
+	</item>
+	<item id="48395" article="a" name="dead rotthing nutshell">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48394"/>
+		<attribute key="containersize" value="20"/>
+	</item>
+	<item id="48396" article="a" name="dead rotthing nutshell">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48395"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48397" article="a" name="dead rotthing nutshell">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="48396"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48398" article="a" name="RESERVED SPRITE"/>
+	<item id="48399" article="a" name="dead rotthing amber shaper">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
+	</item>
+	<item id="48400" article="a" name="dead rotthing amber shaper">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48399"/>
+		<attribute key="containersize" value="20"/>
+	</item>
+	<item id="48401" article="a" name="dead rotthing amber shaper">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48400"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48402" article="a" name="dead rotthing amber shaper">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="48401"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48403" article="a" name="dead rotthing bug tracker">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
+	</item>
+	<item id="48404" article="a" name="dead rotthing bug tracker">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48403"/>
+		<attribute key="containersize" value="20"/>
+	</item>
+	<item id="48405" article="a" name="dead rotthing bug tracker">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48404"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48406" article="a" name="dead rotthing bug tracker">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="48405"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
 	</item>
 	<item id="48407" article="itemarticle" name="itemname">
 	</item>
@@ -79551,13 +80965,30 @@ Granted by TibiaGoals.com"/>
 	</item>
 	<item id="48412" article="itemarticle" name="itemname">
 	</item>
-	<item id="48413" article="itemarticle" name="amber sickle">
+	<item id="48413" article="an" name="amber sickle">
 	</item>
-	<item id="48414" article="itemarticle" name="corpsename">
+	<item id="48414" article="a" name="dead sugar">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
 	</item>
-	<item id="48415" article="itemarticle" name="itemname">
+	<item id="48415" article="a" name="dead sugar">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48414"/>
+		<attribute key="containersize" value="5"/>
 	</item>
-	<item id="48417" article="itemarticle" name="corpsename">
+	<item id="48416" article="a" name="dead sugar">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="48415"/>
+		<attribute key="containersize" value="10"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="48417" article="a" name="dead sugar">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="48416"/>
+		<attribute key="containersize" value="10"/>
+		<attribute key="weight" value="60000"/>
 	</item>
 	<item id="48418" article="itemarticle" name="corpsename">
 	</item>
@@ -80266,17 +81697,238 @@ Granted by TibiaGoals.com"/>
 	</item>
 	<item id="49101" article="itemarticle" name="itemname">
 	</item>
-	<item id="49102" article="itemarticle" name="corpsename">
+	<item id="49102" article="a" name="dead thorn lily">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="49103"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
 	</item>
-	<item id="49103" article="itemarticle" name="itemname">
+	<item id="49103" article="a" name="dead thorn lily">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="49104"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
 	</item>
-	<item id="49138" article="itemarticle" name="corpsename">
+	<item id="49104" article="a" name="dead thorn lily">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="49105"/>
+		<attribute key="containersize" value="20"/>
+	</item>
+	<item id="49105" article="a" name="dead thorn lily">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
+	</item>
+	<item id="49106" article="a" name="dead common beetle">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="49115"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="49107" article="a" name="dead blightling">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="49117"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="49108" article="a" name="dead pupated rootthing">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="49118"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="49109" article="a" name="dead enraged pupated rootthing">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="49119"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="49110" article="a" name="dead rootkraken">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="49120"/>
+		<attribute key="containersize" value="10"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="49111" article="a" name="dead herd weevil">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="49113"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="49112" article="a" name="dead grove guardian">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="49121"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="49113" article="a" name="dead herd weevil">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="49122"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="49114" article="a" name="dead blight bug">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="49123"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="49115" article="a" name="dead common beetle">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="49134"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="49116" article="a" name="RESERVED SPRITE"/>
+	<item id="49117" article="a" name="dead blightling">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="49128"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="49118" article="a" name="dead pupated rootthing">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="49130"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="49119" article="a" name="dead enraged pupated rootthing">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="49136"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="49120" article="a" name="dead rootkraken">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="49124"/>
+		<attribute key="containersize" value="10"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="49121" article="a" name="dead grove guardian">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="49132"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="49122" article="a" name="dead herd weevil">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="49138"/>
+		<attribute key="containersize" value="20"/>
+	</item>
+	<item id="49123" article="a" name="dead blight bug">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="49126"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="49124" article="a" name="dead rootkraken">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="49125"/>
+		<attribute key="containersize" value="5"/>
+	</item>
+	<item id="49125" article="a" name="dead rootkraken">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
+	</item>
+	<item id="49126" article="a" name="dead blight bug">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="49127"/>
+		<attribute key="containersize" value="20"/>
+	</item>
+	<item id="49127" article="a" name="dead blight bug">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
+	</item>
+	<item id="49128" article="a" name="dead blightling">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="49129"/>
+		<attribute key="containersize" value="20"/>
+	</item>
+	<item id="49129" article="a" name="dead blightling">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
+	</item>
+	<item id="49130" article="a" name="dead pupated rootthing">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="49131"/>
+		<attribute key="containersize" value="20"/>
+	</item>
+	<item id="49131" article="a" name="dead pupated rootthing">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
+	</item>
+	<item id="49132" article="a" name="dead grove guardian">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="49133"/>
+		<attribute key="containersize" value="20"/>
+	</item>
+	<item id="49133" article="a" name="dead grove guardian">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
+	</item>
+	<item id="49134" article="a" name="dead common beetle">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="49135"/>
+		<attribute key="containersize" value="20"/>
+	</item>
+	<item id="49135" article="a" name="dead common beetle">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
+	</item>
+	<item id="49136" article="a" name="dead enraged pupated rootthing">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="49137"/>
+		<attribute key="containersize" value="20"/>
+	</item>
+	<item id="49137" article="a" name="dead enraged pupated rootthing">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
+	</item>
+	<item id="49138" article="a" name="dead herd weevil">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
 	</item>
 	<item id="49140" article="itemarticle" name="itemname">
 	</item>
-	<item id="49142" article="itemarticle" name="corpsename">
+	<item id="49142" article="a" name="dead common beetle">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="49143"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
 	</item>
-	<item id="49143" article="itemarticle" name="itemname">
+	<item id="49143" article="a" name="dead common beetle">
+		<attribute key="fluidsource" value="blood"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="49144"/>
+		<attribute key="containersize" value="40"/>
+		<attribute key="weight" value="60000"/>
+	</item>
+	<item id="49144" article="a" name="dead common beetle">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="49145"/>
+		<attribute key="containersize" value="20"/>
+	</item>
+	<item id="49145" article="a" name="dead common beetle">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
 	</item>
 	<item id="49153" article="itemarticle" name="corpsename">
 	</item>
@@ -80312,7 +81964,10 @@ Granted by TibiaGoals.com"/>
 	</item>
 	<item id="49169" article="itemarticle" name="itemname">
 	</item>
-	<item id="49175" article="itemarticle" name="itemname">
+	<item id="49174" article="a" name="large obelisk">
+	</item>
+	<item id="49175" article="a" name="large obelisk">
+	</item>
+	<item id="49278" article="itemarticle" name="itemname">
 	</item>
 </items>
-

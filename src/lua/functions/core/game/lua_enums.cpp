@@ -607,6 +607,21 @@ void LuaEnums::initConstMeEnums(lua_State* L) {
 	registerEnum(L, CONST_ME_DIVINE_EMPOWERMENT);
 	registerEnum(L, CONST_ME_WATER_FLOATING_THRASH);
 	registerEnum(L, CONST_ME_AGONY);
+	registerEnum(L, CONST_ME_NEW_EFFECT1);
+	registerEnum(L, CONST_ME_NEW_EFFECT2);
+	registerEnum(L, CONST_ME_NEW_EFFECT3);
+	registerEnum(L, CONST_ME_NEW_EFFECT4);
+	registerEnum(L, CONST_ME_NEW_EFFECT5);
+	registerEnum(L, CONST_ME_NEW_EFFECT6);
+	registerEnum(L, CONST_ME_MELTINGCREAM);
+	registerEnum(L, CONST_ME_REAPER);
+	registerEnum(L, CONST_ME_POWERFULLHEARTS);
+	registerEnum(L, CONST_ME_CREAM);
+	registerEnum(L, CONST_ME_GENTLEBUBBLE);
+	registerEnum(L, CONST_ME_STARBURST);
+	registerEnum(L, CONST_ME_SIRUP);
+	registerEnum(L, CONST_ME_CACAO);
+	registerEnum(L, CONST_ME_CANDYFLOSS);
 }
 
 void LuaEnums::initConstAniEnums(lua_State* L) {
@@ -665,6 +680,8 @@ void LuaEnums::initConstAniEnums(lua_State* L) {
 	registerEnum(L, CONST_ANI_DIAMONDARROW);
 	registerEnum(L, CONST_ANI_SPECTRALBOLT);
 	registerEnum(L, CONST_ANI_ROYALSTAR);
+	registerEnum(L, CONST_ANI_CANDYCANE);
+	registerEnum(L, CONST_ANI_CHERRYBOMB);
 	registerEnum(L, CONST_ANI_WEAPONTYPE);
 }
 
