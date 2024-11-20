@@ -2642,7 +2642,7 @@ std::string Item::getDescription(const ItemType &it, int32_t lookDistance, std::
 					s << "Vol:" << volume;
 				}
 			}
-			if (attack != 0 || (it.abilities && it.abilities->elementDamage !=0)) {
+			if (attack != 0 || (it.abilities && it.abilities->elementDamage != 0)) {
 				begin = false;
 				s << " (Atk:";
 
@@ -2656,7 +2656,7 @@ std::string Item::getDescription(const ItemType &it, int32_t lookDistance, std::
 					}
 					s << it.abilities->elementDamage << ' ' << getCombatName(it.abilities->elementType);
 				}
-			} 
+			}
 
 			if (defense != 0 || extraDefense != 0 || it.isMissile()) {
 				if (begin) {
@@ -2688,7 +2688,7 @@ std::string Item::getDescription(const ItemType &it, int32_t lookDistance, std::
 					s << getSkillName(i) << ' ' << std::showpos << it.abilities->skills[i] << std::noshowpos;
 				}
 
-			if (it.abilities && it.abilities->regeneration != 0) {
+				if (it.abilities && it.abilities->regeneration != 0) {
 					if (begin) {
 						begin = false;
 						s << " (";
