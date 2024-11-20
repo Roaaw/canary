@@ -3228,6 +3228,22 @@ uint32_t Item::getForgeCores() const {
 	}
 }
 
+uint32_t Item::getForgeLesserFragment() const {
+	if (getID() == ITEM_FORGE_LESSER) {
+		return getItemCount();
+	} else {
+		return 0;
+	}
+}
+
+uint32_t Item::getForgeGreaterFragment() const {
+	if (getID() == ITEM_FORGE_GREATER) {
+		return getItemCount();
+	} else {
+		return 0;
+	}
+}
+
 LightInfo Item::getLightInfo() const {
 	const ItemType &it = items[id];
 	return { it.lightLevel, it.lightColor };

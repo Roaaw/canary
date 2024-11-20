@@ -71,6 +71,10 @@ KeyDoorTable = {
 	{ lockedDoor = 30774, closedDoor = 30775, openDoor = 30777 },
 	{ lockedDoor = 37982, closedDoor = 37981, openDoor = 37985 },
 	{ lockedDoor = 37984, closedDoor = 37983, openDoor = 37986 },
+	{ lockedDoor = 49678, closedDoor = 49679, openDoor = 49682 },
+	{ lockedDoor = 49680, closedDoor = 49681, openDoor = 49683 },
+	{ lockedDoor = 49684, closedDoor = 49685, openDoor = 49688 },
+	{ lockedDoor = 49686, closedDoor = 49687, openDoor = 49689 },
 }
 
 -- These are the common doors, the ones that just open and close without any special requirements.
@@ -284,4 +288,8 @@ LevelDoorTable = {
 	{ closedDoor = 30034, openDoor = 30036 },
 	{ closedDoor = 30037, openDoor = 30039 },
 	{ closedDoor = 30038, openDoor = 30040 },
+	{ closedDoor = 50281, openDoor = 50285 },
+	{ closedDoor = 50282, openDoor = 50287 },
+	{ closedDoor = 50283, openDoor = 50286 },
+	{ closedDoor = 50284, openDoor = 50288 },
 }

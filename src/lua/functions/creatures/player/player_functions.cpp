@@ -3502,6 +3502,56 @@ int PlayerFunctions::luaPlayerGetForgeCores(lua_State* L) {
 	return 1;
 }
 
+//int PlayerFunctions::luaPlayerGetForgeLesserFragment(lua_State* L) {
+//	// player:getForgeLesserFragment()
+//	std::shared_ptr<Player> player = getUserdataShared<Player>(L, 1);
+//	if (!player) {
+//		reportErrorFunc(getErrorDesc(LUA_ERROR_PLAYER_NOT_FOUND));
+//		pushBoolean(L, false);
+//		return 0;
+//	}
+//
+//	auto [lesser, greater] = player->getForgeLesserAndGreaterFrag();
+//	lua_pushnumber(L, static_cast<lua_Number>(lesser));
+//	return 1;
+//}
+//
+//int PlayerFunctions::luaPlayerGetForgeGreaterFragment(lua_State* L) {
+//	// player:getForgeGreaterFragment()
+//	std::shared_ptr<Player> player = getUserdataShared<Player>(L, 1);
+//	if (!player) {
+//		reportErrorFunc(getErrorDesc(LUA_ERROR_PLAYER_NOT_FOUND));
+//		pushBoolean(L, false);
+//		return 0;
+//	}
+//
+//	auto [lesser, greater] = player->getForgeLesserAndGreaterFrag();
+//	lua_pushnumber(L, static_cast<lua_Number>(greater));
+//	return 1;
+//}
+
+int PlayerFunctions::luaPlayerGetForgeLesserFragment(lua_State* L) {
+	// player:getMoney()
+	std::shared_ptr<Player> player = getUserdataShared<Player>(L, 1);
+	if (player) {
+		lua_pushnumber(L, player->getForgeLesserFragment());
+	} else {
+		lua_pushnil(L);
+	}
+	return 1;
+}
+
+int PlayerFunctions::luaPlayerGetForgeGreaterFragment(lua_State* L) {
+	// player:getMoney()
+	std::shared_ptr<Player> player = getUserdataShared<Player>(L, 1);
+	if (player) {
+		lua_pushnumber(L, player->getForgeGreaterFragment());
+	} else {
+		lua_pushnil(L);
+	}
+	return 1;
+}
+
 int PlayerFunctions::luaPlayerSetFaction(lua_State* L) {
 	// player:setFaction(factionId)
 	std::shared_ptr<Player> player = getUserdataShared<Player>(L, 1);

@@ -74335,9 +74335,9 @@ Granted by TibiaGoals.com"/>
 	<item id="39790" name="flower bed">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="type" value="bed"/>
-		<attribute key="bedpart" value="blanket"/>
-		<attribute key="bedpartof" value="39792"/>
-		<attribute key="partnerdirection" value="west"/>
+		<attribute key="bedpart" value="pillow"/>
+		<attribute key="bedpartof" value="39791"/>
+		<attribute key="partnerdirection" value="east"/>
 		<attribute key="femaletransformto" value="39787"/>
 		<attribute key="maletransformto" value="39783"/>
 		<attribute key="rotateTo" value="39788"/>
@@ -74346,9 +74346,9 @@ Granted by TibiaGoals.com"/>
 	<item id="39791" name="flower bed">
 		<attribute key="primarytype" value="furniture"/>
 		<attribute key="type" value="bed"/>
-		<attribute key="bedpart" value="pillow"/>
-		<attribute key="bedpartof" value="39787"/>
-		<attribute key="partnerdirection" value="east"/>
+		<attribute key="bedpart" value="blanket"/>
+		<attribute key="bedpartof" value="39790"/>
+		<attribute key="partnerdirection" value="west"/>
 		<attribute key="femaletransformto" value="39792"/>
 		<attribute key="maletransformto" value="39784"/>
 		<attribute key="rotateTo" value="39789"/>
@@ -81089,11 +81089,11 @@ Granted by TibiaGoals.com"/>
 	<item id="48513" article="an" name="amber infused insect heart">
 		<attribute key="weight" value="25"/>
 	</item>
-	<item id="48514" article="itemarticle" name="strange inedible fruit">
+	<item id="48514" article="a" name="strange inedible fruit">
 		<attribute key="primarytype" value="valuables"/>
 		<attribute key="weight" value="25"/>
 	</item>
-	<item id="48515" article="itemarticle" name="petrified leaf">
+	<item id="48515" article="a" name="petrified leaf">
 		<attribute key="primarytype" value="valuables"/>
 		<attribute key="weight" value="50"/>
 	</item>
@@ -81968,6 +81968,2857 @@ Granted by TibiaGoals.com"/>
 	</item>
 	<item id="49175" article="a" name="large obelisk">
 	</item>
-	<item id="49278" article="itemarticle" name="itemname">
+	<item id="49176" article="a" name="celestial torch">
+		<attribute key="primarytype" value="quest items"/>
+		<attribute key="description" value="Its silver flame never fades"/>
+		<attribute key="showAttributes" value="1"/>
+		<attribute key="speed" value="25"/>
+		<attribute key="weight" value="2500"/>
+		<attribute key="script" value="moveevent">
+			<attribute key="slot" value="ammo"/>
+		</attribute>		
+	</item>	
+	<item id="49188" article="a" name="wicker chair">
+		<attribute key="rotateto" value="49189"/>
+		<attribute key="wrapableto" value="23398"/>	
+	</item>
+	<item id="49189" article="a" name="wicker chair">
+		<attribute key="rotateto" value="49190"/>
+		<attribute key="wrapableto" value="23398"/>	
+	</item>
+	<item id="49190" article="a" name="wicker chair">
+		<attribute key="rotateto" value="49191"/>
+		<attribute key="wrapableto" value="23398"/>	
+	</item>
+	<item id="49191" article="a" name="wicker chair">
+		<attribute key="rotateto" value="49188"/>
+		<attribute key="wrapableto" value="23398"/>	
+	</item>
+	<item id="49192" article="a" name="wicker table">
+		<attribute key="wrapableto" value="23398"/>	
+	</item>
+	<item id="49193" article="a" name="wicker cabinet">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="8"/>
+		<attribute key="rotateto" value="49194"/>
+		<attribute key="wrapableto" value="23398"/>	
+	</item>
+	<item id="49194" article="a" name="wicker cabinet">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="8"/>
+		<attribute key="rotateto" value="49193"/>
+		<attribute key="wrapableto" value="23398"/>	
+	</item>
+	<item id="49195" article="a" name="wicker chest">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="8"/>
+		<attribute key="rotateto" value="49196"/>
+		<attribute key="wrapableto" value="23398"/>	
+	</item>
+	<item id="49196" article="a" name="wicker chest">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="8"/>
+		<attribute key="rotateto" value="49197"/>
+		<attribute key="wrapableto" value="23398"/>	
+	</item>
+	<item id="49197" article="a" name="wicker chest">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="8"/>
+		<attribute key="rotateto" value="49198"/>
+		<attribute key="wrapableto" value="23398"/>	
+	</item>
+	<item id="49198" article="a" name="wicker chest">
+		<attribute key="primarytype" value="containers"/>
+		<attribute key="containersize" value="8"/>
+		<attribute key="rotateto" value="49195"/>
+		<attribute key="wrapableto" value="23398"/>	
+	</item>
+	<item id="49199" name="wicker bed">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="type" value="bed"/>
+		<attribute key="bedpart" value="pillow"/>
+		<attribute key="bedpartof" value="49200"/>
+		<attribute key="partnerdirection" value="south"/>
+		<attribute key="maletransformto" value="49207"/>
+		<attribute key="rotateTo" value="49201"/>
+		<attribute key="wrapableTo" value="23398"/>
+	</item>
+	<item id="49200" name="wicker bed">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="type" value="bed"/>
+		<attribute key="bedpart" value="blanket"/>
+		<attribute key="bedpartof" value="49199"/>
+		<attribute key="partnerdirection" value="north"/>
+		<attribute key="maletransformto" value="49208"/>
+		<attribute key="rotateTo" value="49202"/>
+		<attribute key="wrapableTo" value="23398"/>
+	</item>
+	<item id="49201" name="wicker bed">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="type" value="bed"/>
+		<attribute key="bedpart" value="pillow"/>
+		<attribute key="bedpartof" value="49202"/>
+		<attribute key="partnerdirection" value="east"/>
+		<attribute key="maletransformto" value="49209"/>
+		<attribute key="rotateTo" value="49199"/>
+		<attribute key="wrapableTo" value="23398"/>
+	</item>
+	<item id="49202" name="wicker bed">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="type" value="bed"/>
+		<attribute key="bedpart" value="blanket"/>
+		<attribute key="bedpartof" value="49201"/>
+		<attribute key="partnerdirection" value="west"/>
+		<attribute key="maletransformto" value="49210"/>
+		<attribute key="rotateTo" value="49200"/>
+		<attribute key="wrapableTo" value="23398"/>
+	</item>
+	<item id="49203" name="wicker bed">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="type" value="bed"/>
+		<attribute key="bedpart" value="pillow"/>
+		<attribute key="bedpartof" value="49204"/>
+		<attribute key="partnerdirection" value="south"/>
+		<attribute key="femaletransformto" value="49207"/>
+		<attribute key="rotateTo" value="49205"/>
+		<attribute key="wrapableTo" value="23398"/>
+	</item>
+	<item id="49204" name="wicker bed">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="type" value="bed"/>
+		<attribute key="bedpart" value="blanket"/>
+		<attribute key="bedpartof" value="49203"/>
+		<attribute key="partnerdirection" value="north"/>
+		<attribute key="femaletransformto" value="49208"/>
+		<attribute key="rotateTo" value="49206"/>
+		<attribute key="wrapableTo" value="23398"/>
+	</item>
+	<item id="49205" name="wicker bed">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="type" value="bed"/>
+		<attribute key="bedpart" value="pillow"/>
+		<attribute key="bedpartof" value="49204"/>
+		<attribute key="partnerdirection" value="east"/>
+		<attribute key="femaletransformto" value="49209"/>
+		<attribute key="rotateTo" value="49199"/>
+		<attribute key="wrapableTo" value="23398"/>
+	</item>
+	<item id="49206" name="wicker bed">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="type" value="bed"/>
+		<attribute key="bedpart" value="blanket"/>
+		<attribute key="bedpartof" value="49205"/>
+		<attribute key="partnerdirection" value="west"/>
+		<attribute key="femaletransformto" value="49210"/>
+		<attribute key="rotateTo" value="49200"/>
+		<attribute key="wrapableTo" value="23398"/>
+	</item>
+	<item id="49207" name="wicker bed">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="type" value="bed"/>
+		<attribute key="bedpart" value="pillow"/>
+		<attribute key="bedpartof" value="49208"/>
+		<attribute key="partnerdirection" value="south"/>
+		<attribute key="femaletransformto" value="49203"/>
+		<attribute key="maletransformto" value="49199"/>
+		<attribute key="wrapableTo" value="23398"/>
+		<attribute key="rotateTo" value="49209"/>
+	</item>
+	<item id="49208" name="wicker bed">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="type" value="bed"/>
+		<attribute key="bedpart" value="blanket"/>
+		<attribute key="bedpartof" value="49207"/>
+		<attribute key="partnerdirection" value="north"/>
+		<attribute key="femaletransformto" value="49204"/>
+		<attribute key="maletransformto" value="49200"/>
+		<attribute key="wrapableTo" value="23398"/>
+		<attribute key="rotateTo" value="49210"/>
+	</item>
+	<item id="49209" name="wicker bed">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="type" value="bed"/>
+		<attribute key="bedpart" value="pillow"/>
+		<attribute key="bedpartof" value="49210"/>
+		<attribute key="partnerdirection" value="east"/>
+		<attribute key="femaletransformto" value="49205"/>
+		<attribute key="maletransformto" value="49201"/>
+		<attribute key="wrapableTo" value="23398"/>
+		<attribute key="rotateTo" value="49207"/>
+	</item>
+	<item id="49210" name="wicker bed">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="type" value="bed"/>
+		<attribute key="bedpart" value="blanket"/>
+		<attribute key="bedpartof" value="49209"/>
+		<attribute key="partnerdirection" value="west"/>
+		<attribute key="femaletransformto" value="49206"/>
+		<attribute key="maletransformto" value="49202"/>
+		<attribute key="wrapableTo" value="23398"/>
+		<attribute key="rotateTo" value="49208"/>
+	</item>
+	<item id="49211" article="a" name="overgrown floor lamp">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="49212"/>
+		<attribute key="rotateTo" value="49213"/>		
+	</item>
+	<item id="49212" article="a" name="overgrown floor lamp">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="49211"/>
+		<attribute key="rotateTo" value="49214"/>
+	</item>
+	<item id="49213" article="a" name="overgrown floor lamp">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="49214"/>
+		<attribute key="rotateTo" value="49211"/>
+	</item>
+	<item id="49214" article="a" name="overgrown floor lamp">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="49213"/>
+		<attribute key="rotateTo" value="49212"/>
+	</item>	
+	<item id="49215" article="a" name="water floor in a bucket">
+	</item>	
+	<item id="49216" article="a" name="water floor">
+	</item>	
+	<item id="49217" article="a" name="wall growth">
+		<attribute key="primarytype" value="decoration"/>
+		<attribute key="wrapableto" value="23398"/>	
+	</item>
+	<item id="49218" article="a" name="kapok tree">
+		<attribute key="primarytype" value="decoration"/>
+		<attribute key="wrapableto" value="23398"/>
+	</item>
+	<item id="49219" article="a" name="Cormayan beech">
+		<attribute key="primarytype" value="decoration"/>
+		<attribute key="wrapableto" value="23398"/>
+	</item>
+	<item id="49220" article="a" name="sycamore tree">
+		<attribute key="primarytype" value="decoration"/>
+		<attribute key="wrapableto" value="23398"/>
+	</item>
+	<item id="49221" article="a" name="Vandura tuft palm">
+		<attribute key="primarytype" value="decoration"/>
+		<attribute key="wrapableto" value="23398"/>
+	</item>
+	<item id="49222" article="a" name="chill nettle shrub">
+		<attribute key="primarytype" value="decoration"/>
+		<attribute key="wrapableto" value="23398"/>
+	</item>
+	<item id="49223" article="a" name="umbrella fern">
+		<attribute key="primarytype" value="decoration"/>
+		<attribute key="wrapableto" value="23398"/>
+	</item>
+	<item id="49224" article="a" name="spotted jungle orchid">
+		<attribute key="primarytype" value="decoration"/>
+		<attribute key="wrapableto" value="23398"/>
+	</item>
+	<item id="49225" article="a" name="blue witches' culdron flower">
+		<attribute key="primarytype" value="decoration"/>
+		<attribute key="wrapableto" value="23398"/>
+	</item>
+	<item id="49226" article="a" name="sloth">
+		<attribute key="primarytype" value="decoration"/>
+		<attribute key="description" value="It peeks curiously through the leaves of the tree"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="49227"/>
+	</item>
+	<item id="49227" article="a" name="sloth">
+		<attribute key="primarytype" value="decoration"/>
+		<attribute key="description" value="It peeks curiously through the leaves of the tree"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="duration" value="5"/>
+		<attribute key="decayTo" value="49228"/>
+	</item>
+	<item id="49228" article="a" name="sloth">
+		<attribute key="primarytype" value="decoration"/>
+		<attribute key="description" value="It peeks curiously through the leaves of the tree"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="49229"/>
+	</item>
+	<item id="49229" article="a" name="sloth">
+		<attribute key="primarytype" value="decoration"/>
+		<attribute key="description" value="It peeks curiously through the leaves of the tree"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="duration" value="6"/>	
+		<attribute key="decayTo" value="49226"/>
+	</item>
+	<item id="49230" article="a" name="ember chair">
+		<attribute key="rotateto" value="49232"/>
+		<attribute key="wrapableto" value="23398"/>		
+	</item>
+	<item id="49231" article="a" name="ember chair">
+		<attribute key="rotateto" value="49230"/>
+		<attribute key="wrapableto" value="23398"/>	
+	</item>
+	<item id="49232" article="a" name="ember chair">
+		<attribute key="rotateto" value="49233"/>
+		<attribute key="wrapableto" value="23398"/>	
+	</item>
+	<item id="49233" article="a" name="ember chair">
+		<attribute key="rotateto" value="49231"/>
+		<attribute key="wrapableto" value="23398"/>	
+	</item>
+	<item id="49234" article="a" name="ember bench">
+		<attribute key="rotateto" value="49237"/>
+		<attribute key="wrapableto" value="23398"/>	
+	</item>
+	<item id="49235" article="a" name="ember bench">
+		<attribute key="rotateto" value="49234"/>
+		<attribute key="wrapableto" value="23398"/>	
+	</item>
+	<item id="49236" article="a" name="ember bench">
+		<attribute key="rotateto" value="49235"/>
+		<attribute key="wrapableto" value="23398"/>	
+	</item>
+	<item id="49237" article="a" name="ember bench">
+		<attribute key="rotateto" value="49236"/>
+		<attribute key="wrapableto" value="23398"/>	
+	</item>
+	<item id="49238" article="a" name="ember chest">
+		<attribute key="rotateto" value="49239"/>
+		<attribute key="wrapableto" value="23398"/>	
+	</item>
+	<item id="49239" article="a" name="ember chest">
+		<attribute key="rotateto" value="49241"/>
+		<attribute key="wrapableto" value="23398"/>	
+	</item>
+	<item id="49240" article="a" name="ember chest">
+		<attribute key="rotateto" value="49238"/>
+		<attribute key="wrapableto" value="23398"/>	
+	</item>
+	<item id="49241" article="a" name="ember chest">
+		<attribute key="rotateto" value="49240"/>
+		<attribute key="wrapableto" value="23398"/>	
+	</item>
+	<item id="49242" article="a" name="ember table">
+		<attribute key="rotateto" value="49243"/>
+		<attribute key="wrapableto" value="23398"/>	
+	</item>
+	<item id="49243" article="a" name="ember table">
+		<attribute key="rotateto" value="49242"/>
+		<attribute key="wrapableto" value="23398"/>	
+	</item>
+	<item id="49244" article="a" name="ember cabinet">
+		<attribute key="rotateto" value="49245"/>
+		<attribute key="wrapableto" value="23398"/>	
+	</item>
+	<item id="49245" article="a" name="ember cabinet">
+		<attribute key="rotateto" value="49244"/>
+		<attribute key="wrapableto" value="23398"/>	
+	</item>
+	<item id="49246" article="a" name="ember bed">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="type" value="bed"/>
+		<attribute key="bedpart" value="pillow"/>
+		<attribute key="bedpartof" value="49247"/>
+		<attribute key="partnerdirection" value="south"/>
+		<attribute key="maletransformto" value="49254"/>
+		<attribute key="wrapableTo" value="23398"/>
+		<attribute key="rotateTo" value="49248"/>
+	</item>
+	<item id="49247" article="a" name="ember bed">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="type" value="bed"/>
+		<attribute key="bedpart" value="blanket"/>
+		<attribute key="bedpartof" value="49246"/>
+		<attribute key="partnerdirection" value="north"/>
+		<attribute key="maletransformto" value="49255"/>
+		<attribute key="wrapableTo" value="23398"/>
+		<attribute key="rotateTo" value="49249"/>
+	</item>
+	<item id="49248" article="a" name="ember bed">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="type" value="bed"/>
+		<attribute key="bedpart" value="pillow"/>
+		<attribute key="bedpartof" value="49249"/>
+		<attribute key="partnerdirection" value="east"/>
+		<attribute key="maletransformto" value="49256"/>
+		<attribute key="wrapableTo" value="23398"/>
+		<attribute key="rotateTo" value="49246"/>
+	</item>
+	<item id="49249" article="a" name="ember bed">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="type" value="bed"/>
+		<attribute key="bedpart" value="blanket"/>
+		<attribute key="bedpartof" value="49248"/>
+		<attribute key="partnerdirection" value="west"/>
+		<attribute key="maletransformto" value="49257"/>
+		<attribute key="wrapableTo" value="23398"/>
+		<attribute key="rotateTo" value="49247"/>
+	</item>
+	<item id="49250" article="a" name="ember bed">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="type" value="bed"/>
+		<attribute key="bedpart" value="pillow"/>
+		<attribute key="bedpartof" value="49251"/>
+		<attribute key="partnerdirection" value="south"/>
+		<attribute key="femaletransformto" value="49254"/>
+		<attribute key="wrapableTo" value="23398"/>
+		<attribute key="rotateTo" value="49252"/>
+	</item>
+	<item id="49251" article="a" name="ember bed">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="type" value="bed"/>
+		<attribute key="bedpart" value="blanket"/>
+		<attribute key="bedpartof" value="49250"/>
+		<attribute key="partnerdirection" value="north"/>
+		<attribute key="femaletransformto" value="49255"/>
+		<attribute key="wrapableTo" value="23398"/>
+		<attribute key="rotateTo" value="49253"/>
+	</item>
+	<item id="49252" article="a" name="ember bed">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="type" value="bed"/>
+		<attribute key="bedpart" value="pillow"/>
+		<attribute key="bedpartof" value="49253"/>
+		<attribute key="partnerdirection" value="east"/>
+		<attribute key="femaletransformto" value="49256"/>
+		<attribute key="wrapableTo" value="23398"/>
+		<attribute key="rotateTo" value="49250"/>
+	</item>
+	<item id="49253" article="a" name="ember bed">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="type" value="bed"/>
+		<attribute key="bedpart" value="blanket"/>
+		<attribute key="bedpartof" value="49252"/>
+		<attribute key="partnerdirection" value="west"/>
+		<attribute key="femaletransformto" value="49257"/>
+		<attribute key="wrapableTo" value="23398"/>
+		<attribute key="rotateTo" value="49251"/>
+	</item>
+	<item id="49254" article="a" name="ember bed">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="type" value="bed"/>
+		<attribute key="bedpart" value="pillow"/>
+		<attribute key="bedpartof" value="49255"/>
+		<attribute key="partnerdirection" value="south"/>
+		<attribute key="femaletransformto" value="49250"/>
+		<attribute key="maletransformto" value="49246"/>
+		<attribute key="wrapableTo" value="23398"/>
+		<attribute key="rotateTo" value="49256"/>
+	</item>
+	<item id="49255" article="a" name="ember bed">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="type" value="bed"/>
+		<attribute key="bedpart" value="blanket"/>
+		<attribute key="bedpartof" value="49254"/>
+		<attribute key="partnerdirection" value="north"/>
+		<attribute key="femaletransformto" value="49251"/>
+		<attribute key="maletransformto" value="49247"/>
+		<attribute key="wrapableTo" value="23398"/>
+		<attribute key="rotateTo" value="49257"/>
+	</item>
+	<item id="49256" article="a" name="ember bed">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="type" value="bed"/>
+		<attribute key="bedpart" value="pillow"/>
+		<attribute key="bedpartof" value="49257"/>
+		<attribute key="partnerdirection" value="east"/>
+		<attribute key="femaletransformto" value="49252"/>
+		<attribute key="maletransformto" value="49248"/>
+		<attribute key="wrapableTo" value="23398"/>
+		<attribute key="rotateTo" value="49254"/>
+	</item>
+	<item id="49257" article="a" name="ember bed">
+		<attribute key="primarytype" value="furniture"/>
+		<attribute key="type" value="bed"/>
+		<attribute key="bedpart" value="blanket"/>
+		<attribute key="bedpartof" value="49256"/>
+		<attribute key="partnerdirection" value="west"/>
+		<attribute key="femaletransformto" value="49253"/>
+		<attribute key="maletransformto" value="49249"/>
+		<attribute key="wrapableTo" value="23398"/>
+		<attribute key="rotateTo" value="49255"/>
+	</item>
+	<item id="49258" article="a" name="small volcano">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="49259"/>
+	</item>
+	<item id="49259" article="a" name="small volcano">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="49258"/>	
+	</item>
+	<item id="49260" article="a" name="ember veins">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="49261"/>	
+	</item>
+	<item id="49261" article="a" name="ember veins">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="49260"/>	
+	</item>
+	<item id="49262" article="a" name="ember floor crack">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="rotateTo" value="49263"/>	
+	</item>
+	<item id="49263" article="a" name="ember floor crack">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="rotateTo" value="49262"/>	
+	</item>
+	<item id="49264" article="a" name="small fire elemental">
+		<attribute key="primarytype" value="decoration"/>
+		<attribute key="description" value="It is gazing into the flames"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="49265"/>
+	</item>
+	<item id="49265" article="a" name="small fire elemental">
+		<attribute key="primarytype" value="decoration"/>
+		<attribute key="description" value="It is gazing into the flames"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="duration" value="3"/>
+		<attribute key="decayTo" value="49266"/>
+	</item>
+	<item id="49266" article="a" name="small fire elemental">
+		<attribute key="primarytype" value="decoration"/>
+		<attribute key="description" value="It is gazing into the flames"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="transformOnUse" value="49267"/>
+	</item>
+	<item id="49267" article="a" name="small fire elemental">
+		<attribute key="primarytype" value="decoration"/>
+		<attribute key="description" value="It is gazing into the flames"/>
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="duration" value="3"/>
+		<attribute key="decayTo" value="49264"/>
+	</item>
+	<item id="49268" article="a" name="ember fissure">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="rotateTo" value="49269"/>	
+	</item>
+	<item id="49269" article="a" name="ember fissure">
+		<attribute key="wrapableto" value="23398"/>
+		<attribute key="rotateTo" value="49268"/>	
+	</item>
+	<item id="49270" article="a" name="chest">
+	</item>
+	<item id="49271" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49272" article="a" name="love elixir">
+		<attribute key="primarytype" value="dolls and bears"/>
+		<attribute key="description" value="Souvenir from Thais Museum"/>
+		<attribute key="weight" value="1000"/>
+	</item>
+	<item id="49273" article="a" name="chaos critical dice">
+		<attribute key="primarytype" value="dolls and bears"/>
+		<attribute key="description" value="Souvenir from Thais Museum"/>
+		<attribute key="weight" value="1000"/>
+	</item>
+	<item id="49274" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49275" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49276" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49277" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49278" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49279" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49280" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49281" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49282" article="a" name="brick wall">
+	</item>
+	<item id="49283" article="a" name="brick wall">
+	</item>
+	<item id="49284" article="a" name="brick wall">
+	</item>
+	<item id="49285" article="a" name="brick wall">
+	</item>
+	<item id="49286" article="a" name="brick wall">
+	</item>
+	<item id="49287" article="a" name="brick wall">
+	</item>
+	<item id="49288" article="a" name="brick wall">
+	</item>
+	<item id="49289" article="a" name="brick wall">
+	</item>
+	<item id="49290" article="a" name="brick wall">
+	</item>
+	<item id="49291" article="a" name="brick wall">
+	</item>
+	<item id="49292" article="a" name="brick wall">
+	</item>
+	<item id="49293" article="a" name="brick wall">
+	</item>
+	<item id="49294" article="a" name="brick wall">
+	</item>
+	<item id="49295" article="a" name="brick wall">
+	</item>
+	<item id="49296" article="a" name="brick wall">
+	</item>
+	<item id="49297" article="a" name="brick wall">
+	</item>
+	<item id="49298" article="a" name="brick wall">
+	</item>
+	<item id="49299" article="a" name="brick wall">
+	</item>
+	<item id="49300" article="a" name="brick wall">
+	</item>
+	<item id="49301" article="a" name="brick wall">
+	</item>
+	<item id="49302" article="a" name="brick wall">
+	</item>
+	<item id="49303" article="a" name="brick wall">
+	</item>
+	<item id="49304" article="a" name="brick wall">
+	</item>
+	<item id="49305" article="a" name="brick wall">
+	</item>
+	<item id="49306" article="a" name="brick wall">
+	</item>
+	<item id="49307" article="a" name="brick wall">
+	</item>
+	<item id="49308" article="a" name="brick wall">
+	</item>
+	<item id="49309" article="a" name="brick wall">
+	</item>
+	<item id="49310" article="a" name="brick wall">
+	</item>
+	<item id="49311" article="a" name="brick wall">
+	</item>
+	<item id="49312" article="a" name="brick wall">
+	</item>
+	<item id="49313" article="a" name="brick wall">
+	</item>
+	<item id="49314" article="a" name="brick wall">
+	</item>
+	<item id="49315" article="a" name="brick wall">
+	</item>
+	<item id="49316" article="a" name="brick wall">
+	</item>
+	<item id="49317" article="a" name="brick wall">
+	</item>
+	<item id="49318" article="a" name="brick wall">
+	</item>
+	<item id="49319" article="a" name="brick wall">
+	</item>
+	<item id="49320" article="a" name="brick wall">
+	</item>
+	<item id="49321" article="a" name="brick wall">
+	</item>
+	<item id="49322" article="a" name="brick wall">
+	</item>
+	<item id="49323" article="a" name="brick wall">
+	</item>
+	<item id="49324" article="a" name="brick wall">
+	</item>
+	<item id="49325" article="a" name="brick wall">
+	</item>
+	<item id="49326" article="a" name="brick wall">
+	</item>
+	<item id="49327" article="a" name="brick wall">
+	</item>
+	<item id="49328" article="a" name="brick wall">
+	</item>
+	<item id="49329" article="a" name="brick wall">
+	</item>
+	<item id="49330" article="a" name="floor">
+	</item>
+	<item id="49331" article="a" name="floor">
+	</item>
+	<item id="49332" article="a" name="floor">
+	</item>
+	<item id="49333" article="a" name="floor">
+	</item>
+	<item id="49334" article="a" name="floor">
+	</item>
+	<item id="49335" article="a" name="floor">
+	</item>
+	<item id="49336" article="a" name="floor">
+	</item>
+	<item id="49337" article="a" name="floor">
+	</item>
+	<item id="49338" article="a" name="floor">
+	</item>
+	<item id="49339" article="a" name="floor">
+	</item>
+	<item id="49340" article="a" name="floor">
+	</item>
+	<item id="49341" article="a" name="floor">
+	</item>
+	<item id="49342" article="a" name="floor">
+	</item>
+	<item id="49343" article="a" name="floor">
+	</item>
+	<item id="49344" article="a" name="floor">
+	</item>
+	<item id="49345" article="a" name="floor">
+	</item>
+	<item id="49346" article="a" name="floor">
+	</item>
+	<item id="49347" article="a" name="floor">
+	</item>
+	<item id="49348" article="a" name="floor">
+	</item>
+	<item id="49349" article="a" name="floor">
+	</item>
+	<item id="49350" article="a" name="floor">
+	</item>
+	<item id="49351" article="a" name="floor">
+	</item>
+	<item id="49352" article="a" name="floor">
+	</item>
+	<item id="49353" article="a" name="floor">
+	</item>
+	<item id="49354" article="a" name="floor">
+	</item>
+	<item id="49355" article="a" name="floor">
+	</item>
+	<item id="49356" article="a" name="floor">
+	</item>
+	<item id="49357" article="a" name="floor">
+	</item>
+	<item id="49358" article="a" name="floor">
+	</item>
+	<item id="49359" article="a" name="floor">
+	</item>
+	<item id="49360" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49361" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49362" article="a" name="fire">
+	</item>
+	<item id="49363" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49364" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49365" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49366" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49367" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49368" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49369" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49370" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49371" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49372" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49373" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49374" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49375" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49376" article="a" name="floor">
+	</item>
+	<item id="49377" article="a" name="floor">
+	</item>
+	<item id="49378" article="a" name="floor">
+	</item>
+	<item id="49379" article="a" name="floor">
+	</item>
+	<item id="49380" article="a" name="floor">
+	</item>
+	<item id="49381" article="a" name="floor">
+	</item>
+	<item id="49382" article="a" name="floor">
+	</item>
+	<item id="49383" article="a" name="floor">
+	</item>
+	<item id="49384" article="a" name="floor">
+	</item>
+	<item id="49385" article="a" name="floor">
+	</item>
+	<item id="49386" article="a" name="floor">
+	</item>
+	<item id="49387" article="a" name="floor">
+	</item>
+	<item id="49388" article="a" name="floor">
+	</item>
+	<item id="49389" article="a" name="floor">
+	</item>
+	<item id="49390" article="a" name="floor">
+	</item>
+	<item id="49391" article="a" name="floor">
+	</item>
+	<item id="49392" article="a" name="floor">
+	</item>
+	<item id="49393" article="a" name="floor">
+	</item>
+	<item id="49394" article="a" name="floor">
+	</item>
+	<item id="49395" article="a" name="floor">
+	</item>
+	<item id="49396" article="a" name="floor">
+	</item>
+	<item id="49397" article="a" name="floor">
+	</item>
+	<item id="49398" article="a" name="floor">
+	</item>
+	<item id="49399" article="a" name="floor">
+	</item>
+	<item id="49400" article="a" name="floor">
+	</item>
+	<item id="49401" article="a" name="floor">
+	</item>
+	<item id="49402" article="a" name="floor">
+	</item>
+	<item id="49403" article="a" name="floor">
+	</item>
+	<item id="49404" article="a" name="floor">
+	<attribute key="transformOnUse" value="49408"/>
+	</item>
+	<item id="49405" article="a" name="floor">
+	</item>
+	<item id="49406" article="a" name="floor">
+	</item>
+	<item id="49407" article="a" name="sacrificial altar">
+	</item>
+	<item id="49408" article="a" name="floor">
+	<attribute key="transformOnUse" value="49404"/>
+	</item>
+	<item id="49409" article="a" name="floor">
+	</item>
+	<item id="49410" article="a" name="floor">
+	</item>
+	<item id="49411" article="a" name="floor">
+	</item>
+	<item id="49412" article="a" name="floor">
+	</item>
+	<item id="49413" article="a" name="floor">
+	</item>
+	<item id="49414" article="a" name="floor">
+	</item>
+	<item id="49415" article="a" name="floor">
+	</item>
+	<item id="49416" article="a" name="floor">
+	</item>
+	<item id="49417" article="a" name="floor">
+	</item>
+	<item id="49418" article="a" name="floor">
+	</item>
+	<item id="49419" article="a" name="floor">
+	</item>
+	<item id="49420" article="a" name="floor">
+	</item>
+	<item id="49421" article="a" name="floor">
+	</item>
+	<item id="49422" article="a" name="floor">
+	</item>
+	<item id="49423" article="a" name="floor">
+	</item>
+	<item id="49424" article="a" name="floor">
+	</item>
+	<item id="49425" article="a" name="floor">
+	</item>
+	<item id="49426" article="a" name="floor">
+	</item>
+	<item id="49427" article="a" name="floor">
+	</item>
+	<item id="49428" article="a" name="floor">
+	</item>
+	<item id="49429" article="a" name="floor">
+	</item>
+	<item id="49430" article="a" name="floor">
+	</item>
+	<item id="49431" article="a" name="floor">
+	</item>
+	<item id="49432" article="a" name="floor">
+	</item>
+	<item id="49433" article="a" name="floor">
+	</item>
+	<item id="49434" article="a" name="floor">
+	</item>
+	<item id="49435" article="a" name="floor">
+	</item>
+	<item id="49436" article="a" name="floor">
+	</item>
+	<item id="49437" article="a" name="floor">
+	</item>
+	<item id="49438" article="a" name="floor">
+	</item>
+	<item id="49439" article="a" name="floor">
+	</item>
+	<item id="49440" article="a" name="floor">
+	</item>
+	<item id="49441" article="a" name="floor">
+	</item>
+	<item id="49442" article="a" name="floor">
+	</item>
+	<item id="49443" article="a" name="floor">
+	</item>
+	<item id="49444" article="a" name="floor">
+	</item>
+	<item id="49445" article="a" name="floor">
+	</item>
+	<item id="49446" article="a" name="floor">
+	</item>
+	<item id="49447" article="a" name="floor">
+	</item>
+	<item id="49448" article="a" name="floor">
+	</item>
+	<item id="49449" article="a" name="floor">
+	</item>
+	<item id="49450" article="a" name="floor">
+	</item>
+	<item id="49451" article="a" name="floor">
+	</item>
+	<item id="49452" article="a" name="floor">
+	</item>
+	<item id="49453" article="a" name="floor">
+	</item>
+	<item id="49454" article="a" name="floor">
+	</item>
+	<item id="49455" article="a" name="floor">
+	</item>
+	<item id="49456" article="a" name="floor">
+	</item>
+	<item id="49457" article="a" name="floor">
+	</item>
+	<item id="49458" article="a" name="floor">
+	</item>
+	<item id="49459" article="a" name="floor">
+	</item>
+	<item id="49460" article="a" name="floor">
+	</item>
+	<item id="49461" article="a" name="floor">
+	</item>
+	<item id="49462" article="a" name="floor">
+	</item>
+	<item id="49463" article="a" name="floor">
+	</item>
+	<item id="49464" article="a" name="floor">
+	</item>
+	<item id="49465" article="a" name="floor">
+	</item>
+	<item id="49466" article="a" name="floor">
+	</item>
+	<item id="49467" article="a" name="floor">
+	</item>
+	<item id="49468" article="a" name="floor">
+	</item>
+	<item id="49469" article="a" name="floor">
+	</item>
+	<item id="49470" article="a" name="floor">
+	</item>
+	<item id="49471" article="a" name="floor">
+	</item>
+	<item id="49472" article="a" name="floor">
+	</item>
+	<item id="49473" article="a" name="floor">
+	</item>
+	<item id="49474" article="a" name="floor">
+	</item>
+	<item id="49475" article="a" name="floor">
+	</item>
+	<item id="49476" article="a" name="floor">
+	</item>
+	<item id="49477" article="a" name="floor">
+	</item>
+	<item id="49478" article="a" name="floor">
+	</item>
+	<item id="49479" article="a" name="floor">
+	</item>
+	<item id="49480" article="a" name="floor">
+	</item>
+	<item id="49481" article="a" name="floor">
+	</item>
+	<item id="49482" article="a" name="floor">
+	</item>
+	<item id="49483" article="a" name="floor">
+	</item>
+	<item id="49484" article="a" name="floor">
+	</item>
+	<item id="49485" article="a" name="floor">
+	</item>
+	<item id="49486" article="a" name="floor">
+	</item>
+	<item id="49487" article="a" name="floor">
+	</item>
+	<item id="49488" article="a" name="floor">
+	</item>
+	<item id="49489" article="a" name="floor">
+	</item>
+	<item id="49490" article="a" name="floor">
+	</item>
+	<item id="49491" article="a" name="floor">
+	</item>
+	<item id="49492" article="a" name="floor">
+	</item>
+	<item id="49493" article="a" name="floor">
+	</item>
+	<item id="49494" article="a" name="floor">
+	</item>
+	<item id="49495" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49496" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49497" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49498" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49499" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49500" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49501" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49502" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49503" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49504" article="a" name="floor">
+	</item>
+	<item id="49505" article="a" name="floor">
+	</item>
+	<item id="49506" article="a" name="floor">
+	</item>
+	<item id="49507" article="a" name="floor">
+	</item>
+	<item id="49508" article="a" name="floor">
+	</item>
+	<item id="49509" article="a" name="floor">
+	</item>
+	<item id="49510" article="a" name="floor">
+	</item>
+	<item id="49511" article="a" name="floor">
+	</item>
+	<item id="49512" article="a" name="floor">
+	</item>
+	<item id="49513" article="a" name="floor">
+	</item>
+	<item id="49514" article="a" name="floor">
+	</item>
+	<item id="49515" article="a" name="floor">
+	</item>
+	<item id="49516" article="a" name="floor">
+	</item>
+	<item id="49517" article="a" name="floor">
+	</item>
+	<item id="49518" article="a" name="floor">
+	</item>
+	<item id="49519" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49520" article="a" name="inferniarch bow">
+		<attribute key="primarytype" value="distance weapons"/>
+		<attribute key="weaponType" value="distance"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="ammotype" value="arrow"/>
+		<attribute key="absorbpercentearth" value="5"/>
+		<attribute key="skilldist" value="2"/>
+		<attribute key="hitchance" value="5"/>
+		<attribute key="range" value="6"/>
+		<attribute key="attack" value="7"/>
+		<attribute key="weight" value="5600"/>
+		<attribute key="imbuementslot" value="3">
+			<attribute key="elemental damage" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="distance"/>
+			<attribute key="vocation" value="Paladin;true, Royal Paladin"/>
+		</attribute>	
+	</item>
+	<item id="49521" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49522" article="a" name="inferniarch arbalest">
+		<attribute key="primarytype" value="distance weapons"/>
+		<attribute key="weaponType" value="distance"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="ammotype" value="bolt"/>
+		<attribute key="absorbpercentearth" value="5"/>
+		<attribute key="skilldist" value="2"/>
+		<attribute key="hitchance" value="6"/>
+		<attribute key="range" value="8"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="weight" value="5900"/>
+		<attribute key="imbuementslot" value="3">
+			<attribute key="elemental damage" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="distance"/>
+			<attribute key="vocation" value="Paladin;true, Royal Paladin"/>
+		</attribute>	
+	</item>
+	<item id="49523" article="a" name="inferniarch battleaxe">
+		<attribute key="primarytype" value="axe weapons"/>
+		<attribute key="weaponType" value="axe"/>
+		<attribute key="elementfire" value="44"/>
+		<attribute key="skillaxe" value="3"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="defense" value="31"/>
+		<attribute key="extradef" value="3"/>		
+		<attribute key="weight" value="6700"/>
+		<attribute key="imbuementslot" value="2">
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="axe"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>	
+	</item>
+	<item id="49524" article="a" name="inferniarch greataxe">
+		<attribute key="primarytype" value="axe weapons"/>
+		<attribute key="weaponType" value="axe"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="elementfire" value="48"/>
+		<attribute key="skillaxe" value="4"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="defense" value="33"/>
+		<attribute key="extradef" value="3"/>		
+		<attribute key="weight" value="8500"/>
+		<attribute key="imbuementslot" value="2">
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="axe"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>	
+	</item>	
+	<item id="49525" article="a" name="inferniarch flail">
+		<attribute key="primarytype" value="club weapons"/>
+		<attribute key="weaponType" value="club"/>
+		<attribute key="elementdeath" value="44"/>
+		<attribute key="skillclub" value="3"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="defense" value="31"/>
+		<attribute key="extradef" value="3"/>		
+		<attribute key="weight" value="6500"/>
+		<attribute key="imbuementslot" value="2">
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="club"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>	
+	</item>	
+	<item id="49526" article="a" name="inferniarch warhammer">
+		<attribute key="primarytype" value="club weapons"/>
+		<attribute key="weaponType" value="club"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="elementice" value="48"/>
+		<attribute key="skillclub" value="4"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="defense" value="33"/>
+		<attribute key="extradef" value="4"/>		
+		<attribute key="weight" value="8600"/>
+		<attribute key="imbuementslot" value="2">
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="club"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>	
+	</item>	
+	<item id="49527" article="a" name="inferniarch blade">
+		<attribute key="primarytype" value="sword weapons"/>
+		<attribute key="weaponType" value="sword"/>
+		<attribute key="elementfire" value="44"/>
+		<attribute key="skillsword" value="4"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="defense" value="31"/>
+		<attribute key="extradef" value="3"/>		
+		<attribute key="weight" value="6400"/>
+		<attribute key="imbuementslot" value="2">
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="sword"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>	
+	</item>	
+	<item id="49528" article="a" name="inferniarch wand">
+		<attribute key="primarytype" value="wands"/>
+		<attribute key="weaponType" value="wand"/>
+		<attribute key="shootType" value="suddendeath"/>
+		<attribute key="absorbpercentearth" value="5"/>
+		<attribute key="magiclevelpoints" value="3"/>
+		<attribute key="firemagiclevelpoints" value="1"/>
+		<attribute key="range" value="5"/>
+		<attribute key="weight" value="2400"/>
+		<attribute key="imbuementslot" value="2">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="mana" value="21"/>
+			<attribute key="fromDamage" value="100"/>
+			<attribute key="toDamage" value="120"/>
+			<attribute key="weaponType" value="wand"/>
+			<attribute key="wandType" value="death"/>
+			<attribute key="vocation" value="Sorcerer;true, Master Sorcerer"/>
+			<attribute key="slot" value="hand"/>
+		</attribute>	
+	</item>	
+	<item id="49529" article="a" name="inferniarch rod">
+		<attribute key="primarytype" value="rods"/>
+		<attribute key="weaponType" value="wand"/>
+		<attribute key="shootType" value="smallearth"/>
+		<attribute key="absorbpercentdeath" value="5"/>
+		<attribute key="magiclevelpoints" value="3"/>
+		<attribute key="earthmagiclevelpoints" value="1"/>
+		<attribute key="range" value="5"/>
+		<attribute key="weight" value="2200"/>
+		<attribute key="imbuementslot" value="2">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="mana" value="21"/>
+			<attribute key="fromDamage" value="100"/>
+			<attribute key="toDamage" value="120"/>
+			<attribute key="weaponType" value="wand"/>
+			<attribute key="wandType" value="earth"/>
+			<attribute key="vocation" value="Druid;true, Elder Druid"/>
+			<attribute key="slot" value="hand"/>	
+		</attribute>				
+	</item>	
+	<item id="49530" article="a" name="inferniarch slayer">
+		<attribute key="primarytype" value="sword weapons"/>
+		<attribute key="weaponType" value="sword"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="elementenergy" value="48"/>
+		<attribute key="skillsword" value="4"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="defense" value="33"/>
+		<attribute key="extradef" value="4"/>		
+		<attribute key="weight" value="8600"/>
+		<attribute key="imbuementslot" value="2">
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="sword"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>	
+	</item>	
+	<item id="49531" article="a" name="maliceforged helmet">
+		<attribute key="primarytype" value="helmet"/>
+		<attribute key="armor" value="10"/>
+		<attribute key="skillaxe" value="2"/>
+		<attribute key="skillsword" value="2"/>
+		<attribute key="skillclub" value="2"/>
+		<attribute key="absorbpercentphysical" value="3"/>
+		<attribute key="absorbpercentdeath" value="6"/>
+		<attribute key="weight" value="2400"/>
+		<attribute key="augments" value="1">
+			<attribute key="front sweep" value="mana leech">
+				<attribute key="value" value="3" />
+			</attribute>
+		</attribute>
+		<attribute key="imbuementslot" value="2">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+		</attribute>		
+		<attribute key="script" value="moveevent">
+			<attribute key="level" value="300"/>
+			<attribute key="slot" value="head"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>	
+	</item>	
+	<item id="49532" article="a" name="hellstalker visor">
+		<attribute key="primarytype" value="helmet"/>
+		<attribute key="armor" value="10"/>
+		<attribute key="skilldist" value="2"/>
+		<attribute key="absorbpercentphysical" value="3"/>
+		<attribute key="absorbpercentdeath" value="6"/>
+		<attribute key="weight" value="3600"/>
+		<attribute key="augments" value="1">
+			<attribute key="strong ethereal spear" value="mana leech">
+				<attribute key="value" value="3" />
+			</attribute>
+		</attribute>
+		<attribute key="imbuementslot" value="2">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+			<attribute key="skillboost magic level" value="2"/>
+		</attribute>		
+		<attribute key="script" value="moveevent">
+			<attribute key="level" value="300"/>
+			<attribute key="slot" value="head"/>
+			<attribute key="vocation" value="Paladin;true, Royal Paladin"/>
+		</attribute>		
+	</item>	
+	<item id="49533" article="a" name="dreadfire headpiece">
+		<attribute key="primarytype" value="helmet"/>
+		<attribute key="armor" value="8"/>
+		<attribute key="magiclevelpoints" value="2"/>
+		<attribute key="absorbpercentphysical" value="2"/>
+		<attribute key="absorbpercentdeath" value="6"/>
+		<attribute key="weight" value="1600"/>
+		<attribute key="augments" value="1">
+			<attribute key="energy wave" value="mana leech">
+				<attribute key="value" value="4" />
+			</attribute>
+		</attribute>
+		<attribute key="imbuementslot" value="2">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+		</attribute>		
+		<attribute key="script" value="moveevent">
+			<attribute key="level" value="300"/>
+			<attribute key="slot" value="head"/>
+			<attribute key="vocation" value="Sorcerer;true, Master Sorcerer"/>
+		</attribute>	
+	</item>	
+	<item id="49534" article="a" name="demonfang mask">
+		<attribute key="primarytype" value="helmet"/>
+		<attribute key="armor" value="8"/>
+		<attribute key="magiclevelpoints" value="2"/>
+		<attribute key="healingmagiclevelpoints" value="1"/>		
+		<attribute key="absorbpercentphysical" value="2"/>
+		<attribute key="absorbpercentdeath" value="5"/>
+		<attribute key="weight" value="1500"/>
+		<attribute key="augments" value="1">
+			<attribute key="terra wave" value="mana leech">
+				<attribute key="value" value="4" />
+			</attribute>
+		</attribute>
+		<attribute key="imbuementslot" value="2">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost shielding" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+		</attribute>		
+		<attribute key="script" value="moveevent">
+			<attribute key="level" value="300"/>
+			<attribute key="slot" value="head"/>
+			<attribute key="vocation" value="Druid;true, Elder Druid"/>	
+		</attribute>			
+	</item>		
+	<item fromid="49535" toid="49599" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49600" article="a" name="floor">
+	</item>
+	<item id="49601" article="a" name="floor">
+	</item>
+	<item id="49602" article="a" name="floor">
+	</item>
+	<item id="49603" article="a" name="floor">
+	</item>
+	<item id="49604" article="a" name="floor">
+	</item>
+	<item id="49605" article="a" name="floor">
+	</item>
+	<item id="49606" article="a" name="floor">
+	</item>
+	<item id="49607" article="a" name="floor">
+	</item>
+	<item id="49608" article="a" name="floor">
+	</item>
+	<item id="49609" article="a" name="floor">
+	</item>
+	<item id="49610" article="a" name="floor">
+	</item>
+	<item id="49611" article="a" name="floor">
+	</item>
+	<item id="49612" article="a" name="floor">
+	</item>
+	<item id="49613" article="a" name="floor">
+	</item>
+	<item id="49614" article="a" name="floor">
+	</item>
+	<item id="49615" article="a" name="floor">
+	</item>
+	<item id="49616" article="a" name="floor">
+	</item>
+	<item id="49617" article="a" name="floor">
+	</item>
+	<item id="49618" article="a" name="floor">
+	</item>
+	<item id="49619" article="a" name="floor">
+	</item>
+	<item id="49620" article="a" name="floor">
+	</item>
+	<item id="49621" article="a" name="floor">
+	</item>
+	<item id="49622" article="a" name="floor">
+	</item>
+	<item id="49623" article="a" name="floor">
+	</item>
+	<item id="49624" article="a" name="floor">
+	</item>
+	<item id="49625" article="a" name="floor">
+	</item>
+	<item id="49626" article="a" name="floor">
+	</item>
+	<item id="49627" article="a" name="floor">
+	</item>
+	<item id="49628" article="a" name="floor">
+	</item>
+	<item id="49629" article="a" name="floor">
+	</item>
+	<item id="49630" article="a" name="floor">
+	</item>
+	<item id="49631" article="a" name="floor">
+	</item>
+	<item id="49632" article="a" name="floor">
+	</item>
+	<item id="49633" article="a" name="floor">
+	</item>
+	<item id="49634" article="a" name="floor">
+	</item>
+	<item id="49635" article="a" name="floor">
+	</item>
+	<item id="49636" article="a" name="floor">
+	</item>
+	<item id="49637" article="a" name="floor">
+	</item>
+	<item id="49638" article="a" name="floor">
+	</item>
+	<item id="49639" article="a" name="floor">
+	</item>
+	<item id="49640" article="a" name="floor">
+	</item>
+	<item id="49641" article="a" name="floor">
+	</item>
+	<item id="49642" article="a" name="floor">
+	</item>
+	<item id="49643" article="a" name="floor">
+	</item>
+	<item id="49644" article="a" name="floor">
+	</item>
+	<item id="49645" article="a" name="floor">
+	</item>
+	<item id="49646" article="a" name="floor">
+	</item>
+	<item id="49647" article="a" name="floor">
+	</item>
+	<item id="49648" article="a" name="floor">
+	</item>
+	<item id="49649" article="a" name="floor">
+	</item>
+	<item id="49650" article="a" name="floor">
+	</item>
+	<item id="49651" article="a" name="wall">
+	</item>
+	<item id="49652" article="a" name="wall">
+	</item>
+	<item id="49653" article="a" name="wall">
+	</item>
+	<item id="49654" article="a" name="wall">
+	</item>
+	<item id="49655" article="a" name="wall">
+	</item>
+	<item id="49656" article="a" name="stairs">
+	</item>
+	<item id="49657" article="a" name="stairs">
+		<attribute key="floorchange" value="north"/>
+	</item>
+	<item id="49658" article="a" name="stairs">
+	</item>
+	<item id="49659" article="a" name="stairs">
+		<attribute key="floorchange" value="west"/>
+	</item>
+	<item id="49660" article="a" name="stairs">
+	</item>
+	<item id="49661" article="a" name="stairs">
+		<attribute key="floorchange" value="east"/>
+	</item>
+	<item id="49662" article="a" name="stairs">
+	</item>
+	<item id="49663" article="a" name="stairs">
+		<attribute key="floorchange" value="south"/>
+	</item>
+	<item id="49664" article="a" name="wall">
+	</item>
+	<item id="49665" article="a" name="wall">
+	</item>
+	<item id="49666" article="a" name="wall">
+	</item>
+	<item id="49667" article="a" name="wall">
+	</item>
+	<item id="49668" article="a" name="wall">
+	</item>
+	<item id="49669" article="a" name="wall">
+	</item>
+	<item id="49670" article="a" name="wall">
+	</item>
+	<item id="49671" article="a" name="wall">
+	</item>
+	<item id="49672" article="a" name="wall">
+	</item>
+	<item id="49673" article="a" name="wall">
+	</item>
+	<item id="49674" article="a" name="wall">
+	</item>
+	<item id="49675" article="a" name="wall">
+	</item>
+	<item id="49676" article="a" name="wall">
+	</item>
+	<item id="49677" article="a" name="wall">
+	</item>
+	<item id="49678" article="a" name="closed door" editorsuffix="(it is locked)">
+		<attribute key="type" value="door"/>
+		<attribute key="description" value="It is locked."/>
+		<attribute key="blockProjectile" value="1"/>
+	</item>
+	<item id="49679" article="a" name="closed door">
+		<attribute key="type" value="door"/>
+		<attribute key="blockProjectile" value="1"/>	
+	</item>
+	<item id="49680" article="a" name="closed door" editorsuffix="(it is locked)">
+		<attribute key="type" value="door"/>
+		<attribute key="description" value="It is locked."/>
+		<attribute key="blockProjectile" value="1"/>
+	</item>
+	<item id="49681" article="a" name="closed door">
+		<attribute key="type" value="door"/>
+		<attribute key="blockProjectile" value="1"/>
+	</item>
+	<item id="49682" article="an" name="open door">
+		<attribute key="type" value="door"/>
+	</item>
+	<item id="49683" article="an" name="open door">
+		<attribute key="type" value="door"/>
+	</item>
+	<item id="49684" article="a" name="closed door" editorsuffix="(it is locked)">
+		<attribute key="type" value="door"/>
+		<attribute key="description" value="It is locked."/>
+		<attribute key="blockProjectile" value="1"/>
+	</item>
+	<item id="49685" article="a" name="closed door">
+		<attribute key="type" value="door"/>
+		<attribute key="blockProjectile" value="1"/>
+	</item>
+	<item id="49686" article="a" name="closed door" editorsuffix="(it is locked)">
+		<attribute key="type" value="door"/>
+		<attribute key="description" value="It is locked."/>
+		<attribute key="blockProjectile" value="1"/>
+	</item>
+	<item id="49687" article="a" name="closed door">
+		<attribute key="type" value="door"/>
+		<attribute key="blockProjectile" value="1"/>
+	</item>
+	<item id="49688" article="a" name="open door">
+		<attribute key="type" value="door"/>
+	</item>
+	<item id="49689" article="a" name="open door">
+		<attribute key="type" value="door"/>
+	</item>
+	<item id="49690" article="a" name="wall">
+	</item>
+	<item id="49691" article="a" name="wall">
+	</item>
+	<item id="49692" article="a" name="wall">
+	</item>
+	<item id="49693" article="a" name="wall">
+	</item>
+	<item id="49694" article="a" name="wall">
+	</item>
+	<item id="49695" article="a" name="wall">
+	</item>
+	<item id="49696" article="a" name="wall">
+	</item>
+	<item id="49697" article="a" name="wall">
+	</item>
+	<item fromid="49698" toid="49849" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49850" article="a" name="chair">
+	</item>
+	<item fromid="49851" toid="49857" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49858" article="a" name="rending inferniarch bow">
+		<attribute key="primarytype" value="distance weapons"/>
+		<attribute key="weaponType" value="distance"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="ammotype" value="arrow"/>
+		<attribute key="absorbpercentearth" value="5"/>
+		<attribute key="criticalhitdamage" value="5800"/>
+		<attribute key="criticalhitchance" value="1000"/>		
+		<attribute key="skilldist" value="2"/>
+		<attribute key="hitchance" value="5"/>
+		<attribute key="range" value="6"/>
+		<attribute key="attack" value="7"/>
+		<attribute key="weight" value="5600"/>
+		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="distance"/>
+			<attribute key="vocation" value="Paladin;true, Royal Paladin"/>
+		</attribute>	
+	</item>
+	<item id="49859" article="a" name="draining inferniarch bow">
+	<attribute key="primarytype" value="distance weapons"/>
+		<attribute key="weaponType" value="distance"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="ammotype" value="arrow"/>
+		<attribute key="absorbpercentearth" value="5"/>
+		<attribute key="lifeleechamount" value="2900"/>	
+		<attribute key="lifeleechchance" value="100"/>			
+		<attribute key="skilldist" value="2"/>
+		<attribute key="hitchance" value="5"/>
+		<attribute key="range" value="6"/>
+		<attribute key="attack" value="7"/>
+		<attribute key="weight" value="5600"/>
+		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="distance"/>
+			<attribute key="vocation" value="Paladin;true, Royal Paladin"/>
+		</attribute>	
+	</item>
+	<item id="49860" article="a" name="siphoning inferniarch bow">
+	<attribute key="primarytype" value="distance weapons"/>
+		<attribute key="weaponType" value="distance"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="ammotype" value="arrow"/>
+		<attribute key="absorbpercentearth" value="5"/>
+		<attribute key="manaleechamount" value="1000"/>
+		<attribute key="manaleechchance" value="100"/>		
+		<attribute key="skilldist" value="2"/>
+		<attribute key="hitchance" value="5"/>
+		<attribute key="range" value="6"/>
+		<attribute key="attack" value="7"/>
+		<attribute key="weight" value="5600"/>
+		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="distance"/>
+			<attribute key="vocation" value="Paladin;true, Royal Paladin"/>
+		</attribute>	
+	</item>
+	<item id="49861" article="a" name="rending inferniarch arbalest">
+		<attribute key="primarytype" value="distance weapons"/>
+		<attribute key="weaponType" value="distance"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="ammotype" value="bolt"/>
+		<attribute key="absorbpercentice" value="4"/>
+		<attribute key="criticalhitdamage" value="5800"/>
+		<attribute key="criticalhitchance" value="1000"/>		
+		<attribute key="skilldist" value="2"/>
+		<attribute key="hitchance" value="6"/>
+		<attribute key="range" value="8"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="weight" value="5900"/>
+		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="distance"/>
+			<attribute key="vocation" value="Paladin;true, Royal Paladin"/>
+		</attribute>	
+	</item>
+	<item id="49862" article="a" name="draining inferniarch arbalest">
+		<attribute key="primarytype" value="distance weapons"/>
+		<attribute key="weaponType" value="distance"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="ammotype" value="bolt"/>
+		<attribute key="absorbpercentice" value="4"/>
+		<attribute key="lifeleechamount" value="2900"/>
+		<attribute key="lifeleechchance" value="100"/>		
+		<attribute key="skilldist" value="2"/>
+		<attribute key="hitchance" value="6"/>
+		<attribute key="range" value="8"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="weight" value="5900"/>
+		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="distance"/>
+			<attribute key="vocation" value="Paladin;true, Royal Paladin"/>
+		</attribute>		
+	</item>
+	<item id="49863" article="a" name="siphoning inferniarch arbalest">
+		<attribute key="primarytype" value="distance weapons"/>
+		<attribute key="weaponType" value="distance"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="ammotype" value="bolt"/>
+		<attribute key="absorbpercentice" value="4"/>
+		<attribute key="manaleechamount" value="1000"/>
+		<attribute key="manaleechchance" value="100"/>		
+		<attribute key="skilldist" value="2"/>
+		<attribute key="hitchance" value="6"/>
+		<attribute key="range" value="8"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="weight" value="5900"/>
+		<attribute key="imbuementslot" value="2">
+			<attribute key="elemental damage" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost distance" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="distance"/>
+			<attribute key="vocation" value="Paladin;true, Royal Paladin"/>
+		</attribute>		
+	</item>	
+	<item id="49864" article="a" name="rending inferniarch battleaxe">
+		<attribute key="primarytype" value="axe weapons"/>
+		<attribute key="weaponType" value="axe"/>
+		<attribute key="elementfire" value="44"/>
+		<attribute key="skillaxe" value="3"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="defense" value="31"/>
+		<attribute key="extradef" value="3"/>
+		<attribute key="criticalhitchance" value="1000"/>
+		<attribute key="criticalhitdamage" value="5800"/>
+		<attribute key="weight" value="6700"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="axe"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>		
+	</item>
+	<item id="49865" article="a" name="draining inferniarch battleaxe">
+		<attribute key="primarytype" value="axe weapons"/>
+		<attribute key="weaponType" value="axe"/>
+		<attribute key="elementfire" value="44"/>
+		<attribute key="skillaxe" value="3"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="defense" value="31"/>
+		<attribute key="extradef" value="3"/>		
+		<attribute key="lifeleechamount" value="2900"/>
+		<attribute key="lifeleechchance" value="100"/>
+		<attribute key="weight" value="6700"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="axe"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>		
+	</item>
+	<item id="49866" article="a" name="siphoning inferniarch battleaxe">
+		<attribute key="primarytype" value="axe weapons"/>
+		<attribute key="weaponType" value="axe"/>
+		<attribute key="elementfire" value="44"/>
+		<attribute key="skillaxe" value="3"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="defense" value="31"/>
+		<attribute key="extradef" value="3"/>
+		<attribute key="manaleechamount" value="1000"/>
+		<attribute key="manaleechchance" value="100"/>
+		<attribute key="weight" value="6700"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="life leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="axe"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>		
+	</item>
+	<item id="49867" article="a" name="rending inferniarch greataxe">
+		<attribute key="primarytype" value="axe weapons"/>
+		<attribute key="weaponType" value="axe"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="elementfire" value="48"/>
+		<attribute key="skillaxe" value="4"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="defense" value="33"/>
+		<attribute key="extradef" value="3"/>
+		<attribute key="criticalhitchance" value="1000"/>
+		<attribute key="criticalhitdamage" value="5800"/>		
+		<attribute key="weight" value="8500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="axe"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>	
+	</item>
+	<item id="49868" article="a" name="draining inferniarch greataxe">
+		<attribute key="primarytype" value="axe weapons"/>
+		<attribute key="weaponType" value="axe"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="elementfire" value="48"/>
+		<attribute key="skillaxe" value="4"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="defense" value="33"/>
+		<attribute key="extradef" value="3"/>
+		<attribute key="lifeleechamount" value="2900"/>
+		<attribute key="lifeleechchance" value="100"/>			
+		<attribute key="weight" value="8500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="axe"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>	
+	</item>
+	<item id="49869" article="a" name="siphoning inferniarch greataxe">
+		<attribute key="primarytype" value="axe weapons"/>
+		<attribute key="weaponType" value="axe"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="elementfire" value="48"/>
+		<attribute key="skillaxe" value="4"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="defense" value="33"/>
+		<attribute key="extradef" value="3"/>
+		<attribute key="manaleechamount" value="1000"/>
+		<attribute key="manaleechchance" value="100"/>		
+		<attribute key="weight" value="8500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="life leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost axe" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="axe"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>	
+	</item>	
+	<item id="49870" article="a" name="rending inferniarch flail">
+		<attribute key="primarytype" value="club weapons"/>
+		<attribute key="weaponType" value="club"/>
+		<attribute key="elementdeath" value="44"/>
+		<attribute key="skillclub" value="3"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="defense" value="31"/>
+		<attribute key="extradef" value="3"/>	
+		<attribute key="criticalhitchance" value="1000"/>
+		<attribute key="criticalhitdamage" value="5800"/>		
+		<attribute key="weight" value="6500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="club"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>	
+	</item>
+	<item id="49871" article="a" name="draining inferniarch flail">
+		<attribute key="primarytype" value="club weapons"/>
+		<attribute key="weaponType" value="club"/>
+		<attribute key="elementdeath" value="44"/>
+		<attribute key="skillclub" value="3"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="defense" value="31"/>
+		<attribute key="extradef" value="3"/>
+		<attribute key="lifeleechamount" value="2900"/>
+		<attribute key="lifeleechchance" value="100"/>				
+		<attribute key="weight" value="6500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="club"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>	
+	</item>
+	<item id="49872" article="a" name="siphoning inferniarch flail">
+		<attribute key="primarytype" value="club weapons"/>
+		<attribute key="weaponType" value="club"/>
+		<attribute key="elementdeath" value="44"/>
+		<attribute key="skillclub" value="3"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="defense" value="31"/>
+		<attribute key="extradef" value="3"/>	
+		<attribute key="manaleechamount" value="1000"/>
+		<attribute key="manaleechchance" value="100"/>		
+		<attribute key="weight" value="6500"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="life leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="club"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>	
+	</item>
+	<item id="49873" article="a" name="rending inferniarch warhammer">
+		<attribute key="primarytype" value="club weapons"/>
+		<attribute key="weaponType" value="club"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="elementice" value="48"/>
+		<attribute key="skillclub" value="4"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="defense" value="33"/>
+		<attribute key="extradef" value="4"/>
+		<attribute key="criticalhitchance" value="1000"/>
+		<attribute key="criticalhitdamage" value="5800"/>		
+		<attribute key="weight" value="8600"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="club"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>	
+	</item>
+	<item id="49874" article="a" name="draining inferniarch warhammer">
+		<attribute key="primarytype" value="club weapons"/>
+		<attribute key="weaponType" value="club"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="elementice" value="48"/>
+		<attribute key="skillclub" value="4"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="defense" value="33"/>
+		<attribute key="extradef" value="4"/>
+		<attribute key="lifeleechamount" value="2900"/>
+		<attribute key="lifeleechchance" value="100"/>				
+		<attribute key="weight" value="8600"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="club"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>	
+	</item>
+	<item id="49875" article="a" name="siphoning inferniarch warhammer">
+		<attribute key="primarytype" value="club weapons"/>
+		<attribute key="weaponType" value="club"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="elementice" value="48"/>
+		<attribute key="skillclub" value="4"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="defense" value="33"/>
+		<attribute key="extradef" value="4"/>
+		<attribute key="manaleechamount" value="1000"/>
+		<attribute key="manaleechchance" value="100"/>		
+		<attribute key="weight" value="8600"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="life leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost club" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="club"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>	
+	</item>
+	<item id="49876" article="a" name="rending inferniarch blade">
+		<attribute key="primarytype" value="sword weapons"/>
+		<attribute key="weaponType" value="sword"/>
+		<attribute key="elementfire" value="44"/>
+		<attribute key="skillsword" value="4"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="defense" value="31"/>
+		<attribute key="extradef" value="3"/>	
+		<attribute key="criticalhitchance" value="1000"/>
+		<attribute key="criticalhitdamage" value="5800"/>			
+		<attribute key="weight" value="6400"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="sword"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>	
+	</item>
+	<item id="49877" article="a" name="draining inferniarch blade">
+		<attribute key="primarytype" value="sword weapons"/>
+		<attribute key="weaponType" value="sword"/>
+		<attribute key="elementfire" value="44"/>
+		<attribute key="skillsword" value="4"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="defense" value="31"/>
+		<attribute key="extradef" value="3"/>
+		<attribute key="lifeleechamount" value="2900"/>
+		<attribute key="lifeleechchance" value="100"/>			
+		<attribute key="weight" value="6400"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="sword"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>	
+	</item>
+	<item id="49878" article="a" name="siphoning inferniarch blade">
+		<attribute key="primarytype" value="sword weapons"/>
+		<attribute key="weaponType" value="sword"/>
+		<attribute key="elementfire" value="44"/>
+		<attribute key="skillsword" value="4"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="defense" value="31"/>
+		<attribute key="extradef" value="3"/>
+		<attribute key="manaleechamount" value="1000"/>
+		<attribute key="manaleechchance" value="100"/>		
+		<attribute key="weight" value="6400"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="life leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="sword"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>	
+	</item>
+	<item id="49879" article="a" name="rending inferniarch slayer">
+		<attribute key="primarytype" value="sword weapons"/>
+		<attribute key="weaponType" value="sword"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="elementenergy" value="48"/>
+		<attribute key="skillsword" value="4"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="defense" value="33"/>
+		<attribute key="extradef" value="4"/>	
+		<attribute key="criticalhitchance" value="1000"/>
+		<attribute key="criticalhitdamage" value="5800"/>			
+		<attribute key="weight" value="8600"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="life leech" value="3"/>
+			<attribute key="mana leech" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="sword"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>		
+	</item>
+	<item id="49880" article="a" name="draining inferniarch slayer">
+		<attribute key="primarytype" value="sword weapons"/>
+		<attribute key="weaponType" value="sword"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="elementenergy" value="48"/>
+		<attribute key="skillsword" value="4"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="defense" value="33"/>
+		<attribute key="extradef" value="4"/>	
+		<attribute key="lifeleechamount" value="2900"/>
+		<attribute key="lifeleechchance" value="100"/>			
+		<attribute key="weight" value="8600"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="sword"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>		
+	</item>
+	<item id="49881" article="a" name="siphoning inferniarch slayer">
+		<attribute key="primarytype" value="sword weapons"/>
+		<attribute key="weaponType" value="sword"/>
+		<attribute key="slotType" value="two-handed"/>
+		<attribute key="elementenergy" value="48"/>
+		<attribute key="skillsword" value="4"/>
+		<attribute key="attack" value="8"/>
+		<attribute key="defense" value="33"/>
+		<attribute key="extradef" value="4"/>
+		<attribute key="manaleechamount" value="1000"/>
+		<attribute key="manaleechchance" value="100"/>		
+		<attribute key="weight" value="8600"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="life leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost sword" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="unproperly" value="true"/>
+			<attribute key="weaponType" value="sword"/>
+			<attribute key="vocation" value="Knight;true, Elite Knight"/>
+		</attribute>		
+	</item>
+	<item id="49882" article="a" name="rending inferniarch wand">
+		<attribute key="primarytype" value="wands"/>
+		<attribute key="weaponType" value="wand"/>
+		<attribute key="shootType" value="suddendeath"/>
+		<attribute key="absorbpercentearth" value="5"/>
+		<attribute key="magiclevelpoints" value="3"/>
+		<attribute key="firemagiclevelpoints" value="1"/>
+		<attribute key="criticalhitchance" value="1000"/>
+		<attribute key="criticalhitdamage" value="5800"/>
+		<attribute key="range" value="5"/>
+		<attribute key="weight" value="2400"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="mana" value="21"/>
+			<attribute key="fromDamage" value="100"/>
+			<attribute key="toDamage" value="120"/>
+			<attribute key="weaponType" value="wand"/>
+			<attribute key="wandType" value="death"/>
+			<attribute key="vocation" value="Sorcerer;true, Master Sorcerer"/>
+			<attribute key="slot" value="hand"/>
+		</attribute>		
+	</item>
+	<item id="49883" article="a" name="draining inferniarch wand">
+		<attribute key="primarytype" value="wands"/>
+		<attribute key="weaponType" value="wand"/>
+		<attribute key="shootType" value="suddendeath"/>
+		<attribute key="absorbpercentearth" value="5"/>
+		<attribute key="magiclevelpoints" value="3"/>
+		<attribute key="firemagiclevelpoints" value="1"/>
+		<attribute key="lifeleechamount" value="2900"/>
+		<attribute key="lifeleechchance" value="100"/>
+		<attribute key="range" value="5"/>
+		<attribute key="weight" value="2400"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="mana" value="21"/>
+			<attribute key="fromDamage" value="100"/>
+			<attribute key="toDamage" value="120"/>
+			<attribute key="weaponType" value="wand"/>
+			<attribute key="wandType" value="death"/>
+			<attribute key="vocation" value="Sorcerer;true, Master Sorcerer"/>
+			<attribute key="slot" value="hand"/>
+		</attribute>		
+	</item>
+	<item id="49884" article="a" name="siphoning inferniarch wand">
+		<attribute key="primarytype" value="wands"/>
+		<attribute key="weaponType" value="wand"/>
+		<attribute key="shootType" value="suddendeath"/>
+		<attribute key="absorbpercentearth" value="5"/>
+		<attribute key="magiclevelpoints" value="3"/>
+		<attribute key="firemagiclevelpoints" value="1"/>
+		<attribute key="manaleechamount" value="1000"/>
+		<attribute key="manaleechchance" value="100"/>
+		<attribute key="range" value="5"/>
+		<attribute key="weight" value="2400"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="life leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="mana" value="21"/>
+			<attribute key="fromDamage" value="100"/>
+			<attribute key="toDamage" value="120"/>
+			<attribute key="weaponType" value="wand"/>
+			<attribute key="wandType" value="death"/>
+			<attribute key="vocation" value="Sorcerer;true, Master Sorcerer"/>
+			<attribute key="slot" value="hand"/>
+		</attribute>		
+	</item>
+	<item id="49885" article="a" name="rending inferniarch rod">
+		<attribute key="primarytype" value="rods"/>
+		<attribute key="weaponType" value="wand"/>
+		<attribute key="shootType" value="smallearth"/>
+		<attribute key="absorbpercentdeath" value="5"/>
+		<attribute key="magiclevelpoints" value="3"/>
+		<attribute key="earthmagiclevelpoints" value="1"/>
+		<attribute key="criticalhitchance" value="1000"/>
+		<attribute key="criticalhitdamage" value="5800"/>
+		<attribute key="range" value="5"/>
+		<attribute key="weight" value="2200"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="life leech" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="mana" value="21"/>
+			<attribute key="fromDamage" value="100"/>
+			<attribute key="toDamage" value="120"/>
+			<attribute key="weaponType" value="wand"/>
+			<attribute key="wandType" value="earth"/>
+			<attribute key="vocation" value="Druid;true, Elder Druid"/>
+			<attribute key="slot" value="hand"/>	
+		</attribute>	
+	</item>
+	<item id="49886" article="a" name="draining inferniarch rod">
+		<attribute key="primarytype" value="rods"/>
+		<attribute key="weaponType" value="wand"/>
+		<attribute key="shootType" value="smallearth"/>
+		<attribute key="absorbpercentdeath" value="5"/>
+		<attribute key="magiclevelpoints" value="3"/>
+		<attribute key="earthmagiclevelpoints" value="1"/>
+		<attribute key="lifeleechamount" value="2900"/>
+		<attribute key="lifeleechchance" value="100"/>
+		<attribute key="range" value="5"/>
+		<attribute key="weight" value="2200"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="mana leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="mana" value="21"/>
+			<attribute key="fromDamage" value="100"/>
+			<attribute key="toDamage" value="120"/>
+			<attribute key="weaponType" value="wand"/>
+			<attribute key="wandType" value="earth"/>
+			<attribute key="vocation" value="Druid;true, Elder Druid"/>
+			<attribute key="slot" value="hand"/>	
+		</attribute>	
+	</item>
+	<item id="49887" article="a" name="siphoning inferniarch rod">
+		<attribute key="primarytype" value="rods"/>
+		<attribute key="weaponType" value="wand"/>
+		<attribute key="shootType" value="smallearth"/>
+		<attribute key="absorbpercentdeath" value="5"/>
+		<attribute key="magiclevelpoints" value="3"/>
+		<attribute key="earthmagiclevelpoints" value="1"/>
+		<attribute key="manaleechamount" value="1000"/>
+		<attribute key="manaleechchance" value="100"/>
+		<attribute key="range" value="5"/>
+		<attribute key="weight" value="2200"/>
+		<attribute key="imbuementslot" value="1">
+			<attribute key="life leech" value="3"/>
+			<attribute key="critical hit" value="3"/>
+			<attribute key="skillboost magic level" value="3"/>
+		</attribute>
+		<attribute key="script" value="moveevent;weapon">
+			<attribute key="level" value="300"/>
+			<attribute key="mana" value="21"/>
+			<attribute key="fromDamage" value="100"/>
+			<attribute key="toDamage" value="120"/>
+			<attribute key="weaponType" value="wand"/>
+			<attribute key="wandType" value="earth"/>
+			<attribute key="vocation" value="Druid;true, Elder Druid"/>
+			<attribute key="slot" value="hand"/>	
+		</attribute>	
+	</item>
+	<item id="49888" article="a" name="strange vortex">
+		<attribute key="primarytype" value="fields"/>
+	</item>
+	<item id="49889" article="a" name="strange vortex">
+		<attribute key="primarytype" value="fields"/>
+	</item>
+	<item id="49890" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49891" article="a" name="skin of Twisterror">
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="170"/>
+	</item>
+	<item id="49892" article="a" name="skin og Gralvalon">
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="185"/>
+	</item>
+	<item id="49893" article="a" name="skin of Malvaroth">
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="160"/>
+	</item>
+	<item id="49894" article="a" name="demonic matter">
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="50"/>
+	</item>
+	<item id="49895" article="a" name="energy sphere">
+		<attribute key="primarytype" value="quest items"/>
+	</item>
+	<item id="49896" article="a" name="strange vortex">
+		<attribute key="primarytype" value="fields"/>
+	</item>
+	<item id="49897" article="a" name="strange vortex">
+		<attribute key="primarytype" value="fields"/>
+	</item>
+	<item id="49898" article="a" name="strange vortex">
+		<attribute key="primarytype" value="fields"/>
+	</item>
+	<item id="49899" article="a" name="strange vortex">
+		<attribute key="primarytype" value="fields"/>
+	</item>
+	<item id="49900" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49901" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49902" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49903" article="a" name="distilling machine">
+	</item>
+	<item id="49904" article="a" name="some troll food">
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="description" value="It probably tastes as bad as it smells"/>
+	</item>
+	<item id="49905" article="a" name="crystal">
+	</item>
+	<item id="49906" article="a" name="trap door">
+	</item>
+	<item id="49907" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49908" article="a" name="mummified demon finger">
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="120"/>	
+	</item>
+	<item id="49909" article="a" name="demonic core essence">
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="190"/>
+	</item>
+	<item fromid="49910" toid="49969" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="49970" article="a" name="wall">
+	</item>
+	<item id="49971" article="a" name="wall">
+	</item>
+	<item id="49972" article="a" name="wall">
+	</item>
+	<item id="49973" article="a" name="wall">
+	</item>
+	<item id="49974" article="a" name="wall">
+	</item>
+	<item id="49975" article="a" name="wall">
+	</item>
+	<item id="49976" article="a" name="wall">
+	</item>
+	<item id="49977" article="a" name="wall">
+	</item>
+	<item id="49978" article="a" name="wall">
+	</item>
+	<item fromid="49979" toid="49986" article="a" name="wall">
+	</item>
+	<item id="49987" article="a" name="dead spellreaper inferniarch">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>	
+	</item>
+	<item id="49988" article="a" name="dead spellreaper inferniarch">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="49987"/>
+		<attribute key="containersize" value="48"/>
+	</item>
+	<item id="49989" article="a" name="dead spellreaper inferniarch">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="49988"/>
+		<attribute key="containersize" value="48"/>	
+	</item>
+	<item id="49990" article="a" name="dead spellreaper inferniarch">
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="49989"/>
+		<attribute key="containersize" value="48"/>
+	</item>
+	<item id="49991" article="a" name="dead hellhunter inferniarch">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>	
+	</item>
+	<item id="49992" article="a" name="dead hellhunter inferniarch">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="49991"/>
+		<attribute key="containersize" value="48"/>
+	</item>
+	<item id="49993" article="a" name="dead hellhunter inferniarch">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="49992"/>
+		<attribute key="containersize" value="48"/>	
+	</item>
+	<item id="49994" article="a" name="dead hellhunter inferniarch">
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="49993"/>
+		<attribute key="containersize" value="48"/>
+	</item>
+	<item id="49995" article="a" name="dead brinebrute inferniarch">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>	
+	</item>
+	<item id="49996" article="a" name="dead brinebrute inferniarch">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="49995"/>
+		<attribute key="containersize" value="48"/>
+	</item>
+	<item id="49997" article="a" name="dead brinebrute inferniarch">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="49996"/>
+		<attribute key="containersize" value="48"/>	
+	</item>
+	<item id="49998" article="a" name="dead brinebrute inferniarch">
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="49997"/>
+		<attribute key="containersize" value="48"/>
+	</item>
+	<item id="49999" article="a" name="dead sineater inferniarch">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>	
+	</item>
+	<item id="50000" article="a" name="dead sineater inferniarch">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="49999"/>
+		<attribute key="containersize" value="48"/>
+	</item>
+	<item id="50001" article="a" name="dead sineater inferniarch">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="50000"/>
+		<attribute key="containersize" value="48"/>	
+	</item>
+	<item id="50002" article="a" name="dead sineater inferniarch">
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="50001"/>
+		<attribute key="containersize" value="48"/>
+	</item>
+	<item id="50003" article="a" name="dead broodrider inferniarch">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>	
+	</item>
+	<item id="50004" article="a" name="dead broodrider inferniarch">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="50003"/>
+		<attribute key="containersize" value="48"/>
+	</item>
+	<item id="50005" article="a" name="dead broodrider inferniarch">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="50004"/>
+		<attribute key="containersize" value="48"/>	
+	</item>
+	<item id="50006" article="a" name="dead broodrider inferniarch">
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="50005"/>
+		<attribute key="containersize" value="48"/>
+	</item>
+	<item id="50007" article="a" name="dead gorger inferniarch">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>	
+	</item>
+	<item id="50008" article="a" name="dead gorger inferniarch">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="50007"/>
+		<attribute key="containersize" value="48"/>
+	</item>
+	<item id="50009" article="a" name="dead gorger inferniarch">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="50008"/>
+		<attribute key="containersize" value="48"/>	
+	</item>
+	<item id="50010" article="a" name="dead gorger inferniarch">
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="50009"/>
+		<attribute key="containersize" value="48"/>
+	</item>
+	<item fromid="50011" toid="50026" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="50027" article="a" name="dead arbaziloth">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>	
+	</item>
+	<item id="50028" article="a" name="dead arbaziloth">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="50027"/>
+		<attribute key="containersize" value="48"/>
+	</item>
+	<item id="50029" article="a" name="dead arbaziloth">
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="50028"/>
+		<attribute key="containersize" value="48"/>
+	</item>
+	<item fromid="50030" toid="50034" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="50035" article="a" name="dead worker imp">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>	
+	</item>
+	<item id="50036" article="a" name="dead worker imp">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="50035"/>
+		<attribute key="containersize" value="48"/>
+	</item>
+	<item id="50037" article="a" name="dead worker imp">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="50036"/>
+		<attribute key="containersize" value="48"/>	
+	</item>
+	<item id="50038" article="a" name="dead worker imp">
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="50037"/>
+		<attribute key="containersize" value="48"/>
+	</item>
+	<item id="50039" article="a" name="dead twisterror">
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="50040"/>
+		<attribute key="containersize" value="48"/>	
+	</item>
+	<item id="50040" article="a" name="dead twisterror">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="50041"/>
+		<attribute key="containersize" value="48"/>
+	</item>
+	<item id="50041" article="a" name="dead twisterror">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="50042"/>
+		<attribute key="containersize" value="48"/>	
+	</item>
+	<item id="50042" article="a" name="dead twisterror">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>	
+	</item>
+	<item id="50043" article="a" name="dead gralvalon">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>	
+	</item>
+	<item id="50044" article="a" name="dead gralvalon">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="50043"/>
+		<attribute key="containersize" value="48"/>
+	</item>
+	<item id="50045" article="a" name="dead gralvalon">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="50044"/>
+		<attribute key="containersize" value="48"/>	
+	</item>
+	<item id="50046" article="a" name="dead gralvalon">
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="50045"/>
+		<attribute key="containersize" value="48"/>
+	</item>
+	<item id="50047" article="a" name="dead malvaroth">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>	
+	</item>
+	<item id="50048" article="a" name="dead malvaroth">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="50047"/>
+		<attribute key="containersize" value="48"/>
+	</item>
+	<item id="50049" article="a" name="dead malvaroth">
+		<attribute key="duration" value="300"/>
+		<attribute key="decayTo" value="50048"/>
+		<attribute key="containersize" value="48"/>	
+	</item>
+	<item id="50050" article="a" name="dead malvaroth">
+		<attribute key="duration" value="10"/>
+		<attribute key="decayTo" value="50049"/>
+		<attribute key="containersize" value="48"/>
+	</item>
+	<item fromid="50051" toid="50053" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="50054" article="a" name="spellreaper staff totem">
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="650"/>
+	</item>
+	<item id="50055" article="a" name="hellhunter eye">
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="190"/>
+	</item>
+	<item id="50056" article="a" name="brinebrute claw">
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="240"/>
+	</item>
+	<item id="50057" article="a" name="sineater wing">
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="470"/>
+	</item>
+	<item id="50058" article="a" name="broodrider saddle">
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="390"/>
+	</item>
+	<item id="50059" article="a" name="gorger antlers">
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="630"/>
+	</item>
+	<item id="50060" article="a" name="demon claws">
+		<attribute key="primarytype" value="quest items"/>
+		<attribute key="weight" value="240"/>
+	</item>
+	<item id="50061" article="a" name="demon skull">
+		<attribute key="primarytype" value="quest items"/>
+		<attribute key="weight" value="320"/>
+	</item>
+	<item fromid="50062" toid="50063" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="50064" article="a" name="demon in a green box">
+		<attribute key="primarytype" value="valuables"/>
+		<attribute key="description" value="A primal demonic mount is imprisoned in this box."/>
+		<attribute key="weight" value="200"/>
+	</item>
+	<item id="50065" toid="50066" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="50067" article="a" name="Arbaziloth shoulder piece">
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="25"/>
+	</item>
+	<item id="50068" article="a" name="itemname">
+	</item>
+	<item id="50069" article="a" name="stairs">
+		<attribute key="floorchange" value="down"/>
+	</item>
+	<item id="50070" article="a" name="stairs">
+		<attribute key="floorchange" value="down"/>
+	</item>
+	<item id="50071" article="a" name="stairs">
+		<attribute key="floorchange" value="down"/>
+	</item>
+	<item id="50072" article="a" name="stairs">
+		<attribute key="floorchange" value="down"/>
+	</item>
+	<item id="50073" article="a" name="floor">
+	</item>
+	<item id="50074" article="a" name="floor">
+	</item>
+	<item id="50075" article="a" name="floor">
+	</item>
+	<item id="50076" article="a" name="floor">
+	</item>
+	<item id="50077" article="a" name="floor">
+	</item>
+	<item id="50078" article="a" name="floor">
+	</item>
+	<item id="50079" article="a" name="floor">
+	</item>
+	<item id="50080" article="a" name="floor">
+	</item>
+	<item id="50081" article="a" name="floor">
+	</item>
+	<item id="50082" article="a" name="stairs">
+		<attribute key="floorchange" value="down"/>
+	</item>
+	<item id="50083" article="a" name="stairs">
+		<attribute key="floorchange" value="down"/>
+	</item>
+	<item id="50084" article="a" name="stairs">
+		<attribute key="floorchange" value="down"/>
+	</item>
+	<item id="50085" article="a" name="stairs">
+		<attribute key="floorchange" value="down"/>
+	</item>
+	<item id="50086" article="a" name="floor">
+	</item>
+	<item id="50087" article="a" name="floor">
+	</item>
+	<item id="50088" article="a" name="floor">
+	</item>
+	<item id="50089" article="a" name="floor">
+	</item>
+	<item id="50090" article="a" name="floor">
+	</item>
+	<item id="50091" article="a" name="floor">
+	</item>
+	<item id="50092" article="a" name="floor">
+	</item>
+	<item id="50093" article="a" name="floor">
+	</item>
+	<item id="50094" article="a" name="floor">
+	</item>
+	<item id="50095" article="a" name="floor">
+	</item>
+	<item id="50096" article="a" name="floor">
+	</item>
+	<item id="50097" article="a" name="floor">
+	</item>
+	<item id="50098" article="a" name="note board">
+	</item>
+	<item id="50099" article="a" name="note board">
+	</item>
+	<item id="50100" article="a" name="floor">
+	</item>
+	<item id="50101" article="a" name="bloodstained scythe">
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="810"/>
+	</item>
+	<item id="50102" article="a" name="floor">
+	</item>
+	<item id="50103" article="a" name="spellreaper inferniarch soul core">
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="1000"/>
+	</item>
+	<item id="50104" article="a" name="hellhunter inferniarch soul core">
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="1000"/>
+	</item>
+	<item id="50105" article="a" name="brinebrute inferniarch soul core">
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="1000"/>
+	</item>
+	<item id="50106" article="a" name="sineater inferniarch soul core">
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="1000"/>
+	</item>
+	<item id="50107" article="a" name="broodrider inferniarch soul core">
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="1000"/>
+	</item>
+	<item id="50108" article="a" name="gorger inferniarch soul core">
+		<attribute key="primarytype" value="creature products"/>
+		<attribute key="weight" value="1000"/>
+	</item>
+	<item id="50109" article="a" name="floor">
+	</item>
+	<item id="50110" article="a" name="floor">
+	</item>
+	<item id="50111" article="a" name="floor">
+	</item>
+	<item id="50112" article="a" name="floor">
+	</item>
+	<item id="50113" article="a" name="floor">
+	</item>
+	<item id="50114" article="a" name="floor">
+	</item>
+	<item id="50115" article="a" name="floor">
+	</item>
+	<item id="50116" article="a" name="floor">
+	</item>
+	<item fromid="50117" toid="50119" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="50120" article="a" name="dead">
+		<attribute key="duration" value="60"/>
+		<attribute key="decayTo" value="0"/>
+	</item>
+	<item id="50121" article="a" name="floor">
+	</item>
+	<item id="50122" article="a" name="floor">
+	</item>
+	<item id="50123" article="a" name="floor">
+	</item>
+	<item id="50124" article="an" name="arbaziloth santa">
+		<attribute key="primarytype" value="dolls and bears"/>
+		<attribute key="weight" value="650"/>
+	</item>
+	<item fromid="50125" toid="50137" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="50138" article="a" name="floor">
+	</item>
+	<item fromid="50139" toid="50280" article="a" name="RESERVED SPRITE">
+	</item>
+	<item id="50281" article="a" name="gate of expertise">
+		<attribute key="type" value="door"/>
+		<attribute key="blockProjectile" value="1"/>
+	</item>
+	<item id="50282" article="a" name="gate of expertise">
+		<attribute key="type" value="door"/>
+		<attribute key="blockProjectile" value="1"/>
+	</item>
+	<item id="50283" article="a" name="gate of expertise">
+		<attribute key="type" value="door"/>
+		<attribute key="blockProjectile" value="1"/>
+	</item>
+	<item id="50284" article="a" name="gate of expertise">
+		<attribute key="type" value="door"/>
+		<attribute key="blockProjectile" value="1"/>
+	</item>
+	<item id="50285" article="a" name="gate of expertise">
+		<attribute key="type" value="door"/>
+	</item>
+	<item id="50286" article="a" name="gate of expertise">
+		<attribute key="type" value="door"/>
+	</item>
+	<item id="50287" article="a" name="gate of expertise">
+		<attribute key="type" value="door"/>
+	</item>
+	<item id="50288" article="a" name="gate of expertise">
+		<attribute key="type" value="door"/>
 	</item>
 </items>

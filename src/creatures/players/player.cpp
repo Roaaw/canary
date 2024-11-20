@@ -6276,6 +6276,100 @@ std::pair<uint64_t, uint64_t> Player::getForgeSliversAndCores() const {
 	return std::make_pair(sliverCount, coreCount);
 }
 
+//std::pair<uint64_t, uint64_t> Player::getForgeLesserAndGreaterFrag() const {
+//	uint64_t LesserFragCount = 0;
+//	uint64_t GreaterFragCount = 0;
+
+	// Check items from inventory
+//	for (const auto &item : getAllInventoryItems()) {
+//		if (!item) {
+//			continue;
+//		}
+
+//		LesserFragCount += item->getForgeLesserFragment();
+//		GreaterFragCount += item->getForgeGreaterFragment();
+//	}
+
+		// Check items from stash
+//	for (StashItemList stashToSend = getStashItems();
+//	     auto [itemId, itemCount] : stashToSend) {
+//		if (itemId == RESOURCE_FORGE_LESSERFRAG) {
+//			LesserFragCount += itemCount;
+//		}
+//		if (itemId == RESOURCE_FORGE_GREATERFRAG) {
+//			GreaterFragCount += itemCount;
+//		}
+//	}
+
+//	return std::make_pair(LesserFragCount, GreaterFragCount);
+//}
+
+uint64_t Player::getForgeGreaterFragment() const {
+	std::vector<std::shared_ptr<Container>> containers;
+	uint64_t GreaterFragCount = 0;
+
+	for (int32_t i = CONST_SLOT_FIRST; i <= CONST_SLOT_LAST; ++i) {
+		std::shared_ptr<Item> item = inventory[i];
+		if (!item) {
+			continue;
+		}
+
+		std::shared_ptr<Container> container = item->getContainer();
+		if (container) {
+			containers.push_back(container);
+		} else {
+			GreaterFragCount += item->getWorth();
+		}
+	}
+
+	size_t i = 0;
+	while (i < containers.size()) {
+		std::shared_ptr<Container> container = containers[i++];
+		for (const std::shared_ptr<Item> &item : container->getItemList()) {
+			std::shared_ptr<Container> tmpContainer = item->getContainer();
+			if (tmpContainer) {
+				containers.push_back(tmpContainer);
+			} else {
+				GreaterFragCount += item->getWorth();
+			}
+		}
+	}
+	return GreaterFragCount;
+}
+
+uint64_t Player::getForgeLesserFragment() const {
+	std::vector<std::shared_ptr<Container>> containers;
+	uint64_t LesserFragCount = 0;
+
+	for (int32_t i = CONST_SLOT_FIRST; i <= CONST_SLOT_LAST; ++i) {
+		std::shared_ptr<Item> item = inventory[i];
+		if (!item) {
+			continue;
+		}
+
+		std::shared_ptr<Container> container = item->getContainer();
+		if (container) {
+			containers.push_back(container);
+		} else {
+			LesserFragCount += item->getWorth();
+		}
+	}
+
+	size_t i = 0;
+	while (i < containers.size()) {
+		std::shared_ptr<Container> container = containers[i++];
+		for (const std::shared_ptr<Item> &item : container->getItemList()) {
+			std::shared_ptr<Container> tmpContainer = item->getContainer();
+			if (tmpContainer) {
+				containers.push_back(tmpContainer);
+			} else {
+				LesserFragCount += item->getWorth();
+			}
+		}
+	}
+	return LesserFragCount;
+}
+
 size_t Player::getMaxDepotItems() const {
 	if (group->maxDepotItems != 0) {
 		return group->maxDepotItems;

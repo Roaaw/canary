@@ -467,6 +467,8 @@ public:
 	uint32_t getWorth() const;
 	uint32_t getForgeSlivers() const;
 	uint32_t getForgeCores() const;
+	uint32_t getForgeLesserFragment() const;
+	uint32_t getForgeGreaterFragment() const;
 	LightInfo getLightInfo() const;
 
 	bool hasProperty(ItemProperty prop) const;

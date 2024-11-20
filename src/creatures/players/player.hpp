@@ -824,6 +824,8 @@ public:
 
 	uint64_t getMoney() const;
 	std::pair<uint64_t, uint64_t> getForgeSliversAndCores() const;
+	uint64_t getForgeLesserFragment() const;
+	uint64_t getForgeGreaterFragment() const;
 
 	// safe-trade functions
 	void setTradeState(TradeState_t state) {

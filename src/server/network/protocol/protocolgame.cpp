@@ -3083,6 +3083,8 @@ void ProtocolGame::parseSendResourceBalance() {
 		player->getPreyCards(),
 		player->getTaskHuntingPoints(),
 		player->getForgeDusts(),
+		player->getForgeLesserFragment(),
+		player->getForgeGreaterFragment(),
 		sliverCount,
 		coreCount
 	);
@@ -4872,7 +4874,7 @@ void ProtocolGame::sendGameNews() {
 	writeToOutputBuffer(msg);
 }
 
-void ProtocolGame::sendResourcesBalance(uint64_t money /*= 0*/, uint64_t bank /*= 0*/, uint64_t preyCards /*= 0*/, uint64_t taskHunting /*= 0*/, uint64_t forgeDust /*= 0*/, uint64_t forgeSliver /*= 0*/, uint64_t forgeCores /*= 0*/) {
+void ProtocolGame::sendResourcesBalance(uint64_t money /*= 0*/, uint64_t bank /*= 0*/, uint64_t preyCards /*= 0*/, uint64_t taskHunting /*= 0*/, uint64_t forgeDust /*= 0*/, uint64_t forgeSliver /*= 0*/, uint64_t forgeCores /*= 0*/, uint64_t forgeLesserfrag /*= 0*/, uint64_t forgeGreaterfrag /*= 0*/) {
 	sendResourceBalance(RESOURCE_BANK, bank);
 	sendResourceBalance(RESOURCE_INVENTORY_MONEY, money);
 	sendResourceBalance(RESOURCE_PREY_CARDS, preyCards);
@@ -4880,6 +4882,8 @@ void ProtocolGame::sendResourcesBalance(uint64_t money /*= 0*/, uint64_t bank /*
 	sendResourceBalance(RESOURCE_FORGE_DUST, forgeDust);
 	sendResourceBalance(RESOURCE_FORGE_SLIVER, forgeSliver);
 	sendResourceBalance(RESOURCE_FORGE_CORES, forgeCores);
+	sendResourceBalance(RESOURCE_FORGE_LESSERFRAG, forgeLesserfrag);
+	sendResourceBalance(RESOURCE_FORGE_GREATERFRAG, forgeGreaterfrag);
 }
 
 void ProtocolGame::sendResourceBalance(Resource_t resourceType, uint64_t value) {

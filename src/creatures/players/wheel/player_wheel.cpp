@@ -999,6 +999,9 @@ void PlayerWheel::addGems(NetworkMessage &msg) const {
 			msg.addByte(static_cast<uint8_t>(gem.supremeModifier));
 		}
 	}
+
+	msg.addByte(0); // Lesser gems
+	msg.addByte(0); // Greater gems
 }
 
 void PlayerWheel::sendOpenWheelWindow(NetworkMessage &msg, uint32_t ownerId) const {
@@ -1031,6 +1034,8 @@ void PlayerWheel::sendOpenWheelWindow(NetworkMessage &msg, uint32_t ownerId) con
 	m_player.client->sendResourceBalance(RESOURCE_LESSER_GEMS, m_player.getItemTypeCount(voc->getWheelGemId(WheelGemQuality_t::Lesser)));
 	m_player.client->sendResourceBalance(RESOURCE_REGULAR_GEMS, m_player.getItemTypeCount(voc->getWheelGemId(WheelGemQuality_t::Regular)));
 	m_player.client->sendResourceBalance(RESOURCE_GREATER_GEMS, m_player.getItemTypeCount(voc->getWheelGemId(WheelGemQuality_t::Greater)));
+	m_player.client->sendResourceBalance(RESOURCE_FORGE_GREATERFRAG, m_player.getForgeGreaterFragment());
+	m_player.client->sendResourceBalance(RESOURCE_FORGE_LESSERFRAG, m_player.getForgeLesserFragment());
 }
 
 void PlayerWheel::sendGiftOfLifeCooldown() const {

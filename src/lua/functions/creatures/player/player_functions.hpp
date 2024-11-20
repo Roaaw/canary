@@ -312,6 +312,8 @@ private:
 
 		registerMethod(L, "Player", "getForgeSlivers", PlayerFunctions::luaPlayerGetForgeSlivers);
 		registerMethod(L, "Player", "getForgeCores", PlayerFunctions::luaPlayerGetForgeCores);
+		registerMethod(L, "Player", "getForgeLesser", PlayerFunctions::luaPlayerGetForgeLesserFragment);
+		registerMethod(L, "Player", "getForgeGreater", PlayerFunctions::luaPlayerGetForgeGreaterFragment);
 		registerMethod(L, "Player", "isUIExhausted", PlayerFunctions::luaPlayerIsUIExhausted);
 		registerMethod(L, "Player", "updateUIExhausted", PlayerFunctions::luaPlayerUpdateUIExhausted);
 
@@ -679,6 +681,8 @@ private:
 
 	static int luaPlayerGetForgeSlivers(lua_State* L);
 	static int luaPlayerGetForgeCores(lua_State* L);
+	static int luaPlayerGetForgeLesserFragment(lua_State* L);
+	static int luaPlayerGetForgeGreaterFragment(lua_State* L);
 	static int luaPlayerIsUIExhausted(lua_State* L);
 	static int luaPlayerUpdateUIExhausted(lua_State* L);
 
