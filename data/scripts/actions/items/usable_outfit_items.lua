@@ -33,11 +33,11 @@ local outfitConfig = {
 	-- fire-fighter
 	[39544] = { female = 1569, male = 1568, addon = 1, achievement = "Friendly Fire", orangeText = "You feel like fighting a fire!" },
 	[39545] = { female = 1569, male = 1568, addon = 2, achievement = "Friendly Fire", orangeText = "The flame engulfs you!" },
-	
+
 	-- rootwalker
 	[48514] = { female = 1775, male = 1774, addon = 1, achievement = "The Rootwalker", whiteText = "The Rootwalker" },
 	[48515] = { female = 1775, male = 1774, addon = 2, achievement = "The Rootwalker", whiteText = "The Rootwalker" },
-	
+
 	-- fiend slayer
 	[50060] = { female = 1808, male = 1809, addon = 1, achievement = "Fiend Slayer", whiteText = "Fiend Slayer" },
 	[50061] = { female = 1808, male = 1809, addon = 2, achievement = "Fiend Slayer", whiteText = "Fiend Slayer" },
